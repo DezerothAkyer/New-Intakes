@@ -1,5 +1,89 @@
 [
-      {
+  {
+    "strName" : "MSRCSDistro04Damage",
+    "strTitle" : "",
+    "strDesc" : "[us] is damaged.",
+    "fDuration"         : 0.0,
+    "strThemType"       : "Other",
+    "bIgnoreFeelings" : true,
+    "nLogging"         : 1,
+    "objLootModeSwitch"    : "ItmRCSDistro04Damage"
+  },
+  {
+    "strName" : "MSRCSDistro04Destroy",
+    "strTitle" : "",
+    "strDesc" : "[us] is destroyed.",
+    "fDuration"         : 0.0,
+    "strThemType"       : "Other",
+    "bIgnoreFeelings" : true,
+    "nLogging"         : 1,
+    "objLootModeSwitch"    : "ItmKangComponentsShell"
+  },
+  {
+    "strName" : "MSRCSDistro04LooseDamage",
+    "strTitle" : "",
+    "strDesc" : "[us] is damaged.",
+    "fDuration"         : 0.0,
+    "strThemType"       : "Other",
+    "bIgnoreFeelings" : true,
+    "nLogging"         : 1,
+    "objLootModeSwitch"    : "ItmRCSDistro04LooseDamage"
+  },
+  {
+    "strName" : "MSRCSDistro04LooseDestroy", 
+    "strTitle" : "",
+    "strDesc" : "[us] is destroyed.",
+    "fDuration"         : 0.0,
+    "strThemType"       : "Other",
+    "bIgnoreFeelings" : true,
+    "nLogging"         : 1,
+    "objLootModeSwitch"    : "ItmKangComponentsShell"
+  },
+  {
+    "strName" : "MSRCSDistro04OffAllow",
+    "strTitle" : "",
+    "strDesc" : "[us] switches off.",
+    "strTargetPoint" : null,
+    "fTargetPointRange" : 0,
+    "strAnim"           : null,
+    "strBubble"         : null,
+    "aInverse"          : [
+    ],
+    "fDuration"         : 0.0,
+    "strThemType"       : "Other",
+    "bIgnoreFeelings" : true,
+    "strRaiseUI"        : null,
+    "LootCTsUs"       : null,
+    "LootCTsThem"     : null,
+    "CTTestUs"           : "TIsNotOff",
+    "CTTestThem"         : null,
+    "aLootItms"       : [
+    ],
+    "objLootModeSwitch"    : "ItmRCSDistro04Off"
+  },
+  {
+    "strName" : "MSRCSDistro04OnAllow",
+    "strTitle" : "",
+    "strDesc" : "[us] powers-up.",
+    "strTargetPoint" : null,
+    "fTargetPointRange" : 0,
+    "strAnim"           : null,
+    "strBubble"         : null,
+    "aInverse"          : [
+    ],
+    "fDuration"         : 0.0,
+    "strThemType"       : "Other",
+    "bIgnoreFeelings" : true,
+    "strRaiseUI"        : null,
+    "LootCTsUs"       : null,
+    "LootCTsThem"     : null,
+    "CTTestUs"           : "TIsOff",
+    "CTTestThem"         : null,
+    "aLootItms"       : [
+    ],
+    "objLootModeSwitch"    : "ItmRCSDistro04"
+  },
+  {
         "strName" : "MSRCSDistro03Damage",
         "strTitle" : "",
         "strDesc" : "[us] is damaged.",

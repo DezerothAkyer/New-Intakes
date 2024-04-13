@@ -1,4 +1,8 @@
 [
+  { "strName" : "ACTRCSDistro04Damage", "aCOs" : [ "MSRCSDistro04Damage=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTRCSDistro04Destroy", "aCOs" : [ "MSRCSDistro04Destroy=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTRCSDistro04LooseDamage", "aCOs" : [ "MSRCSDistro04LooseDamage=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTRCSDistro04LooseDestroy", "aCOs" : [ "MSRCSDistro04LooseDestroy=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
   { "strName" : "ACTRCSDistro03Damage", "aCOs" : [ "MSRCSDistro03Damage=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
   { "strName" : "ACTRCSDistro03Destroy", "aCOs" : [ "MSRCSDistro03Destroy=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
   { "strName" : "ACTRCSDistro03LooseDamage", "aCOs" : [ "MSRCSDistro03LooseDamage=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },

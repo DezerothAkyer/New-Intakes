@@ -1,5 +1,14 @@
 [
   {
+    "strName" : "RCSDistro04",
+    "strColor": "AlarmGreen",
+    "strImg": "ItmLitGreen",
+    "ptPos": {
+      "x": 11,
+      "y": -10
+    }
+  },
+  {
     "strName" : "RCSDistro03",
     "strColor": "AlarmGreen",
     "strImg": "ItmLitGreen",
