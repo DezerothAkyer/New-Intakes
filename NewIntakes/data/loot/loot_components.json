@@ -1,5 +1,57 @@
 [
- {
+  {
+    "strName" : "ItmRCSDistro04Damage",
+    "aCOs"    : [
+      "ItmRCSDistro04Dmg=1.0x1"
+    ],
+    "aLoots"  : [
+      "ItmAkyerComponents=1.0x1"
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmRCSDistro04LooseDamage",
+    "aCOs"    : [
+      "ItmRCSDistro04DmgLoose=1.0x1"
+    ],
+    "aLoots"  : [
+      "ItmAkyerComponents=1.0x1"
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmAkyerComponents",
+    "aCOs"    : [
+      "ItmComponentMotor01=0.5x1",
+      "ItmPartsMechSmall01=1.0x1-2"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmAkyerComponentsShell",
+    "aCOs"    : [      
+      "ItmScrapTrash=1.0x1-2",
+      "ItmScrapSteel=0.5x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmAkyerDismantle",
+    "aCOs"    : [
+      "ItmComponentMotor01=1.0x1",
+      "ItmPartsMechSmall01=1.0x2",
+      "ItmScrapTrash=1.0x2",
+      "ItmScrapSteel=1.0x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "item"
+  },
+  {
     "strName" : "ItmRCSDistro03Damage",
     "aCOs"    : [
       "ItmRCSDistro03Dmg=1.0x1"
