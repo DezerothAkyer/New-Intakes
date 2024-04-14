@@ -7,3 +7,5 @@ A potential branch might be made to modify weight and height of the various inta
 Updates:
  - V .11:
     - Adds a new intake, the DoubleDutch; almost identical in design to the Kang, save with two ports instead of one.
+ - V .12:
+    - Adds the Intake Kiosk to...Well, existence anyway. Still not actually in OKLG proper. Still, you can spawn it if you want! Or add it to the game via the map editor and a new game! Otherwise, I'm still trying to work out a way to ensure compatibility with other mods while adding vendors.
