@@ -1,0 +1,14 @@
+[
+  {
+    "strName" : "TraderKioskIntakeShop",
+    "dictGUIPropMap"       : [
+      "strLoot", "ItmKioskIntakeShopInv",
+      "strRestockCond", "IsReadyRestock",
+      "strTicker", "RestockSupplyKiosk",
+      "strLootBuyDiscount", "CONDTraderDiscountBuyKioskIntakeShop",
+      "strLootSellDiscount", "CONDTraderDiscountSellKioskIntakeShop",
+      "strLootCTsBuy", "TraderCTsBuyKioskIntakeShop",
+      "strLootCTsSell", "TraderCTsSellKioskIntakeShop"
+    ]
+  }
+]

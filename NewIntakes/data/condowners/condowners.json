@@ -464,5 +464,51 @@
       "Destructable,StatDamage,ACTRCSDistro03LooseDestroy,StatDamageMax,1.0"
     ],
     "strPortraitImg"  : "ItmRCSDistro02Dmg02Loose"
+  },
+
+  
+  {
+    "strName" : "ItmKioskIntakeShop01",
+    "strNameFriendly" : "Blackbeard's Intakes Kiosk",
+    "strDesc" : "A resale vending machine full of barely-held-together RCS Intake Systems, clearly unscrupulously ripped from ship subsystems to be resold. Blackbeard's notoriously indifferent to the quality of his work, especially if the Holden Patch applied over the previous Kiosk's logo has anything to say, but he can always be expected to have a few choice pieces.",
+    "strItemDef" : "ItmKioskSupplies04",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "ACTKioskUseNPC",
+      "GUITradeKiosk"
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x1",
+      "IsInfiniteContainer=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsIndestructable=1.0x1",
+      "IsKioskNPC=1.0x1",
+      "IsLocked=1.0x1.0",
+      "IsReadyRestock=1.0x1.0",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsTraderNPC=1.0x1",
+      "StatMass=1.0x31.0",
+      "StatDamageMax=1.0x70",
+      "IsMechanical=1.0x1",
+      "IsCategoryFurniture=1.0x1"
+    ],
+    "strContainerCT"    : "TIsFitContainerUnlimited",
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "use,0,-16"
+    ],
+    "aUpdateCommands" : [
+    ],
+    "mapGUIPropMaps"  : [
+      "Panel A", "Trade",
+      "Trade", "Trade",
+      "Trader", "TraderKioskIntakeShop"
+    ],
+    "strPortraitImg"  : "ItmKioskSupplies04",
+    "jsonPI"            : null,
+    "strAudioEmitter": "ITMKiosSupplies02Sound"
   }
 ]
