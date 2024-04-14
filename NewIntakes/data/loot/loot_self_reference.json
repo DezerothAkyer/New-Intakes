@@ -26,6 +26,17 @@
     ],
     "strType" : "item"
   },
+
+  { "strName" : "ItmRCSDistro04DmgLoose",
+  "aCOs"    : [
+     "ItmRCSDistro04DmgLoose=1.0x1"
+    ], 
+    "aLoots"  : [ ],
+    "strType" : "item"
+  
+  },
+
+
   {
     "strName" : "ItmRCSDistro03Loose",
     "aCOs"    : [
@@ -52,5 +63,33 @@
     "aLoots"  : [
     ],
     "strType" : "item"
-  }
+  },
+
+  { "strName" : "ItmRCSDistro03DmgLoose",
+  "aCOs"    : [
+     "ItmRCSDistro03DmgLoose=1.0x1"
+    ], 
+    "aLoots"  : [ ],
+    "strType" : "item"
+  
+  },
+
+
+  { "strName" : "ItmRCSDistro01DmgLoose",
+  "aCOs"    : [
+     "ItmRCSDistro01DmgLoose=1.0x1"
+    ], 
+    "aLoots"  : [ ],
+    "strType" : "item"
+  
+  },
+  { "strName" : "ItmRCSDistro02DmgLoose",
+    "aCOs"    : [
+       "ItmRCSDistro02DmgLoose=1.0x1"
+      ], 
+      "aLoots"  : [ ],
+      "strType" : "item"
+    
+    }
+
 ]
