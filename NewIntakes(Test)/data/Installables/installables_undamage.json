@@ -1,0 +1,3 @@
+[
+    { "strName" : "KioskSupplies04Undamage", "strActionCO" : "ItmKioskSupplies04", "strActionGroup" : "Work", "strTooltip" : "Reduces item's wear and tear to prevent damage.",  "strInteractionTemplate" : "ACTUndamageTEMP", "CTThem" :  "TIsUndamageableNotContained" , "aInputs" : [  ], "fTargetPointRange" : 3.0, "fDuration" : 0.001, "bSparks" : true, "aToolCTsUse" : [ "TIsToolMortorq", "TIsToolSoldering" ], "aLootCOs" : [ "ItmKioskSupplies04" ], "strJobType" : "repair", "strAllowLootCTsThem" : "CONDUndamageProgress", "strProgressStat" : "StatDamage", "strCTThemMultCondTools" : "IsToolMortorq", "strCTThemMultCondUs" : "StatInstallRateAPPS" }
+]

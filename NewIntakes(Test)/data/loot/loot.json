@@ -1,0 +1,21 @@
+[
+  { "strName" : "CONDTraderDiscountBuyKioskIntakeShop", "aCOs" : [ "DiscountBuy=1.0x.2-.4" ], "aLoots" : [], "strType" : "condition" },
+  { "strName" : "CONDTraderDiscountSellKioskIntakeShop", "aCOs" : [ "DiscountSell=1.0x.8-1.15" ], "aLoots" : [], "strType" : "condition" },
+
+  { "strName" : "TraderCTsBuyKioskIntakeShop", "aCOs" : [ "TIsBarterKioskIntakeShop=1.0x1" ], "aLoots" : [], "strType" : "trigger" },
+  { "strName" : "TraderCTsSellKioskIntakeShop", "aCOs" : [ "TAlways=1.0x1" ], "aLoots" : [], "strType" : "trigger" },
+
+  {
+    "strName" : "ItmKioskIntakeShopInv",
+    "aCOs"    : [
+    ],
+    "aLoots"  : [
+
+      "ItmRCSDistroOffLoose01=1.0x1-5",
+      "ItmRCSDistroOffLoose02=1.0x1-5",
+      "ItmRCSDistroOffLoose03=1.0x1-5",
+      "ItmRCSDistroOffLoose04=1.0x1-5"
+    ],
+    "strType" : "item"
+  }
+]

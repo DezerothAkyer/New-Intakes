@@ -1,0 +1,28 @@
+[
+  {
+    "strName" : "ItmKioskSupplies04",
+    "strImg"  : "ItmKioskSupplies04",
+    "strImgNorm"  : "ItmKioskHealth02n",
+    "strImgDamaged" : "",
+    "strDmgColor" : "DamageTintGrey",
+    "fDmgComplexity" : 500,
+    "fZScale"  : 0.5,
+    "nCols"  : 5,
+    "aLights"        : [
+      "KioskSupplies04"
+    ],
+    "aSocketAdds"    : [
+      "TILFixtureAdds", "TILFixtureAdds", "TILFixtureAdds", "TILFixtureAdds", "TILFixtureAdds"
+    ],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank", "Blank", "Blank", "Blank", "Blank",
+      "Blank", "TILObstruction", "TILObstruction", "TILObstruction", "TILObstruction", "TILObstruction", "Blank",
+      "Blank", "TILObstruction", "TILObstruction", "TILObstruction", "TILObstruction", "TILObstruction", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "TILWall", "TILWall", "TILWall", "TILWall", "TILWall", "Blank",
+      "Blank", "TILFloor", "TILFloor", "TILFloor", "TILFloor", "TILFloor", "Blank",
+      "Blank", "TILFloor", "TILFloor", "TILFloor", "TILFloor", "TILFloor", "Blank"
+    ]
+  }
+]

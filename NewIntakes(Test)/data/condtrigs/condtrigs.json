@@ -1,0 +1,3 @@
+[
+  { "strName" : "TIsBarterKioskIntakeShop", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsRCSCluster","IsRCSReg" ], "aForbids" : [ "IsDataItem" ], "aTriggersForbid" : [ "TIsBarter" ], "bAND" : false }
+]
