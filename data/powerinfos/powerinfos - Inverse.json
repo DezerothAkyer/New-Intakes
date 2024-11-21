@@ -1,0 +1,15 @@
+[
+  {
+    "strName" : "RCSDistro05",
+    "aInputPts"      : [
+      "Power"
+    ],
+    "fAmount": 5.2e-5,
+    "strIntPowerOn": "MSRCSDistro05OnAllow",
+    "strIntPowerOff": "MSRCSDistro05OffAllow",
+    "strShutDownCT": "TIsConnctedSignalledOff",
+    "strUsePowerCT": "TIsReadyUsePower",
+    "strRechargeCT": null,
+    "bAllowExtPower" :  true
+  }
+]

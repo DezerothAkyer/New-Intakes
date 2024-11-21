@@ -1,0 +1,234 @@
+
+[
+  {
+    "strName" : "ItmRCSDistro05Off",
+    "strNameShort" : "Intake",
+    "strNameFriendly" : "RCS Intake Regulator: Kang \"Inverse 2022\" (Off)",
+    "strItemDef" : "ItmRCSDistro05Off",
+    "strDesc" : "A mass market Reaction Control System (RCS) intake regulator by Kang. Produces thrust by taking cold compressed gas (usually N2) from an installed canister and passing it to onboard thrusters. This is their inversed model.",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsNonHighlightable=1.0x1",
+      "IsKang=1.0x1",
+      "IsInverse=1.0x1",
+      "IsOff=1.0x1",
+      "IsRCSReg=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x1692.00",
+      "StatDismantleProgressMax=1.0x130",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatMass=1.0x28.0",
+      "StatDamageMax=1.0x5",
+      "IsMechanical=1.0x1",
+      "IsCategoryControlSystems=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "Power,-8,-8",
+      "GasInput01,0,8"
+    ],
+    "mapGUIPropMaps"  : [
+      "Electrical"
+    ],
+    "strPortraitImg"  : "ItmRCSDistro05",
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTRCSDistro05Damage,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "aTickers" : [ 
+      "Power"
+    ],
+    "jsonPI"            : "RCSDistro05",
+    "strAudioEmitter"   : null
+  },
+  {
+    "strName" : "ItmRCSDistro05Loose",
+    "strNameShort" : "Intake",
+    "strItemDef" : "ItmRCSDistro05Loose",
+    "strNameFriendly" : "RCS Intake Regulator: Kang \"Inverse 2022\" (Loose)",
+    "strDesc" : "A mass market Reaction Control System (RCS) intake regulator by Kang. Produces thrust by taking cold compressed gas (usually N2) from an installed canister and passing it to onboard thrusters. This is their inversed model.",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsKang=1.0x1",
+      "IsInverse=1.0x1",
+      "IsOff=1.0x1",
+      "IsRCSReg=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsCumbersome=1.0x1.0",
+      "StatBasePrice=1.0x1692.00",
+      "StatDismantleProgressMax=1.0x130",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatMass=1.0x28.0",
+      "StatDamageMax=1.0x5",
+      "IsMechanical=1.0x1",
+      "IsCategoryControlSystems=1.0x1"
+    ],
+    "mapPoints"      : [
+      "GasInput01,0,-16"
+    ],
+    "mapGUIPropMaps"  : [
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTRCSDistro05LooseDamage,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "ItmRCSDistro02Loose"
+  },
+  {
+    "strName" : "ItmRCSDistro05",
+    "strNameShort" : "Intake",
+    "strNameFriendly" : "RCS Intake Regulator: Kang \"Inverse 2022\"",
+    "strItemDef" : "ItmRCSDistro05",
+    "strDesc" : "A mass market Reaction Control System (RCS) intake regulator by Kang. Produces thrust by taking cold compressed gas (usually N2) from an installed canister and passing it to onboard thrusters. This is their inversed model.",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsKang=1.0x1",
+      "IsInverse=1.0x1",
+      "IsNonHighlightable=1.0x1",
+      "IsRCSReg=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x1692.00",
+      "StatDismantleProgressMax=1.0x130",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatMass=1.0x28.0",
+      "IsPowered=1.0x1",
+      "StatDamageMax=1.0x5",
+      "IsMechanical=1.0x1",
+      "IsCategoryControlSystems=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "Power,-8,-8",
+      "GasInput01,0,8"
+    ],
+    "mapGUIPropMaps"  : [
+      "Electrical"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTRCSDistro05Damage,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "strPortraitImg"  : "ItmRCSDistro05",
+    "aTickers" : [ 
+      "Power"
+    ],
+    "jsonPI"            : "RCSDistro05",
+    "strAudioEmitter"   : null
+  },
+  {
+    "strName" : "ItmRCSDistro05Dmg",
+    "strNameShort" : "Intake",
+    "strNameFriendly" : "RCS Intake Regulator: Kang \"Inverse 2022\" (Damaged)",
+    "strItemDef" : "ItmRCSDistro05Dmg",
+    "strDesc" : "A mass market Reaction Control System (RCS) intake regulator by Kang. Produces thrust by taking cold compressed gas (usually N2) from an installed canister and passing it to onboard thrusters. This is their inversed model.",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+    ],
+    "aStartingConds" : [
+      "IsDamaged=1.0x1",
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsNonHighlightable=1.0x1",
+      "IsKang=1.0x1",
+      "IsInverse=1.0x1",
+      "IsOff=1.0x1",
+      "IsRCSReg=1.0x1",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x355.00",
+      "StatDismantleProgressMax=1.0x30",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatRepairProgressMax=1.0x1500",
+      "StatMass=1.0x28.0",
+      "StatDamageMax=1.0x15",
+      "IsMechanical=1.0x1",
+      "IsCategoryControlSystems=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+    ],
+    "mapGUIPropMaps"  : [
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTRCSDistro02Destroy,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "ItmRCSDistro05Dmg05",
+    "aTickers" : [ 
+    ],
+    "strAudioEmitter"   : null
+  },
+  {
+    "strName" : "ItmRCSDistro05DmgLoose",
+    "strNameShort" : "Intake",
+    "strItemDef" : "ItmRCSDistro05DmgLoose",
+    "strNameFriendly" : "RCS Intake Regulator: Kang \"Inverse 2022\" (Loose, Damaged)",
+    "strDesc" : "A mass market Reaction Control System (RCS) intake regulator by Kang. Produces thrust by taking cold compressed gas (usually N2) from an installed canister and passing it to onboard thrusters. This is their inversed model.",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsDamaged=1.0x1",
+      "IsKang=1.0x1",
+      "IsInverse=1.0x1",
+      "IsOff=1.0x1",
+      "IsRCSReg=1.0x1",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsCumbersome=1.0x1.0",
+      "StatBasePrice=1.0x355.00",
+      "StatDismantleProgressMax=1.0x30",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatRepairProgressMax=1.0x1500",
+      "StatMass=1.0x28.0",
+      "StatDamageMax=1.0x15",
+      "IsMechanical=1.0x1",
+      "IsCategoryControlSystems=1.0x1"
+    ],
+    "mapPoints"      : [
+    ],
+    "mapGUIPropMaps"  : [
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTRCSDistro05LooseDestroy,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "ItmRCSDistro02Dmg02Loose"
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "strName" : "RCSDistro04",
+    "aInputPts"      : [
+      "Power"
+    ],
+    "fAmount": 5.2e-5,
+    "strIntPowerOn": "MSRCSDistro04OnAllow",
+    "strIntPowerOff": "MSRCSDistro04OffAllow",
+    "strShutDownCT": "TIsConnctedSignalledOff",
+    "strUsePowerCT": "TIsReadyUsePower",
+    "strRechargeCT": null,
+    "bAllowExtPower" :  true
+  },
+  {
+    "strName" : "RCSDistro03",
+    "aInputPts"      : [
+      "Power"
+    ],
+    "fAmount": 5.2e-5,
+    "strIntPowerOn": "MSRCSDistro03OnAllow",
+    "strIntPowerOff": "MSRCSDistro03OffAllow",
+    "strShutDownCT": "TIsConnctedSignalledOff",
+    "strUsePowerCT": "TIsReadyUsePower",
+    "strRechargeCT": null,
+    "bAllowExtPower" :  true
+  }
+]
