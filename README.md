@@ -8,3 +8,5 @@ Updates:
     - Adds a new intake, the DoubleDutch; almost identical in design to the Kang, save with two ports instead of one.
  - V .12:
     - Adds the Intake Kiosk to...Well, existence anyway. Still not actually in OKLG proper. Still, you can spawn it if you want! Or add it to the game via the map editor and a new game! Otherwise, I'm still trying to work out a way to ensure compatibility with other mods while adding vendors.
+ - V .13
+    - Adds THREE new intakes: The Inverse, a simple Kang except the intake port is on the left by default. The Branch, a simple T configuration Kang. And the Varmint, which is a quad-port Kang. While the fluff talks about it being lighter, this is not the version where I mess with intake weights.
