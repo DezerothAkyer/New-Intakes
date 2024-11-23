@@ -1,0 +1,6 @@
+[
+  { "strName" : "TIsRCSDistroTemp1Uninstalled", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsRCSReg", "Temp5" ], "aForbids" : [ "IsInstalled", "IsDamaged" ], "aTriggers" : [ ], "bAND" : true },
+  { "strName" : "TIsRCSDistroTemp1UninstalledDmg", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsRCSReg", "Temp5", "IsDamaged" ], "aForbids" : [ "IsInstalled" ], "aTriggers" : [ ], "bAND" : true },
+  { "strName" : "TIsRCSDistroTemp1Installed", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsRCSReg", "Temp5", "IsInstalled" ], "aForbids" : [  ], "aTriggers" : [ ], "bAND" : true },
+  { "strName" : "TIsRCSDistroTemp1InstalledDmg", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsRCSReg", "Temp5", "IsInstalled", "IsDamaged" ], "aForbids" : [  ], "aTriggers" : [ ], "bAND" : true }
+]

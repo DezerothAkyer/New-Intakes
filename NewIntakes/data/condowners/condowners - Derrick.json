@@ -1,0 +1,234 @@
+
+[
+  {
+    "strName" : "ItmRCSDistro09Off",
+    "strNameShort" : "Intake",
+    "strNameFriendly" : "RCS Intake Regulator: Weber \"Derrick\" (Off)",
+    "strDesc" : "A mass market Reaction Control System (RCS) intake regulator by Weber. Introduced as a first offering after the success of the laser torch, Weber was never quite able to reach the widespread acclaim of their contemporaries in the field.",
+    "strItemDef" : "ItmRCSDistro09Off",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsNonHighlightable=1.0x1",
+      "IsWeber=1.0x1",
+      "IsOff=1.0x1",
+      "IsRCSReg=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x32266.00",
+      "StatDismantleProgressMax=1.0x250",
+      "StatInstallProgressMax=1.0x1200",
+      "StatUninstallProgressMax=1.0x1200",
+      "StatMass=1.0x28.0",
+      "StatDamageMax=1.0x8",
+      "IsMechanical=1.0x1",
+      "IsCategoryControlSystems=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "Power,0,0",
+      "GasInput01,16,0",
+      "GasInput02,-16,0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Electrical"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTRCSDistro09Damage,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "strPortraitImg"  : "ItmRCSDistro09",
+    "aTickers" : [ 
+      "Power"
+    ],
+    "jsonPI"            : "RCSDistro09",
+    "strAudioEmitter"   : null
+  },
+  {
+    "strName" : "ItmRCSDistro09Loose",
+    "strNameShort" : "Intake",
+    "strItemDef" : "ItmRCSDistro09Loose",
+    "strNameFriendly" : "RCS Intake Regulator: Weber \"Derrick\" (Loose)",
+    "strDesc" : "A mass market Reaction Control System (RCS) intake regulator by Weber. Introduced as a first offering after the success of the laser torch, Weber was never quite able to reach the widespread acclaim of their contemporaries in the field.",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsWeber=1.0x1",
+      "IsOff=1.0x1",
+      "IsRCSReg=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsCumbersome=1.0x1.0",
+      "StatBasePrice=1.0x32266.00",
+      "StatDismantleProgressMax=1.0x250",
+      "StatInstallProgressMax=1.0x1200",
+      "StatUninstallProgressMax=1.0x1200",
+      "StatMass=1.0x28.0",
+      "StatDamageMax=1.0x8",
+      "IsMechanical=1.0x1",
+      "IsCategoryControlSystems=1.0x1"
+    ],
+    "mapPoints"      : [
+      "GasInput01,16,0",
+      "GasInput02,-16,0"
+    ],
+    "mapGUIPropMaps"  : [
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTRCSDistro09LooseDamage,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "ItmRCSDistro01Loose"
+  },
+  {
+    "strName" : "ItmRCSDistro09",
+    "strNameShort" : "Intake",
+    "strNameFriendly" : "RCS Intake Regulator: Weber \"Derrick\"",
+    "strItemDef" : "ItmRCSDistro09",
+    "strDesc" : "The Hydra, A mass market Reaction Control System (RCS) intake regulator by Weber. Introduced as a first offering after the success of the laser torch, Weber was never quite able to reach the widespread acclaim of their contemporaries in the field.",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsWeber=1.0x1",
+      "IsNonHighlightable=1.0x1",
+      "IsRCSReg=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x32266.00",
+      "StatDismantleProgressMax=1.0x250",
+      "StatInstallProgressMax=1.0x1200",
+      "StatUninstallProgressMax=1.0x1200",
+      "StatMass=1.0x28.0",
+      "IsPowered=1.0x1",
+      "StatDamageMax=1.0x8",
+      "IsMechanical=1.0x1",
+      "IsCategoryControlSystems=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "Power,0,0",
+      "GasInput01,16,0",
+      "GasInput02,-16,0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Electrical"
+    ],
+    "strPortraitImg"  : "ItmRCSDistro09",
+    "aTickers" : [ 
+      "Power"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTRCSDistro09Damage,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "jsonPI"            : "RCSDistro09",
+    "strAudioEmitter"   : null
+  },
+  {
+    "strName" : "ItmRCSDistro09Dmg",
+    "strNameShort" : "Intake",
+    "strNameFriendly" : "RCS Intake Regulator: Weber \"Derrick\" (Damaged)",
+    "strItemDef" : "ItmRCSDistro09Dmg",
+    "strDesc" : "A mass market Reaction Control System (RCS) intake regulator by Weber. Introduced as a first offering after the success of the laser torch, Weber was never quite able to reach the widespread acclaim of their contemporaries in the field.",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+    ],
+    "aStartingConds" : [
+      "IsDamaged=1.0x1",
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsNonHighlightable=1.0x1",
+      "IsWeber=1.0x1",
+      "IsOff=1.0x1",
+      "IsRCSReg=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x7330.00",
+      "StatDismantleProgressMax=1.0x50",
+      "StatInstallProgressMax=1.0x1200",
+      "StatUninstallProgressMax=1.0x1200",
+      "StatRepairProgressMax=1.0x3600",
+      "StatMass=1.0x28.0",
+      "StatDamageMax=1.0x22",
+      "IsMechanical=1.0x1",
+      "IsCategoryControlSystems=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+    ],
+    "mapGUIPropMaps"  : [
+    ],
+    "strPortraitImg"  : "ItmRCSDistro09Dmg02",
+    "aTickers" : [ 
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTRCSDistro09Destroy,StatDamageMax,1.0"
+    ],
+    "strAudioEmitter"   : null
+  },
+  {
+    "strName" : "ItmRCSDistro09DmgLoose",
+    "strNameShort" : "Intake",
+    "strItemDef" : "ItmRCSDistro09DmgLoose",
+    "strNameFriendly" : "RCS Intake Regulator: Weber \"Derrick\" (Loose, Damaged)",
+    "strDesc" : "A mass market Reaction Control System (RCS) intake regulator by Weber. Introduced as a first offering after the success of the laser torch, Weber was never quite able to reach the widespread acclaim of their contemporaries in the field.",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsDamaged=1.0x1",
+      "IsWeber=1.0x1",
+      "IsOff=1.0x1",
+      "IsRCSReg=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsCumbersome=1.0x1.0",
+      "StatBasePrice=1.0x7330.00",
+      "StatDismantleProgressMax=1.0x50",
+      "StatInstallProgressMax=1.0x1200",
+      "StatUninstallProgressMax=1.0x1200",
+      "StatRepairProgressMax=1.0x3600",
+      "StatMass=1.0x28.0",
+      "StatDamageMax=1.0x22",
+      "IsMechanical=1.0x1",
+      "IsCategoryControlSystems=1.0x1"
+    ],
+    "mapPoints"      : [
+    ],
+    "mapGUIPropMaps"  : [
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTRCSDistro09LooseDestroy,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "ItmRCSDistro01Dmg02Loose"
+  }
+]

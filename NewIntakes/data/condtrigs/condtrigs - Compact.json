@@ -1,0 +1,6 @@
+[
+  { "strName" : "TIsRCSDistro10Uninstalled", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsRCSReg", "IsRakow" ], "aForbids" : [ "IsInstalled", "IsDamaged" ], "aTriggers" : [ ], "bAND" : true },
+  { "strName" : "TIsRCSDistro10UninstalledDmg", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsRCSReg", "IsRakow", "IsDamaged" ], "aForbids" : [ "IsInstalled" ], "aTriggers" : [ ], "bAND" : true },
+  { "strName" : "TIsRCSDistro10Installed", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsRCSReg", "IsRakow", "IsInstalled" ], "aForbids" : [  ], "aTriggers" : [ ], "bAND" : true },
+  { "strName" : "TIsRCSDistro10InstalledDmg", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsRCSReg", "IsRakow", "IsInstalled", "IsDamaged" ], "aForbids" : [  ], "aTriggers" : [ ], "bAND" : true }
+]

@@ -1,0 +1,6 @@
+[
+  { "strName" : "TIsRCSDistro09Uninstalled", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsRCSReg", "IsWeber" ], "aForbids" : [ "IsInstalled", "IsDamaged" ], "aTriggers" : [ ], "bAND" : true },
+  { "strName" : "TIsRCSDistro09UninstalledDmg", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsRCSReg", "IsWeber", "IsDamaged" ], "aForbids" : [ "IsInstalled" ], "aTriggers" : [ ], "bAND" : true },
+  { "strName" : "TIsRCSDistro09Installed", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsRCSReg", "IsWeber", "IsInstalled" ], "aForbids" : [  ], "aTriggers" : [ ], "bAND" : true },
+  { "strName" : "TIsRCSDistro09InstalledDmg", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsRCSReg", "IsWeber", "IsInstalled", "IsDamaged" ], "aForbids" : [  ], "aTriggers" : [ ], "bAND" : true }
+]

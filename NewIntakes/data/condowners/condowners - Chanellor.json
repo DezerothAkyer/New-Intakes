@@ -1,0 +1,237 @@
+
+[
+  {
+    "strName" : "ItmRCSDistro08Off",
+    "strNameShort" : "Intake",
+    "strNameFriendly" : "RCS Intake Regulator: Van Buren \"Chancellor\" (Off)",
+    "strDesc" : "An in-house Reaction Control System(RCS) intake regulator by Van Buren. Designed for use in Van Buren vessels exclusively, this unit boasts slightly lower performance specs compared to the Hydra, but at a lower weight.",
+    "strItemDef" : "ItmRCSDistro08Off",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsNonHighlightable=1.0x1",
+      "IsVanBuren=1.0x1",
+      "IsOff=1.0x1",
+      "IsRCSReg=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x32266.00",
+      "StatDismantleProgressMax=1.0x250",
+      "StatInstallProgressMax=1.0x1200",
+      "StatUninstallProgressMax=1.0x1200",
+      "StatMass=1.0x28.0",
+      "StatDamageMax=1.0x8",
+      "IsMechanical=1.0x1",
+      "IsCategoryControlSystems=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "Power,0,8",
+      "GasInput01,0,-16",
+      "GasInput02,16,0",
+      "GasInput03,-16,0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Electrical"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTRCSDistro08Damage,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "strPortraitImg"  : "ItmRCSDistro08",
+    "aTickers" : [ 
+      "Power"
+    ],
+    "jsonPI"            : "RCSDistro08",
+    "strAudioEmitter"   : null
+  },
+  {
+    "strName" : "ItmRCSDistro08Loose",
+    "strNameShort" : "Intake",
+    "strItemDef" : "ItmRCSDistro08Loose",
+    "strNameFriendly" : "RCS Intake Regulator: Van Buren \"Chancellor\" (Loose)",
+    "strDesc" : "An in-house Reaction Control System(RCS) intake regulator by Van Buren. Designed for use in Van Buren vessels exclusively, this unit boasts slightly lower performance specs compared to the Hydra, but at a lower weight.",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsVanBuren=1.0x1",
+      "IsOff=1.0x1",
+      "IsRCSReg=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsCumbersome=1.0x1.0",
+      "StatBasePrice=1.0x32266.00",
+      "StatDismantleProgressMax=1.0x250",
+      "StatInstallProgressMax=1.0x1200",
+      "StatUninstallProgressMax=1.0x1200",
+      "StatMass=1.0x28.0",
+      "StatDamageMax=1.0x8",
+      "IsMechanical=1.0x1",
+      "IsCategoryControlSystems=1.0x1"
+    ],
+    "mapPoints"      : [
+      "GasInput01,0,-16",
+      "GasInput02,16,0",
+      "GasInput03,-16,0"
+    ],
+    "mapGUIPropMaps"  : [
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTRCSDistro08LooseDamage,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "ItmRCSDistro01Loose"
+  },
+  {
+    "strName" : "ItmRCSDistro08",
+    "strNameShort" : "Intake",
+    "strNameFriendly" : "RCS Intake Regulator: Van Buren \"Chancellor\"",
+    "strItemDef" : "ItmRCSDistro08",
+    "strDesc" : "The Hydra, An in-house Reaction Control System(RCS) intake regulator by Van Buren. Designed for use in Van Buren vessels exclusively, this unit boasts slightly lower performance specs compared to the Hydra, but at a lower weight.",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsVanBuren=1.0x1",
+      "IsNonHighlightable=1.0x1",
+      "IsRCSReg=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x32266.00",
+      "StatDismantleProgressMax=1.0x250",
+      "StatInstallProgressMax=1.0x1200",
+      "StatUninstallProgressMax=1.0x1200",
+      "StatMass=1.0x28.0",
+      "IsPowered=1.0x1",
+      "StatDamageMax=1.0x8",
+      "IsMechanical=1.0x1",
+      "IsCategoryControlSystems=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "Power,0,8",
+      "GasInput01,0,-16",
+      "GasInput02,16,0",
+      "GasInput03,-16,0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Electrical"
+    ],
+    "strPortraitImg"  : "ItmRCSDistro08",
+    "aTickers" : [ 
+      "Power"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTRCSDistro08Damage,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "jsonPI"            : "RCSDistro08",
+    "strAudioEmitter"   : null
+  },
+  {
+    "strName" : "ItmRCSDistro08Dmg",
+    "strNameShort" : "Intake",
+    "strNameFriendly" : "RCS Intake Regulator: Van Buren \"Chancellor\" (Damaged)",
+    "strItemDef" : "ItmRCSDistro08Dmg",
+    "strDesc" : "An in-house Reaction Control System(RCS) intake regulator by Van Buren. Designed for use in Van Buren vessels exclusively, this unit boasts slightly lower performance specs compared to the Hydra, but at a lower weight.",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+    ],
+    "aStartingConds" : [
+      "IsDamaged=1.0x1",
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsNonHighlightable=1.0x1",
+      "IsVanBuren=1.0x1",
+      "IsOff=1.0x1",
+      "IsRCSReg=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x7330.00",
+      "StatDismantleProgressMax=1.0x50",
+      "StatInstallProgressMax=1.0x1200",
+      "StatUninstallProgressMax=1.0x1200",
+      "StatRepairProgressMax=1.0x3600",
+      "StatMass=1.0x28.0",
+      "StatDamageMax=1.0x22",
+      "IsMechanical=1.0x1",
+      "IsCategoryControlSystems=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+    ],
+    "mapGUIPropMaps"  : [
+    ],
+    "strPortraitImg"  : "ItmRCSDistro08Dmg02",
+    "aTickers" : [ 
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTRCSDistro08Destroy,StatDamageMax,1.0"
+    ],
+    "strAudioEmitter"   : null
+  },
+  {
+    "strName" : "ItmRCSDistro08DmgLoose",
+    "strNameShort" : "Intake",
+    "strItemDef" : "ItmRCSDistro08DmgLoose",
+    "strNameFriendly" : "RCS Intake Regulator: Van Buren \"Chancellor\" (Loose, Damaged)",
+    "strDesc" : "An in-house Reaction Control System(RCS) intake regulator by Van Buren. Designed for use in Van Buren vessels exclusively, this unit boasts slightly lower performance specs compared to the Hydra, but at a lower weight.",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsDamaged=1.0x1",
+      "IsVanBuren=1.0x1",
+      "IsOff=1.0x1",
+      "IsRCSReg=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsCumbersome=1.0x1.0",
+      "StatBasePrice=1.0x7330.00",
+      "StatDismantleProgressMax=1.0x50",
+      "StatInstallProgressMax=1.0x1200",
+      "StatUninstallProgressMax=1.0x1200",
+      "StatRepairProgressMax=1.0x3600",
+      "StatMass=1.0x28.0",
+      "StatDamageMax=1.0x22",
+      "IsMechanical=1.0x1",
+      "IsCategoryControlSystems=1.0x1"
+    ],
+    "mapPoints"      : [
+    ],
+    "mapGUIPropMaps"  : [
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTRCSDistro08LooseDestroy,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "ItmRCSDistro01Dmg02Loose"
+  }
+]

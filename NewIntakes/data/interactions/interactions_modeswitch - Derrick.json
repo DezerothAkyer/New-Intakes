@@ -1,0 +1,86 @@
+[
+  {
+    "strName" : "MSRCSDistro09Damage",
+    "strTitle" : "",
+    "strDesc" : "[us] is damaged.",
+    "fDuration"         : 0.0,
+    "strThemType"       : "Other",
+    "bIgnoreFeelings" : true,
+    "nLogging"         : 1,
+    "objLootModeSwitch"    : "ItmRCSDistro09Damage"
+  },
+  {
+    "strName" : "MSRCSDistro09Destroy",
+    "strTitle" : "",
+    "strDesc" : "[us] is destroyed.",
+    "fDuration"         : 0.0,
+    "strThemType"       : "Other",
+    "bIgnoreFeelings" : true,
+    "nLogging"         : 1,
+    "objLootModeSwitch"    : "ItmHydraComponentsShell"
+  },
+  {
+    "strName" : "MSRCSDistro09LooseDamage",
+    "strTitle" : "",
+    "strDesc" : "[us] is damaged.",
+    "fDuration"         : 0.0,
+    "strThemType"       : "Other",
+    "bIgnoreFeelings" : true,
+    "nLogging"         : 1,
+    "objLootModeSwitch"    : "ItmRCSDistro09LooseDamage"
+  },
+  {
+    "strName" : "MSRCSDistro09LooseDestroy", 
+    "strTitle" : "",
+    "strDesc" : "[us] is destroyed.",
+    "fDuration"         : 0.0,
+    "strThemType"       : "Other",
+    "bIgnoreFeelings" : true,
+    "nLogging"         : 1,
+    "objLootModeSwitch"    : "ItmHydraComponentsShell"
+  },
+  {
+    "strName" : "MSRCSDistro09OffAllow",
+    "strTitle" : "",
+    "strDesc" : "[us] switches off.",
+    "strTargetPoint" : null,
+    "fTargetPointRange" : 0,
+    "strAnim"           : null,
+    "strBubble"         : null,
+    "aInverse"          : [
+    ],
+    "fDuration"         : 0.0,
+    "strThemType"       : "Other",
+    "bIgnoreFeelings" : true,
+    "strRaiseUI"        : null,
+    "LootCTsUs"       : null,
+    "LootCTsThem"     : null,
+    "CTTestUs"           : "TIsNotOff",
+    "CTTestThem"         : null,
+    "aLootItms"       : [
+    ],
+    "objLootModeSwitch"    : "ItmRCSDistro09Off"
+  },
+  {
+    "strName" : "MSRCSDistro09OnAllow",
+    "strTitle" : "",
+    "strDesc" : "[us] powers-up.",
+    "strTargetPoint" : null,
+    "fTargetPointRange" : 0,
+    "strAnim"           : null,
+    "strBubble"         : null,
+    "aInverse"          : [
+    ],
+    "fDuration"         : 0.0,
+    "strThemType"       : "Other",
+    "bIgnoreFeelings" : true,
+    "strRaiseUI"        : null,
+    "LootCTsUs"       : null,
+    "LootCTsThem"     : null,
+    "CTTestUs"           : "TIsOff",
+    "CTTestThem"         : null,
+    "aLootItms"       : [
+    ],
+    "objLootModeSwitch"    : "ItmRCSDistro09"
+  }
+]

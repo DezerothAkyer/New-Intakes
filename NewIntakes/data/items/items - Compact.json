@@ -1,0 +1,140 @@
+[
+  {
+    "strName" : "ItmRCSDistro10",
+    "strImg"  : "ItmRCSDistro10",
+    "strImgNorm"  : "ItmRCSDistro10n",
+    "strImgDamaged" : "ItmRCSDistro10Dmg02",
+    "strDmgColor" : "DamageTintNone",
+    "bLerp" : false,
+    "fZScale"  : 0.8,
+    "nDmgMode": 3,
+    "nCols"  : 2,
+    "aLights"        : [
+      "RCSDistro10"
+    ],
+    "aSocketAdds"    : [
+      "Blank", "Blank",
+     "TILFixtureAdds", "Blank"
+    ],
+    "aSocketForbids"    : [
+     "Blank", "Blank", "Blank", "Blank",
+     "Blank", "Blank", "Blank", "Blank",
+     "Blank", "TILObstruction", "Blank", "Blank",
+     "Blank", "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "TILFloor", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank"
+    ]
+  },
+  {
+    "strName" : "ItmRCSDistro10Off",
+    "strImg"  : "ItmRCSDistro10",
+    "strImgNorm"  : "ItmRCSDistro10n",
+    "strImgDamaged" : "ItmRCSDistro10Dmg02",
+    "strDmgColor" : "DamageTintNone",
+    "bLerp" : false,
+    "nDmgMode": 3,
+    "fZScale"  : 0.8,
+    "nCols"  : 2,
+    "aSocketAdds"    : [
+      "Blank", "Blank",
+      "TILFixtureAdds", "Blank"
+    ],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "TILObstruction", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "TILFloor", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank"
+    ]
+  },
+  {
+    "strName" : "ItmRCSDistro01Loose",
+    "strImg"  : "ItmRCSDistro01Loose",
+    "strImgNorm"  : "ItmRCSDistro01Loosen",
+    "strImgDamaged" : "ItmRCSDistro01Dmg02Loose",
+    "strDmgColor" : "DamageTintNone",
+    "bLerp" : false,
+    "nDmgMode": 3,
+    "fZScale"  : 0.5,
+    "nCols"  : 2,
+    "aSocketAdds"    : [
+      "TILItemAdds", "TILItemAdds",
+      "TILItemAdds", "TILItemAdds"
+    ],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "TILItemForbids", "TILItemForbids", "Blank",
+      "Blank", "TILItemForbids", "TILItemForbids", "Blank",
+      "Blank", "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank"
+    ]
+  },
+  {
+    "strName" : "ItmRCSDistro10Dmg",
+    "strImg"  : "ItmRCSDistro10Dmg02",
+    "strImgNorm"  : "ItmRCSDistro10Dmg02n",
+    "strImgDamaged" : "",
+    "strDmgColor" : "DamageTintRust",
+    "bLerp" : false,
+    "nDmgMode": 3,
+    "fZScale"  : 0.8,
+    "nCols"  : 2,
+    "aSocketAdds"    : [
+      "Blank", "Blank",
+      "TILFixtureAdds", "Blank"
+    ],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "TILObstruction", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "TILFloor", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank"
+    ]
+  },
+  {
+    "strName" : "ItmRCSDistro01DmgLoose",
+    "strImg"  : "ItmRCSDistro01Dmg02Loose",
+    "strImgNorm"  : "ItmRCSDistro01Dmg02Loosen",
+    "strImgDamaged" : "",
+    "strDmgColor" : "DamageTintRust",
+    "bLerp" : false,
+    "nDmgMode": 3,
+    "fZScale"  : 0.5,
+    "nCols"  : 2,
+    "aSocketAdds"    : [
+      "TILItemAdds", "TILItemAdds",
+      "TILItemAdds", "TILItemAdds"
+    ],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "TILItemForbids", "TILItemForbids", "Blank",
+      "Blank", "TILItemForbids", "TILItemForbids", "Blank",
+      "Blank", "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank"
+    ]
+  }
+]

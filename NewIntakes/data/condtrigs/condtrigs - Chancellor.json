@@ -1,0 +1,6 @@
+[
+  { "strName" : "TIsRCSDistro08Uninstalled", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsRCSReg", "IsVanBuren" ], "aForbids" : [ "IsInstalled", "IsDamaged" ], "aTriggers" : [ ], "bAND" : true },
+  { "strName" : "TIsRCSDistro08UninstalledDmg", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsRCSReg", "IsVanBuren", "IsDamaged" ], "aForbids" : [ "IsInstalled" ], "aTriggers" : [ ], "bAND" : true },
+  { "strName" : "TIsRCSDistro08Installed", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsRCSReg", "IsVanBuren", "IsInstalled" ], "aForbids" : [  ], "aTriggers" : [ ], "bAND" : true },
+  { "strName" : "TIsRCSDistro08InstalledDmg", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsRCSReg", "IsVanBuren", "IsInstalled", "IsDamaged" ], "aForbids" : [  ], "aTriggers" : [ ], "bAND" : true }
+]

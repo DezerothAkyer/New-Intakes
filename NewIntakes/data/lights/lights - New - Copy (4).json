@@ -1,0 +1,11 @@
+[
+  {
+    "strName" : "RCSDistroTemp1",
+    "strColor": "AlarmGreen",
+    "strImg": "ItmLitGreen",
+    "ptPos": {
+      "x": -2,
+      "y": -3
+    }
+  }
+]
