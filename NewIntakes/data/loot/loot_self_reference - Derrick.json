@@ -1,0 +1,30 @@
+[
+  {
+    "strName" : "ItmRCSDistro09Loose",
+    "aCOs"    : [
+      "ItmRCSDistro09Loose=1.0x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmRCSDistro09Off",
+    "aCOs"    : [
+      "ItmRCSDistro09Off=1.0x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmRCSDistro09",
+    "aCOs"    : [
+      "ItmRCSDistro09=1.0x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "item"
+  },
+  { "strName" : "ItmRCSDistro09DmgLoose", "aCOs" : [ "ItmRCSDistro09DmgLoose=1.0x1" ], "aLoots"  : [ ], "bSuppress" : true, "bNested" : true, "strType" : "item" }
+]
