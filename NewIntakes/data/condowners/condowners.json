@@ -510,21 +510,5 @@
     "strPortraitImg"  : "ItmKioskSupplies04",
     "jsonPI"            : null,
     "strAudioEmitter": "ITMKiosSupplies02Sound"
-  },
-  {
-    "strReference": "ItmRCSDistro02Loose",
-    "strNameFriendly": "TestRCS(Loose)"
-  },
-  {
-    "strReference": "ItmRCSDistro02",
-    "strNameFriendly": "TestRCS"
-  },
-  {
-    "strReference": "ItmRCSDistro02DmgLoose",
-    "strNameFriendly": "TestRCS(Loose,damaged)"
-  },
-  {
-    "strReference": "ItmRCSDistro02Dmg",
-    "strNameFriendly": "TestRCS(Damaged)"
   }
 ]
