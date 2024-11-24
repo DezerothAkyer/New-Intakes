@@ -1,8 +1,8 @@
 [
   {
-    "strName" : "ItmRCSDistro05Damage",
+    "strName" : "ItmRCSDistro12Damage",
     "aCOs"    : [
-      "ItmRCSDistro05Dmg=1.0x1"
+      "ItmRCSDistro12Dmg=1.0x1"
     ],
     "aLoots"  : [
       "ItmAkyerComponents=1.0x1"
@@ -10,9 +10,9 @@
     "strType" : "item"
   },
   {
-    "strName" : "ItmRCSDistro05LooseDamage",
+    "strName" : "ItmRCSDistroLooseDamage",
     "aCOs"    : [
-      "ItmRCSDistro05DmgLoose=1.0x1"
+      "ItmRCSDistro12DmgLoose=1.0x1"
     ],
     "aLoots"  : [
       "ItmAkyerComponents=1.0x1"

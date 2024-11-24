@@ -1,35 +1,35 @@
 [
   {
-    "strName" : "ItmRCSDistro05Loose",
+    "strName" : "ItmRCSDistro12Loose",
     "aCOs"    : [
-      "ItmRCSDistro05Loose=1.0x1"
+      "ItmRCSDistro12Loose=1.0x1"
     ],
     "aLoots"  : [
     ],
     "strType" : "item"
   },
   {
-    "strName" : "ItmRCSDistro05Off",
+    "strName" : "ItmRCSDistro12Off",
     "aCOs"    : [
-      "ItmRCSDistro05Off=1.0x1"
+      "ItmRCSDistro12Off=1.0x1"
     ],
     "aLoots"  : [
     ],
     "strType" : "item"
   },
   {
-    "strName" : "ItmRCSDistro05",
+    "strName" : "ItmRCSDistro12",
     "aCOs"    : [
-      "ItmRCSDistro05=1.0x1"
+      "ItmRCSDistro12=1.0x1"
     ],
     "aLoots"  : [
     ],
     "strType" : "item"
   },
 
-  { "strName" : "ItmRCSDistro05DmgLoose",
+  { "strName" : "ItmRCSDistro12DmgLoose",
   "aCOs"    : [
-     "ItmRCSDistro05DmgLoose=1.0x1"
+     "ItmRCSDistro12DmgLoose=1.0x1"
     ], 
     "aLoots"  : [ ],
     "strType" : "item"
