@@ -1,53 +1,61 @@
 [
   {
-    "strName" : "ItmRCSDistro13",
-    "strImg"  : "ItmRCSDistro13",
-    "strImgNorm"  : "ItmRCSDistro13n",
-    "strImgDamaged" : "ItmRCSDistro13Dmg13",
+    "strName" : "ItmRCSDistro11",
+    "strImg"  : "ItmRCSDistro11",
+    "strImgNorm"  : "ItmRCSDistro11n",
+    "strImgDamaged" : "ItmRCSDistro11Dmg02",
     "strDmgColor" : "DamageTintNone",
     "bLerp" : false,
     "fZScale"  : 0.8,
     "nDmgMode": 3,
-    "nCols"  : 1,
+    "nCols"  : 2,
     "aLights"        : [
-      "RCSDistro13"
+      "RCSDistro11"
     ],
     "aSocketAdds"    : [
-      "TILFloor"
+      "Blank", "Blank",
+      "TILFixtureAdds", "Blank"
     ],
     "aSocketForbids"    : [
-      "Blank", "Blank", "Blank",
-      "Blank", "TILFloor", "Blank",
-      "Blank", "Blank", "Blank"
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "TILObstruction", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank"
     ],
     "aSocketReqs"    : [
-      "Blank", "Blank", "Blank",
-      "Blank", "Blank", "Blank",
-      "Blank", "Blank", "Blank"
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "TILFloor", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank"
     ]
   },
   {
-    "strName" : "ItmRCSDistro13Off",
-    "strImg"  : "ItmRCSDistro13",
-    "strImgNorm"  : "ItmRCSDistro13n",
-    "strImgDamaged" : "ItmRCSDistro13Dmg13",
+    "strName" : "ItmRCSDistro11Off",
+    "strImg"  : "ItmRCSDistro11",
+    "strImgNorm"  : "ItmRCSDistro11n",
+    "strImgDamaged" : "ItmRCSDistro11Dmg02",
     "strDmgColor" : "DamageTintNone",
     "bLerp" : false,
     "nDmgMode": 3,
     "fZScale"  : 0.8,
-    "nCols"  : 1,
+    "nCols"  : 2,
+    "aLights"        : [
+    ],
     "aSocketAdds"    : [
-      "TILFloor"
+      "Blank", "Blank",
+      "TILFixtureAdds", "Blank"
     ],
     "aSocketForbids"    : [
-      "Blank", "Blank", "Blank",
-      "Blank", "TILFloor", "Blank",
-      "Blank", "Blank", "Blank"
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "TILObstruction", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank"
     ],
     "aSocketReqs"    : [
-      "Blank", "Blank", "Blank",
-      "Blank", "Blank", "Blank",
-      "Blank", "Blank", "Blank"
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "TILFloor", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank"
     ]
   },
   {
@@ -78,27 +86,33 @@
     ]
   },
   {
-    "strName" : "ItmRCSDistro13Dmg",
-    "strImg"  : "ItmRCSDistro13Dmg13",
-    "strImgNorm"  : "ItmRCSDistro13Dmg13n",
+    "strName" : "ItmRCSDistro11Dmg",
+    "strImg"  : "ItmRCSDistro11Dmg02",
+    "strImgNorm"  : "ItmRCSDistro11Dmg02n",
     "strImgDamaged" : "",
     "strDmgColor" : "DamageTintRust",
     "bLerp" : false,
     "nDmgMode": 3,
     "fZScale"  : 0.8,
-    "nCols"  : 1,
+    "nCols"  : 2,
+    "aLights"        : [
+      "RCSDistro11"
+    ],
     "aSocketAdds"    : [
-      "TILFloor"
+      "Blank", "Blank",
+      "TILFixtureAdds", "Blank"
     ],
     "aSocketForbids"    : [
-      "Blank", "Blank", "Blank",
-      "Blank", "TILFloor", "Blank",
-      "Blank", "Blank", "Blank"
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "TILObstruction", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank"
     ],
     "aSocketReqs"    : [
-      "Blank", "Blank", "Blank",
-      "Blank", "Blank", "Blank",
-      "Blank", "Blank", "Blank"
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank",
+      "Blank", "TILFloor", "Blank", "Blank",
+      "Blank", "Blank", "Blank", "Blank"
     ]
   },
   {

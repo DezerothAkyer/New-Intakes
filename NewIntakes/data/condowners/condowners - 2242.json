@@ -1,0 +1,355 @@
+
+[
+  {
+    "strName" : "ItmRCSDistro12Off",
+    "strNameShort" : "Intake",
+    "strNameFriendly" : "RCS Intake Regulator: Kang \"2242\" (Off)",
+    "strItemDef" : "ItmRCSDistro12Off",
+    "strDesc" : "A mass market Reaction Control System (RCS) intake regulator by Kang. Produces thrust by taking cold compressed gas (usually N2) from an installed canister and passing it to onboard thrusters. This unit is unique for its internal gas storage.",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "Inventory"
+    ],
+    "aStartingConds" : [
+      "IsAirtight=1.0x1",
+      "IsReadyPumpAir=1.0x1.0",
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsHiddenInv=1.0x1",
+      "IsNonHighlightable=1.0x1",
+      "Is2242=1.0x1",
+      "IsContainer=1.0x1",
+      "IsOff=1.0x1",
+      "IsRCSReg=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x1692.00",
+      "StatDismantleProgressMax=1.0x130",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatMass=1.0x28.0",
+      "StatDamageMax=1.0x5",
+      "IsMechanical=1.0x1",
+      "IsCategoryControlSystems=1.0x1",
+      "StatVolume=1.0x0.787",
+      "StatGasMolN2=1.0x13373.0",
+      "StatGasPressureMax=1.0x82800.0",
+      "StatGasTemp=1.0x293.0",
+      "IsGasMolChanged=1.0x1",
+      "IsRTA=1.0x1.0",
+      "IsVesselN2=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "aStartingCondRules"  : [
+      "DcGasTemp=1",
+      "DcGasPressure=1",
+      "DcGasPressureCan=1",
+      "DcGasPpCO2=1",
+      "DcGasPpN2=1",
+      "DcGasPpNH3=1",
+      "DcGasPpCH4=1",
+      "DcGasPpH2SO4=1",
+      "DcGasPpO2=1"
+    ],
+    "strContainerCT"    : "TIsFitContainerSolidCumbersome",
+    "nContainerHeight"  : 1,
+    "nContainerWidth"  : 1,
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "Power,-8,16",
+      "GasInput01, 0,0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Electrical"
+    ],
+    "strPortraitImg"  : "ItmRCSDistro12",
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTRCSDistro12Damage,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "aTickers" : [ 
+      "Power"
+    ],
+    "jsonPI"            : "RCSDistro12",
+    "strAudioEmitter"   : null
+  },
+  {
+    "strName" : "ItmRCSDistro12Loose",
+    "strNameShort" : "Intake",
+    "strItemDef" : "ItmRCSDistro12Loose",
+    "strNameFriendly" : "RCS Intake Regulator: Kang \"2242\" (Loose)",
+    "strDesc" : "A mass market Reaction Control System (RCS) intake regulator by Kang. Produces thrust by taking cold compressed gas (usually N2) from an installed canister and passing it to onboard thrusters. This unit is unique for its internal gas storage.",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsAirtight=1.0x1",
+      "IsHiddenInv=1.0x1",
+      "Is2242=1.0x1",
+      "IsOff=1.0x1",
+      "IsContainer=1.0x1",
+      "IsRCSReg=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsCumbersome=1.0x1.0",
+      "StatBasePrice=1.0x1692.00",
+      "StatDismantleProgressMax=1.0x130",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatMass=1.0x28.0",
+      "StatDamageMax=1.0x5",
+      "IsMechanical=1.0x1",
+      "StatVolume=1.0x0.787",
+      "StatGasMolN2=1.0x13373.0",
+      "StatGasPressureMax=1.0x82800.0",
+      "IsReadyPumpAir=1.0x1.0",
+      "StatGasTemp=1.0x293.0",
+      "IsGasMolChanged=1.0x1",
+      "IsRTA=1.0x1.0",
+      "IsVesselN2=1.0x1",
+      "IsCategoryControlSystems=1.0x1"
+    ],
+    "aStartingCondRules"  : [
+      "DcGasTemp=1",
+      "DcGasPressure=1",
+      "DcGasPressureCan=1",
+      "DcGasPpCO2=1",
+      "DcGasPpN2=1",
+      "DcGasPpNH3=1",
+      "DcGasPpCH4=1",
+      "DcGasPpH2SO4=1",
+      "DcGasPpO2=1"
+    ],
+    "strContainerCT"    : "TIsFitContainerSolidCumbersome",
+    "nContainerHeight"  : 1,
+    "nContainerWidth"  : 1,
+    "mapPoints"      : [
+    ],
+    "mapGUIPropMaps"  : [
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTRCSDistro12LooseDamage,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "ItmRCSDistro02Loose"
+  },
+  {
+    "strName" : "ItmRCSDistro12",
+    "strNameShort" : "Intake",
+    "strNameFriendly" : "RCS Intake Regulator: Kang \"2242\"",
+    "strItemDef" : "ItmRCSDistro12",
+    "strDesc" : "A mass market Reaction Control System (RCS) intake regulator by Kang. Produces thrust by taking cold compressed gas (usually N2) from an installed canister and passing it to onboard thrusters. This unit is unique for its internal gas storage.",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "Inventory"
+    ],
+    "aStartingConds" : [
+      "IsAirtight=1.0x1",
+      "IsReadyPumpAir=1.0x1.0",
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "Is2242=1.0x1",
+      "IsContainer=1.0x1",
+      "IsNonHighlightable=1.0x1",
+      "IsRCSReg=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x1692.00",
+      "StatDismantleProgressMax=1.0x130",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatMass=1.0x28.0",
+      "IsPowered=1.0x1",
+      "StatDamageMax=1.0x5",
+      "IsMechanical=1.0x1",
+      "StatVolume=1.0x0.787",
+      "StatGasMolN2=1.0x13373.0",
+      "StatGasPressureMax=1.0x82800.0",
+      "StatGasTemp=1.0x293.0",
+      "IsGasMolChanged=1.0x1",
+      "IsRTA=1.0x1.0",
+      "IsVesselN2=1.0x1",
+      "IsCategoryControlSystems=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "aStartingCondRules"  : [
+      "DcGasTemp=1",
+      "DcGasPressure=1",
+      "DcGasPressureCan=1",
+      "DcGasPpCO2=1",
+      "DcGasPpN2=1",
+      "DcGasPpNH3=1",
+      "DcGasPpCH4=1",
+      "DcGasPpH2SO4=1",
+      "DcGasPpO2=1"
+    ],
+    "strContainerCT"    : "TIsFitContainerSolidCumbersome",
+    "nContainerHeight"  : 1,
+    "nContainerWidth"  : 1,
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "Power,-8,16",
+      "GasInput01, 0,0"
+      
+    ],
+    "mapGUIPropMaps"  : [
+      "Electrical"
+    ],
+    "aUpdateCommands" : [
+      "GasPump,RCSInternal,null",
+      "Destructable,StatDamage,ACTRCSDistro12Damage,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "strPortraitImg"  : "ItmRCSDistro12",
+    "aTickers" : [ 
+      "Power"
+    ],
+    "jsonPI"            : "RCSDistro12",
+    "strAudioEmitter"   : null
+  },
+  {
+    "strName" : "ItmRCSDistro12Dmg",
+    "strNameShort" : "Intake",
+    "strNameFriendly" : "RCS Intake Regulator: Kang \"2242\" (Damaged)",
+    "strItemDef" : "ItmRCSDistro12Dmg",
+    "strDesc" : "A mass market Reaction Control System (RCS) intake regulator by Kang. Produces thrust by taking cold compressed gas (usually N2) from an installed canister and passing it to onboard thrusters. This unit is unique for its internal gas storage.",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+    ],
+    "aStartingConds" : [
+      "IsAirtight=1.0x1",
+      "IsReadyPumpAir=1.0x1.0",
+      "IsDamaged=1.0x1",
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsNonHighlightable=1.0x1",
+      "IsContainer=1.0x1",
+      "Is2242=1.0x1",
+      "IsOff=1.0x1",
+      "IsRCSReg=1.0x1",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x355.00",
+      "StatDismantleProgressMax=1.0x30",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatRepairProgressMax=1.0x1500",
+      "StatMass=1.0x28.0",
+      "StatDamageMax=1.0x15",
+      "IsMechanical=1.0x1",
+      "StatVolume=1.0x0.787",
+      "StatGasMolN2=1.0x13373.0",
+      "StatGasPressureMax=1.0x82800.0",
+      "StatGasTemp=1.0x293.0",
+      "IsGasMolChanged=1.0x1",
+      "IsRTA=1.0x1.0",
+      "IsVesselN2=1.0x1",
+      "IsCategoryControlSystems=1.0x1"
+    ],
+    "aStartingCondRules"  : [
+      "DcGasTemp=1",
+      "DcGasPressure=1",
+      "DcGasPressureCan=1",
+      "DcGasPpCO2=1",
+      "DcGasPpN2=1",
+      "DcGasPpNH3=1",
+      "DcGasPpCH4=1",
+      "DcGasPpH2SO4=1",
+      "DcGasPpO2=1"
+    ],
+    "strContainerCT"    : "TIsFitContainerSolidCumbersome",
+    "nContainerHeight"  : 1,
+    "nContainerWidth"  : 1,
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+    ],
+    "mapGUIPropMaps"  : [
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTRCSDistro02Destroy,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "ItmRCSDistro12Dmg12",
+    "aTickers" : [ 
+    ],
+    "strAudioEmitter"   : null
+  },
+  {
+    "strName" : "ItmRCSDistro12DmgLoose",
+    "strNameShort" : "Intake",
+    "strItemDef" : "ItmRCSDistro12DmgLoose",
+    "strNameFriendly" : "RCS Intake Regulator: Kang \"2242\" (Loose, Damaged)",
+    "strDesc" : "A mass market Reaction Control System (RCS) intake regulator by Kang. Produces thrust by taking cold compressed gas (usually N2) from an installed canister and passing it to onboard thrusters. This unit is unique for its internal gas storage.",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsAirtight=1.0x1",
+      "IsReadyPumpAir=1.0x1.0",
+      "IsDamaged=1.0x1",
+      "IsHiddenInv=1.0x1",
+      "Is2242=1.0x1",
+      "IsOff=1.0x1",
+      "IsContainer=1.0x1",
+      "IsRCSReg=1.0x1",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsCumbersome=1.0x1.0",
+      "StatBasePrice=1.0x355.00",
+      "StatDismantleProgressMax=1.0x30",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatRepairProgressMax=1.0x1500",
+      "StatVolume=1.0x0.787",
+      "StatMass=1.0x28.0",
+      "StatDamageMax=1.0x15",
+      "IsMechanical=1.0x1",
+      "IsGasMolChanged=1.0x1",
+      "StatGasPressureMax=1.0x82800.0",
+      "StatGasTemp=1.0x293.0",
+      "StatGasMolN2=1.0x13373.0",
+      "IsRTA=1.0x1.0",
+      "IsVesselN2=1.0x1",
+      "IsCategoryControlSystems=1.0x1"
+    ],
+    "aStartingCondRules"  : [
+      "DcGasTemp=1",
+      "DcGasPressure=1",
+      "DcGasPressureCan=1",
+      "DcGasPpCO2=1",
+      "DcGasPpN2=1",
+      "DcGasPpNH3=1",
+      "DcGasPpCH4=1",
+      "DcGasPpH2SO4=1",
+      "DcGasPpO2=1"
+    ],
+    "strContainerCT"    : "TIsFitContainerSolidCumbersome",
+    "nContainerHeight"  : 1,
+    "nContainerWidth"  : 1,
+    "mapPoints"      : [
+    ],
+    "mapGUIPropMaps"  : [
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTRCSDistro12LooseDestroy,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "ItmRCSDistro02Dmg02Loose"
+  }
+]

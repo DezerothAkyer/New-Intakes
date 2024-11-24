@@ -1,0 +1,363 @@
+
+[
+  {
+    "strName" : "ItmRCSDistro11Off",
+    "strNameShort" : "Intake",
+    "strNameFriendly" : "RCS Intake Regulator: Miura \"Asura\" (Off)",
+    "strDesc" : "The Asura, the epitome of intake regulators. Produces thrust by taking cold compressed gas (usually N2) from an internal canister and passing it to onboard thrusters.",
+    "strItemDef" : "ItmRCSDistro11Off",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "Inventory"
+    ],
+    "aStartingConds" : [
+      "IsAirtight=1.0x1",
+      "IsReadyPumpAir=1.0x1.0",
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsHiddenInv=1.0x1",
+      "IsNonHighlightable=1.0x1",
+      "IsAsura=1.0x1",
+      "IsContainer=1.0x1",
+      "IsOff=1.0x1",
+      "IsRCSReg=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x1692.00",
+      "StatDismantleProgressMax=1.0x130",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatMass=1.0x28.0",
+      "StatDamageMax=1.0x5",
+      "IsMechanical=1.0x1",
+      "IsCategoryControlSystems=1.0x1",
+      "StatVolume=1.0x0.787",
+      "StatGasMolN2=1.0x13373.0",
+      "StatGasPressureMax=1.0x82800.0",
+      "StatGasTemp=1.0x293.0",
+      "IsGasMolChanged=1.0x1",
+      "IsRTA=1.0x1.0",
+      "IsVesselN2=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "aStartingCondRules"  : [
+      "DcGasTemp=1",
+      "DcGasPressure=1",
+      "DcGasPressureCan=1",
+      "DcGasPpCO2=1",
+      "DcGasPpN2=1",
+      "DcGasPpNH3=1",
+      "DcGasPpCH4=1",
+      "DcGasPpH2SO4=1",
+      "DcGasPpO2=1"
+    ],
+    "strContainerCT"    : "TIsFitContainerSolidCumbersome",
+    "nContainerHeight"  : 1,
+    "nContainerWidth"  : 1,
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "Power,0,0",
+      "GasInput01,0,0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Electrical"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTRCSDistro11Damage,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "strPortraitImg"  : "ItmRCSDistro11",
+    "aTickers" : [ 
+      "Power"
+    ],
+    "jsonPI"            : "RCSDistro11",
+    "strAudioEmitter"   : null
+  },
+  {
+    "strName" : "ItmRCSDistro11Loose",
+    "strNameShort" : "Intake",
+    "strItemDef" : "ItmRCSDistro11Loose",
+    "strNameFriendly" : "RCS Intake Regulator: Miura \"Asura\" (Loose)",
+    "strDesc" : "The Asura, the epitome of intake regulators. Produces thrust by taking cold compressed gas (usually N2) from an internal canister and passing it to onboard thrusters.",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsCumbersome",
+      "IsAirtight=1.0x1",
+      "IsReadyPumpAir=1.0x1.0",
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsHiddenInv=1.0x1",
+      "IsNonHighlightable=1.0x1",
+      "IsAsura=1.0x1",
+      "IsContainer=1.0x1",
+      "IsOff=1.0x1",
+      "IsRCSReg=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x1692.00",
+      "StatDismantleProgressMax=1.0x130",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatMass=1.0x28.0",
+      "StatDamageMax=1.0x5",
+      "IsMechanical=1.0x1",
+      "IsCategoryControlSystems=1.0x1",
+      "StatVolume=1.0x0.787",
+      "StatGasMolN2=1.0x13373.0",
+      "StatGasPressureMax=1.0x82800.0",
+      "StatGasTemp=1.0x293.0",
+      "IsGasMolChanged=1.0x1",
+      "IsRTA=1.0x1.0",
+      "IsVesselN2=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "aStartingCondRules"  : [
+      "DcGasTemp=1",
+      "DcGasPressure=1",
+      "DcGasPressureCan=1",
+      "DcGasPpCO2=1",
+      "DcGasPpN2=1",
+      "DcGasPpNH3=1",
+      "DcGasPpCH4=1",
+      "DcGasPpH2SO4=1",
+      "DcGasPpO2=1"
+    ],
+    "strContainerCT"    : "TIsFitContainerSolidCumbersome",
+    "nContainerHeight"  : 1,
+    "nContainerWidth"  : 1,
+    "mapGUIPropMaps"  : [
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTRCSDistro11LooseDamage,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "ItmRCSDistro01Loose"
+  },
+  {
+    "strName" : "ItmRCSDistro11",
+    "strNameShort" : "Intake",
+    "strNameFriendly" : "RCS Intake Regulator: Miura \"Asura\"",
+    "strItemDef" : "ItmRCSDistro11",
+    "strDesc" : "The Hydra, The Asura, the epitome of intake regulators. Produces thrust by taking cold compressed gas (usually N2) from an internal canister and passing it to onboard thrusters.",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "Inventory"
+    ],
+    "aStartingConds" : [
+      "IsAirtight=1.0x1",
+      "IsReadyPumpAir=1.0x1.0",
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsHiddenInv=1.0x1",
+      "IsNonHighlightable=1.0x1",
+      "IsAsura=1.0x1",
+      "IsContainer=1.0x1",
+      "IsPowered=1.0x1",
+      "IsRCSReg=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x1692.00",
+      "StatDismantleProgressMax=1.0x130",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatMass=1.0x28.0",
+      "StatDamageMax=1.0x5",
+      "IsMechanical=1.0x1",
+      "IsCategoryControlSystems=1.0x1",
+      "StatVolume=1.0x0.787",
+      "StatGasMolN2=1.0x13373.0",
+      "StatGasPressureMax=1.0x82800.0",
+      "StatGasTemp=1.0x293.0",
+      "IsGasMolChanged=1.0x1",
+      "IsRTA=1.0x1.0",
+      "IsVesselN2=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "aStartingCondRules"  : [
+      "DcGasTemp=1",
+      "DcGasPressure=1",
+      "DcGasPressureCan=1",
+      "DcGasPpCO2=1",
+      "DcGasPpN2=1",
+      "DcGasPpNH3=1",
+      "DcGasPpCH4=1",
+      "DcGasPpH2SO4=1",
+      "DcGasPpO2=1"
+    ],
+    "strContainerCT"    : "TIsFitContainerSolidCumbersome",
+    "nContainerHeight"  : 1,
+    "nContainerWidth"  : 1,
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "Power,0,0",
+      "GasInput01,0,0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Electrical"
+    ],
+    "strPortraitImg"  : "ItmRCSDistro11",
+    "aTickers" : [ 
+      "Power"
+    ],
+    "aUpdateCommands" : [
+      "GasPump,RCSInternal,null",
+      "Destructable,StatDamage,ACTRCSDistro11Damage,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "jsonPI"            : "RCSDistro11",
+    "strAudioEmitter"   : null
+  },
+  {
+    "strName" : "ItmRCSDistro11Dmg",
+    "strNameShort" : "Intake",
+    "strNameFriendly" : "RCS Intake Regulator: Miura \"Asura\" (Damaged)",
+    "strItemDef" : "ItmRCSDistro11Dmg",
+    "strDesc" : "The Asura, the epitome of intake regulators. Produces thrust by taking cold compressed gas (usually N2) from an internal canister and passing it to onboard thrusters.",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+    ],
+    "aStartingConds" : [
+      "IsDamaged=1.0x1",
+      "IsAirtight=1.0x1",
+      "IsReadyPumpAir=1.0x1.0",
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsHiddenInv=1.0x1",
+      "IsNonHighlightable=1.0x1",
+      "IsAsura=1.0x1",
+      "IsContainer=1.0x1",
+      "IsOff=1.0x1",
+      "IsRCSReg=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x1692.00",
+      "StatDismantleProgressMax=1.0x130",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatMass=1.0x28.0",
+      "StatDamageMax=1.0x5",
+      "IsMechanical=1.0x1",
+      "IsCategoryControlSystems=1.0x1",
+      "StatVolume=1.0x0.787",
+      "StatGasMolN2=1.0x13373.0",
+      "StatGasPressureMax=1.0x82800.0",
+      "StatGasTemp=1.0x293.0",
+      "IsGasMolChanged=1.0x1",
+      "IsRTA=1.0x1.0",
+      "IsVesselN2=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "aStartingCondRules"  : [
+      "DcGasTemp=1",
+      "DcGasPressure=1",
+      "DcGasPressureCan=1",
+      "DcGasPpCO2=1",
+      "DcGasPpN2=1",
+      "DcGasPpNH3=1",
+      "DcGasPpCH4=1",
+      "DcGasPpH2SO4=1",
+      "DcGasPpO2=1"
+    ],
+    "strContainerCT"    : "TIsFitContainerSolidCumbersome",
+    "nContainerHeight"  : 1,
+    "nContainerWidth"  : 1,
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+    ],
+    "mapGUIPropMaps"  : [
+    ],
+    "strPortraitImg"  : "ItmRCSDistro11Dmg02",
+    "aTickers" : [ 
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTRCSDistro11Destroy,StatDamageMax,1.0"
+    ],
+    "strAudioEmitter"   : null
+  },
+  {
+    "strName" : "ItmRCSDistro11DmgLoose",
+    "strNameShort" : "Intake",
+    "strItemDef" : "ItmRCSDistro11DmgLoose",
+    "strNameFriendly" : "RCS Intake Regulator: Miura \"Asura\" (Loose, Damaged)",
+    "strDesc" : "The Asura, the epitome of intake regulators. Produces thrust by taking cold compressed gas (usually N2) from an internal canister and passing it to onboard thrusters.",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsCumbersome",
+      "IsDamaged=1.0x1",
+      "IsAirtight=1.0x1",
+      "IsReadyPumpAir=1.0x1.0",
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsHiddenInv=1.0x1",
+      "IsNonHighlightable=1.0x1",
+      "IsAsura=1.0x1",
+      "IsContainer=1.0x1",
+      "IsOff=1.0x1",
+      "IsRCSReg=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x1692.00",
+      "StatDismantleProgressMax=1.0x130",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatMass=1.0x28.0",
+      "StatDamageMax=1.0x5",
+      "IsMechanical=1.0x1",
+      "IsCategoryControlSystems=1.0x1",
+      "StatVolume=1.0x0.787",
+      "StatGasMolN2=1.0x13373.0",
+      "StatGasPressureMax=1.0x82800.0",
+      "StatGasTemp=1.0x293.0",
+      "IsGasMolChanged=1.0x1",
+      "IsRTA=1.0x1.0",
+      "IsVesselN2=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "aStartingCondRules"  : [
+      "DcGasTemp=1",
+      "DcGasPressure=1",
+      "DcGasPressureCan=1",
+      "DcGasPpCO2=1",
+      "DcGasPpN2=1",
+      "DcGasPpNH3=1",
+      "DcGasPpCH4=1",
+      "DcGasPpH2SO4=1",
+      "DcGasPpO2=1"
+    ],
+    "strContainerCT"    : "TIsFitContainerSolidCumbersome",
+    "nContainerHeight"  : 1,
+    "nContainerWidth"  : 1,
+    "mapPoints"      : [
+    ],
+    "mapGUIPropMaps"  : [
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTRCSDistro11LooseDestroy,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "ItmRCSDistro01Dmg02Loose"
+  }
+]

@@ -1,11 +1,11 @@
 
 [
   {
-    "strName" : "ItmRCSDistro13Off",
+    "strName" : "ItmRCSDistro08Off",
     "strNameShort" : "Intake",
-    "strNameFriendly" : "RCS Intake Regulator: Akyer \"InHouse\" (Off)",
-    "strDesc" : "A mass market Reaction Control System (RCS) intake regulator by A'kyer Aeronautics.  A full pillar-style intake system, this intake directly pipes propellent into the floor and to the RCS clusters, cutting down bulky machinery. The incredibly dense nature of this intake and the additional piping required results in further weight increases.",
-    "strItemDef" : "ItmRCSDistro13Off",
+    "strNameFriendly" : "RCS Intake Regulator: Van Buren \"Chancellor\" (Off)",
+    "strDesc" : "An in-house Reaction Control System(RCS) intake regulator by Van Buren. Designed for use in Van Buren vessels exclusively, this unit boasts slightly lower performance specs compared to the Hydra, but at a lower weight.",
+    "strItemDef" : "ItmRCSDistro08Off",
     "strType"    : "Item",
     "strLoot"    : null,
     "aInteractions" : [
@@ -14,7 +14,7 @@
       "IsHiddenInv=1.0x1",
       "IsInstalled=1.0x1",
       "IsNonHighlightable=1.0x1",
-      "IsAkyer=1.0x1",
+      "IsVanBuren=1.0x1",
       "IsOff=1.0x1",
       "IsRCSReg=1.0x1",
       "IsSalvageValueHigh=1.0x1.0",
@@ -33,36 +33,38 @@
     "mapCondTolerance"       : [
     ],
     "mapPoints"      : [
-      "Power,0,0",
-      "GasInput01,0,0"
+      "Power,0,8",
+      "GasInput01,0,-16",
+      "GasInput02,16,0",
+      "GasInput03,-16,0"
     ],
     "mapGUIPropMaps"  : [
       "Electrical"
     ],
     "aUpdateCommands" : [
-      "Destructable,StatDamage,ACTRCSDistro13Damage,StatDamageMax,1.0",
+      "Destructable,StatDamage,ACTRCSDistro08Damage,StatDamageMax,1.0",
       "Electrical,Electrical"
     ],
-    "strPortraitImg"  : "ItmRCSDistro13",
+    "strPortraitImg"  : "ItmRCSDistro08",
     "aTickers" : [ 
       "Power"
     ],
-    "jsonPI"            : "RCSDistro13",
+    "jsonPI"            : "RCSDistro08",
     "strAudioEmitter"   : null
   },
   {
-    "strName" : "ItmRCSDistro13Loose",
+    "strName" : "ItmRCSDistro08Loose",
     "strNameShort" : "Intake",
-    "strItemDef" : "ItmRCSDistro13Loose",
-    "strNameFriendly" : "RCS Intake Regulator: Akyer \"InHouse\" (Loose)",
-    "strDesc" : "A mass market Reaction Control System (RCS) intake regulator by A'kyer Aeronautics.  A full pillar-style intake system, this intake directly pipes propellent into the floor and to the RCS clusters, cutting down bulky machinery. The incredibly dense nature of this intake and the additional piping required results in further weight increases.",
+    "strItemDef" : "ItmRCSDistro08Loose",
+    "strNameFriendly" : "RCS Intake Regulator: Van Buren \"Chancellor\" (Loose)",
+    "strDesc" : "An in-house Reaction Control System(RCS) intake regulator by Van Buren. Designed for use in Van Buren vessels exclusively, this unit boasts slightly lower performance specs compared to the Hydra, but at a lower weight.",
     "strType"    : "Item",
     "aInteractions" : [
       "DropItem",
       "PickupItem"
     ],
     "aStartingConds" : [
-      "IsAkyer=1.0x1",
+      "IsVanBuren=1.0x1",
       "IsOff=1.0x1",
       "IsRCSReg=1.0x1",
       "IsSalvageValueHigh=1.0x1.0",
@@ -79,7 +81,9 @@
       "IsCategoryControlSystems=1.0x1"
     ],
     "mapPoints"      : [
-      "GasInput01,0,0"
+      "GasInput01,0,-16",
+      "GasInput02,16,0",
+      "GasInput03,-16,0"
     ],
     "mapGUIPropMaps"  : [
     ],
@@ -87,16 +91,16 @@
       "drag", "Blank"
     ],
     "aUpdateCommands" : [
-      "Destructable,StatDamage,ACTRCSDistro13LooseDamage,StatDamageMax,1.0"
+      "Destructable,StatDamage,ACTRCSDistro08LooseDamage,StatDamageMax,1.0"
     ],
     "strPortraitImg"  : "ItmRCSDistro01Loose"
   },
   {
-    "strName" : "ItmRCSDistro13",
+    "strName" : "ItmRCSDistro08",
     "strNameShort" : "Intake",
-    "strNameFriendly" : "RCS Intake Regulator: Akyer \"InHouse\"",
-    "strItemDef" : "ItmRCSDistro13",
-    "strDesc" : "The Hydra, A mass market Reaction Control System (RCS) intake regulator by A'kyer Aeronautics.  A full pillar-style intake system, this intake directly pipes propellent into the floor and to the RCS clusters, cutting down bulky machinery. The incredibly dense nature of this intake and the additional piping required results in further weight increases.",
+    "strNameFriendly" : "RCS Intake Regulator: Van Buren \"Chancellor\"",
+    "strItemDef" : "ItmRCSDistro08",
+    "strDesc" : "The Hydra, An in-house Reaction Control System(RCS) intake regulator by Van Buren. Designed for use in Van Buren vessels exclusively, this unit boasts slightly lower performance specs compared to the Hydra, but at a lower weight.",
     "strType"    : "Item",
     "strLoot"    : null,
     "aInteractions" : [
@@ -104,7 +108,7 @@
     "aStartingConds" : [
       "IsHiddenInv=1.0x1",
       "IsInstalled=1.0x1",
-      "IsAkyer=1.0x1",
+      "IsVanBuren=1.0x1",
       "IsNonHighlightable=1.0x1",
       "IsRCSReg=1.0x1",
       "IsSalvageValueHigh=1.0x1.0",
@@ -124,29 +128,31 @@
     "mapCondTolerance"       : [
     ],
     "mapPoints"      : [
-      "Power,0,0",
-      "GasInput01,0,0"
+      "Power,0,8",
+      "GasInput01,0,-16",
+      "GasInput02,16,0",
+      "GasInput03,-16,0"
     ],
     "mapGUIPropMaps"  : [
       "Electrical"
     ],
-    "strPortraitImg"  : "ItmRCSDistro13",
+    "strPortraitImg"  : "ItmRCSDistro08",
     "aTickers" : [ 
       "Power"
     ],
     "aUpdateCommands" : [
-      "Destructable,StatDamage,ACTRCSDistro13Damage,StatDamageMax,1.0",
+      "Destructable,StatDamage,ACTRCSDistro08Damage,StatDamageMax,1.0",
       "Electrical,Electrical"
     ],
-    "jsonPI"            : "RCSDistro13",
+    "jsonPI"            : "RCSDistro08",
     "strAudioEmitter"   : null
   },
   {
-    "strName" : "ItmRCSDistro13Dmg",
+    "strName" : "ItmRCSDistro08Dmg",
     "strNameShort" : "Intake",
-    "strNameFriendly" : "RCS Intake Regulator: Akyer \"InHouse\" (Damaged)",
-    "strItemDef" : "ItmRCSDistro13Dmg",
-    "strDesc" : "A mass market Reaction Control System (RCS) intake regulator by A'kyer Aeronautics.  A full pillar-style intake system, this intake directly pipes propellent into the floor and to the RCS clusters, cutting down bulky machinery. The incredibly dense nature of this intake and the additional piping required results in further weight increases.",
+    "strNameFriendly" : "RCS Intake Regulator: Van Buren \"Chancellor\" (Damaged)",
+    "strItemDef" : "ItmRCSDistro08Dmg",
+    "strDesc" : "An in-house Reaction Control System(RCS) intake regulator by Van Buren. Designed for use in Van Buren vessels exclusively, this unit boasts slightly lower performance specs compared to the Hydra, but at a lower weight.",
     "strType"    : "Item",
     "strLoot"    : null,
     "aInteractions" : [
@@ -156,7 +162,7 @@
       "IsHiddenInv=1.0x1",
       "IsInstalled=1.0x1",
       "IsNonHighlightable=1.0x1",
-      "IsAkyer=1.0x1",
+      "IsVanBuren=1.0x1",
       "IsOff=1.0x1",
       "IsRCSReg=1.0x1",
       "IsSalvageValueHigh=1.0x1.0",
@@ -178,20 +184,20 @@
     ],
     "mapGUIPropMaps"  : [
     ],
-    "strPortraitImg"  : "ItmRCSDistro13Dmg13",
+    "strPortraitImg"  : "ItmRCSDistro08Dmg02",
     "aTickers" : [ 
     ],
     "aUpdateCommands" : [
-      "Destructable,StatDamage,ACTRCSDistro13Destroy,StatDamageMax,1.0"
+      "Destructable,StatDamage,ACTRCSDistro08Destroy,StatDamageMax,1.0"
     ],
     "strAudioEmitter"   : null
   },
   {
-    "strName" : "ItmRCSDistro13DmgLoose",
+    "strName" : "ItmRCSDistro08DmgLoose",
     "strNameShort" : "Intake",
-    "strItemDef" : "ItmRCSDistro13DmgLoose",
-    "strNameFriendly" : "RCS Intake Regulator: Akyer \"InHouse\" (Loose, Damaged)",
-    "strDesc" : "A mass market Reaction Control System (RCS) intake regulator by A'kyer Aeronautics.  A full pillar-style intake system, this intake directly pipes propellent into the floor and to the RCS clusters, cutting down bulky machinery. The incredibly dense nature of this intake and the additional piping required results in further weight increases.",
+    "strItemDef" : "ItmRCSDistro08DmgLoose",
+    "strNameFriendly" : "RCS Intake Regulator: Van Buren \"Chancellor\" (Loose, Damaged)",
+    "strDesc" : "An in-house Reaction Control System(RCS) intake regulator by Van Buren. Designed for use in Van Buren vessels exclusively, this unit boasts slightly lower performance specs compared to the Hydra, but at a lower weight.",
     "strType"    : "Item",
     "aInteractions" : [
       "DropItem",
@@ -199,7 +205,7 @@
     ],
     "aStartingConds" : [
       "IsDamaged=1.0x1",
-      "IsAkyer=1.0x1",
+      "IsVanBuren=1.0x1",
       "IsOff=1.0x1",
       "IsRCSReg=1.0x1",
       "IsSalvageValueHigh=1.0x1.0",
@@ -224,7 +230,7 @@
       "drag", "Blank"
     ],
     "aUpdateCommands" : [
-      "Destructable,StatDamage,ACTRCSDistro13LooseDestroy,StatDamageMax,1.0"
+      "Destructable,StatDamage,ACTRCSDistro08LooseDestroy,StatDamageMax,1.0"
     ],
     "strPortraitImg"  : "ItmRCSDistro01Dmg02Loose"
   }

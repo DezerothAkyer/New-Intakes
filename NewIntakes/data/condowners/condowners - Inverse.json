@@ -35,7 +35,7 @@
     ],
     "mapPoints"      : [
       "Power,-8,-8",
-      "GasInput01,0,8"
+      "GasInput01,-8,16"
     ],
     "mapGUIPropMaps"  : [
       "Electrical"
@@ -81,7 +81,7 @@
       "IsCategoryControlSystems=1.0x1"
     ],
     "mapPoints"      : [
-      "GasInput01,0,-16"
+      "GasInput01,-8,-16"
     ],
     "mapGUIPropMaps"  : [
     ],
@@ -96,7 +96,7 @@
   {
     "strName" : "ItmRCSDistro05",
     "strNameShort" : "Intake",
-    "strNameFriendly" : "RCS Intake Regulator: Kang \"Inverse 2022\"",
+    "strNameFriendly" : "RCS Intake Regulator: Pathfinder \"Branch\"",
     "strItemDef" : "ItmRCSDistro05",
     "strDesc" : "A mass market Reaction Control System (RCS) intake regulator by Kang. Produces thrust by taking cold compressed gas (usually N2) from an installed canister and passing it to onboard thrusters. This is their inversed model.",
     "strType"    : "Item",
@@ -128,7 +128,7 @@
     ],
     "mapPoints"      : [
       "Power,-8,-8",
-      "GasInput01,0,8"
+      "GasInput01,-8, 16"
     ],
     "mapGUIPropMaps"  : [
       "Electrical"
