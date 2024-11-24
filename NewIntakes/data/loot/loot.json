@@ -26,6 +26,24 @@
       
       "ItmRCSDistro03DmgLoose=1.0x1-10",
 
+      "ItmRCSDistro05DmgLoose=1.0x1-10",
+
+      "ItmRCSDistro06DmgLoose=1.0x1-10",
+
+      "ItmRCSDistro07DmgLoose=1.0x1-10",
+
+      "ItmRCSDistro08DmgLoose=1.0x1-10",
+
+      "ItmRCSDistro09DmgLoose=1.0x1-10",
+
+      "ItmRCSDistro10DmgLoose=1.0x1-10",
+
+      "ItmRCSDistro11DmgLoose=1.0x1-10",
+
+      "ItmRCSDistro12DmgLoose=1.0x1-10",
+
+      "ItmRCSDistro13DmgLoose=1.0x1-10",
+
       "ItmRCSDistro04DmgLoose=1.0x1-10"
     ],
     "strType" : "item"

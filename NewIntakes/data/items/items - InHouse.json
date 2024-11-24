@@ -51,7 +51,7 @@
     ]
   },
   {
-    "strName" : "ItmRCSDistro01Loose",
+    "strName" : "ItmRCSDistro13Loose",
     "strImg"  : "ItmRCSDistro01Loose",
     "strImgNorm"  : "ItmRCSDistro01Loosen",
     "strImgDamaged" : "ItmRCSDistro01Dmg02Loose",
@@ -102,7 +102,7 @@
     ]
   },
   {
-    "strName" : "ItmRCSDistro01DmgLoose",
+    "strName" : "ItmRCSDistro13DmgLoose",
     "strImg"  : "ItmRCSDistro01Dmg02Loose",
     "strImgNorm"  : "ItmRCSDistro01Dmg02Loosen",
     "strImgDamaged" : "",
