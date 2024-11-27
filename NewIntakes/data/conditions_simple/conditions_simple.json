@@ -11,6 +11,10 @@
       "IsAkyer","Akyer","[us] is an Akyer brand item.","2","2","Neutral",
       "IsInverse","Inverse","[us] is an inversed Kang RCS.","2","2","Neutral",
       "IsVarmint","RCS Varmint Design","[us] is a Varmint varient RCS.","2","2","Neutral",
+      "IsInLine","RCS Inline Design","[us] is an Inline varient RCS.","2","2","Neutral",
+      "IsVarmint","RCS Varmint Design","[us] is a Varmint varient RCS.","2","2","Neutral",
+      "IsBranch","RCS Branch Design","[us] is a T varient RCS.","2","2","Neutral"
+      
     ]
   }
 ]
