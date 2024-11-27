@@ -2,7 +2,15 @@
   {
     "strName" : "Simple Conditions",
     "aValues" : [
-      "IsRCSSReg","RCS Staight-Line Regulator","[us] is an RCS intake Straight-Line regulator.","2","2","Neutral"
+      "Is2242","Internal Kang Design","[us] is an RCS internal intake of Kang design.","2","2","Neutral",
+      "IsAsura","Internal Miura Design","[us] is an RCS internal intake of Miura design.","2","2","Neutral",
+      "Temp5","Unique RCS Intake","[us] is an RCS intake of unique design.","2","2","Neutral",
+      "IsVanBuren","Vanburen","[us] is a Van Buren brand.","2","2","Neutral",
+      "IsRakow","Rakow","[us] is a Rakow brand item.","2","2","Neutral",
+      "IsWeber","Weber","[us] is a Weber brand item.","2","2","Neutral",
+      "IsAkyer","Akyer","[us] is an Akyer brand item.","2","2","Neutral",
+      "IsInverse","Inverse","[us] is an inversed Kang RCS.","2","2","Neutral",
+      "IsVarmint","RCS Varmint Design","[us] is a Varmint varient RCS.","2","2","Neutral",
     ]
   }
 ]
