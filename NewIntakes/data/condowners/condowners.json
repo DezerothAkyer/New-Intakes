@@ -21,7 +21,7 @@
       "IsSalvageValueHigh=1.0x1.0",
       "IsShipSpecialItem=1.0x1.0",
       "IsSolid=1.0x1.0",
-      "StatBasePrice=1.0x1692.00",
+      "StatBasePrice=1.0x2256.00",
       "StatDismantleProgressMax=1.0x130",
       "StatInstallProgressMax=1.0x500",
       "StatUninstallProgressMax=1.0x500",
@@ -72,7 +72,7 @@
       "IsShipSpecialItem=1.0x1.0",
       "IsSolid=1.0x1.0",
       "IsCumbersome=1.0x1.0",
-      "StatBasePrice=1.0x1692.00",
+      "StatBasePrice=1.0x2256.00",
       "StatDismantleProgressMax=1.0x130",
       "StatInstallProgressMax=1.0x500",
       "StatUninstallProgressMax=1.0x500",
@@ -115,7 +115,7 @@
       "IsSalvageValueHigh=1.0x1.0",
       "IsShipSpecialItem=1.0x1.0",
       "IsSolid=1.0x1.0",
-      "StatBasePrice=1.0x1692.00",
+      "StatBasePrice=1.0x2256.00",
       "StatDismantleProgressMax=1.0x130",
       "StatInstallProgressMax=1.0x500",
       "StatUninstallProgressMax=1.0x500",
@@ -168,7 +168,7 @@
       "IsRCSReg=1.0x1",
       "IsShipSpecialItem=1.0x1.0",
       "IsSolid=1.0x1.0",
-      "StatBasePrice=1.0x355.00",
+      "StatBasePrice=1.0x451.00",
       "StatDismantleProgressMax=1.0x30",
       "StatInstallProgressMax=1.0x500",
       "StatUninstallProgressMax=1.0x500",
@@ -212,7 +212,7 @@
       "IsShipSpecialItem=1.0x1.0",
       "IsSolid=1.0x1.0",
       "IsCumbersome=1.0x1.0",
-      "StatBasePrice=1.0x355.00",
+      "StatBasePrice=1.0x451.00",
       "StatDismantleProgressMax=1.0x30",
       "StatInstallProgressMax=1.0x500",
       "StatUninstallProgressMax=1.0x500",
@@ -510,5 +510,2345 @@
     "strPortraitImg"  : "ItmKioskSupplies04",
     "jsonPI"            : null,
     "strAudioEmitter": "ITMKiosSupplies02Sound"
+  },
+  {
+    "strName" : "ItmRCSDistro11Off",
+    "strNameShort" : "Intake",
+    "strNameFriendly" : "RCS Intake Regulator: Miura \"Asura\" (Off)",
+    "strDesc" : "The Asura, the epitome of intake regulators. Produces thrust by taking cold compressed gas (usually N2) from an internal canister and passing it to onboard thrusters.",
+    "strItemDef" : "ItmRCSDistro11Off",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "Inventory"
+    ],
+    "aStartingConds" : [
+      "IsAirtight=1.0x1",
+      "IsReadyPumpAir=1.0x1.0",
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsHiddenInv=1.0x1",
+      "IsNonHighlightable=1.0x1",
+      "IsAsura=1.0x1",
+      "IsContainer=1.0x1",
+      "IsOff=1.0x1",
+      "IsRCSReg=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x54826.00",
+      "StatDismantleProgressMax=1.0x130",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatMass=1.0x28.0",
+      "StatDamageMax=1.0x5",
+      "IsMechanical=1.0x1",
+      "IsCategoryControlSystems=1.0x1",
+      "StatVolume=1.0x0.787",
+      "StatGasMolN2=1.0x13373.0",
+      "StatGasPressureMax=1.0x331200.0",
+      "StatGasTemp=1.0x293.0",
+      "IsGasMolChanged=1.0x1",
+      "IsRTA=1.0x1.0",
+      "IsVesselN2=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "aStartingCondRules"  : [
+      "DcGasTemp=1",
+      "DcGasPressure=1",
+      "DcGasPressureCan=1",
+      "DcGasPpCO2=1",
+      "DcGasPpN2=1",
+      "DcGasPpNH3=1",
+      "DcGasPpCH4=1",
+      "DcGasPpH2SO4=1",
+      "DcGasPpO2=1"
+    ],
+    "strContainerCT"    : "TIsFitContainerSolidCumbersome",
+    "nContainerHeight"  : 1,
+    "nContainerWidth"  : 1,
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "Power,0,0",
+      "GasInput01,0,0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Electrical"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTRCSDistro11Damage,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "strPortraitImg"  : "ItmRCSDistro11",
+    "aTickers" : [ 
+      "Power"
+    ],
+    "jsonPI"            : "RCSDistro11",
+    "strAudioEmitter"   : null
+  },
+  {
+    "strName" : "ItmRCSDistro11Loose",
+    "strNameShort" : "Intake",
+    "strItemDef" : "ItmRCSDistro11Loose",
+    "strNameFriendly" : "RCS Intake Regulator: Miura \"Asura\" (Loose)",
+    "strDesc" : "The Asura, the epitome of intake regulators. Produces thrust by taking cold compressed gas (usually N2) from an internal canister and passing it to onboard thrusters.",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsCumbersome",
+      "IsAirtight=1.0x1",
+      "IsReadyPumpAir=1.0x1.0",
+      "IsHiddenInv=1.0x1",
+      "IsHiddenInv=1.0x1",
+      "IsNonHighlightable=1.0x1",
+      "IsAsura=1.0x1",
+      "IsContainer=1.0x1",
+      "IsOff=1.0x1",
+      "IsRCSReg=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x54826.00",
+      "StatDismantleProgressMax=1.0x130",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatMass=1.0x28.0",
+      "StatDamageMax=1.0x5",
+      "IsMechanical=1.0x1",
+      "IsCategoryControlSystems=1.0x1",
+      "StatVolume=1.0x0.787",
+      "StatGasMolN2=1.0x13373.0",
+      "StatGasPressureMax=1.0x82800.0",
+      "StatGasTemp=1.0x293.0",
+      "IsGasMolChanged=1.0x1",
+      "IsRTA=1.0x1.0",
+      "IsVesselN2=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "aStartingCondRules"  : [
+      "DcGasTemp=1",
+      "DcGasPressure=1",
+      "DcGasPressureCan=1",
+      "DcGasPpCO2=1",
+      "DcGasPpN2=1",
+      "DcGasPpNH3=1",
+      "DcGasPpCH4=1",
+      "DcGasPpH2SO4=1",
+      "DcGasPpO2=1"
+    ],
+    "strContainerCT"    : "TIsFitContainerSolidCumbersome",
+    "nContainerHeight"  : 1,
+    "nContainerWidth"  : 1,
+    "mapGUIPropMaps"  : [
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTRCSDistro11LooseDamage,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "ItmRCSDistro01Loose"
+  },
+  {
+    "strName" : "ItmRCSDistro11",
+    "strNameShort" : "Intake",
+    "strNameFriendly" : "RCS Intake Regulator: Miura \"Asura\"",
+    "strItemDef" : "ItmRCSDistro11",
+    "strDesc" : "The Hydra, The Asura, the epitome of intake regulators. Produces thrust by taking cold compressed gas (usually N2) from an internal canister and passing it to onboard thrusters.",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "Inventory"
+    ],
+    "aStartingConds" : [
+      "IsAirtight=1.0x1",
+      "IsReadyPumpAir=1.0x1.0",
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsHiddenInv=1.0x1",
+      "IsNonHighlightable=1.0x1",
+      "IsAsura=1.0x1",
+      "IsContainer=1.0x1",
+      "IsPowered=1.0x1",
+      "IsRCSReg=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x54826.00",
+      "StatDismantleProgressMax=1.0x130",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatMass=1.0x28.0",
+      "StatDamageMax=1.0x5",
+      "IsMechanical=1.0x1",
+      "IsCategoryControlSystems=1.0x1",
+      "StatVolume=1.0x0.787",
+      "StatGasMolN2=1.0x13373.0",
+      "StatGasPressureMax=1.0x82800.0",
+      "StatGasTemp=1.0x293.0",
+      "IsGasMolChanged=1.0x1",
+      "IsRTA=1.0x1.0",
+      "IsVesselN2=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "aStartingCondRules"  : [
+      "DcGasTemp=1",
+      "DcGasPressure=1",
+      "DcGasPressureCan=1",
+      "DcGasPpCO2=1",
+      "DcGasPpN2=1",
+      "DcGasPpNH3=1",
+      "DcGasPpCH4=1",
+      "DcGasPpH2SO4=1",
+      "DcGasPpO2=1"
+    ],
+    "strContainerCT"    : "TIsFitContainerSolidCumbersome",
+    "nContainerHeight"  : 1,
+    "nContainerWidth"  : 1,
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "Power,0,0",
+      "GasInput01,0,0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Electrical"
+    ],
+    "strPortraitImg"  : "ItmRCSDistro11",
+    "aTickers" : [ 
+      "Power"
+    ],
+    "aUpdateCommands" : [
+      "GasPump,RCSInternal,null",
+      "Destructable,StatDamage,ACTRCSDistro11Damage,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "jsonPI"            : "RCSDistro11",
+    "strAudioEmitter"   : null
+  },
+  {
+    "strName" : "ItmRCSDistro11Dmg",
+    "strNameShort" : "Intake",
+    "strNameFriendly" : "RCS Intake Regulator: Miura \"Asura\" (Damaged)",
+    "strItemDef" : "ItmRCSDistro11Dmg",
+    "strDesc" : "The Asura, the epitome of intake regulators. Produces thrust by taking cold compressed gas (usually N2) from an internal canister and passing it to onboard thrusters.",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+    ],
+    "aStartingConds" : [
+      "IsDamaged=1.0x1",
+      "IsAirtight=1.0x1",
+      "IsReadyPumpAir=1.0x1.0",
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsHiddenInv=1.0x1",
+      "IsNonHighlightable=1.0x1",
+      "IsAsura=1.0x1",
+      "IsContainer=1.0x1",
+      "IsOff=1.0x1",
+      "IsRCSReg=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x10965.00",
+      "StatDismantleProgressMax=1.0x130",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatMass=1.0x28.0",
+      "StatDamageMax=1.0x5",
+      "IsMechanical=1.0x1",
+      "IsCategoryControlSystems=1.0x1",
+      "StatVolume=1.0x0.787",
+      "StatGasMolN2=1.0x13373.0",
+      "StatGasPressureMax=1.0x82800.0",
+      "StatGasTemp=1.0x293.0",
+      "IsGasMolChanged=1.0x1",
+      "IsRTA=1.0x1.0",
+      "IsVesselN2=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "aStartingCondRules"  : [
+      "DcGasTemp=1",
+      "DcGasPressure=1",
+      "DcGasPressureCan=1",
+      "DcGasPpCO2=1",
+      "DcGasPpN2=1",
+      "DcGasPpNH3=1",
+      "DcGasPpCH4=1",
+      "DcGasPpH2SO4=1",
+      "DcGasPpO2=1"
+    ],
+    "strContainerCT"    : "TIsFitContainerSolidCumbersome",
+    "nContainerHeight"  : 1,
+    "nContainerWidth"  : 1,
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+    ],
+    "mapGUIPropMaps"  : [
+    ],
+    "strPortraitImg"  : "ItmRCSDistro11Dmg02",
+    "aTickers" : [ 
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTRCSDistro11Destroy,StatDamageMax,1.0"
+    ],
+    "strAudioEmitter"   : null
+  },
+  {
+    "strName" : "ItmRCSDistro11DmgLoose",
+    "strNameShort" : "Intake",
+    "strItemDef" : "ItmRCSDistro11DmgLoose",
+    "strNameFriendly" : "RCS Intake Regulator: Miura \"Asura\" (Loose, Damaged)",
+    "strDesc" : "The Asura, the epitome of intake regulators. Produces thrust by taking cold compressed gas (usually N2) from an internal canister and passing it to onboard thrusters.",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsCumbersome",
+      "IsDamaged=1.0x1",
+      "IsAirtight=1.0x1",
+      "IsReadyPumpAir=1.0x1.0",
+      "IsHiddenInv=1.0x1",
+      "IsHiddenInv=1.0x1",
+      "IsNonHighlightable=1.0x1",
+      "IsAsura=1.0x1",
+      "IsContainer=1.0x1",
+      "IsOff=1.0x1",
+      "IsRCSReg=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x10965.00",
+      "StatDismantleProgressMax=1.0x130",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatMass=1.0x28.0",
+      "StatDamageMax=1.0x5",
+      "IsMechanical=1.0x1",
+      "IsCategoryControlSystems=1.0x1",
+      "StatVolume=1.0x0.787",
+      "StatGasMolN2=1.0x13373.0",
+      "StatGasPressureMax=1.0x82800.0",
+      "StatGasTemp=1.0x293.0",
+      "IsGasMolChanged=1.0x1",
+      "IsRTA=1.0x1.0",
+      "IsVesselN2=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "aStartingCondRules"  : [
+      "DcGasTemp=1",
+      "DcGasPressure=1",
+      "DcGasPressureCan=1",
+      "DcGasPpCO2=1",
+      "DcGasPpN2=1",
+      "DcGasPpNH3=1",
+      "DcGasPpCH4=1",
+      "DcGasPpH2SO4=1",
+      "DcGasPpO2=1"
+    ],
+    "strContainerCT"    : "TIsFitContainerSolidCumbersome",
+    "nContainerHeight"  : 1,
+    "nContainerWidth"  : 1,
+    "mapPoints"      : [
+    ],
+    "mapGUIPropMaps"  : [
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTRCSDistro11LooseDestroy,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "ItmRCSDistro01Dmg02Loose"
+  },
+  {
+    "strName" : "ItmRCSDistro12Off",
+    "strNameShort" : "Intake",
+    "strNameFriendly" : "RCS Intake Regulator: Kang \"2242\" (Off)",
+    "strItemDef" : "ItmRCSDistro12Off",
+    "strDesc" : "A mass market Reaction Control System (RCS) intake regulator by Kang. Produces thrust by taking cold compressed gas (usually N2) from an installed canister and passing it to onboard thrusters. This unit is unique for its internal gas storage.",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "Inventory"
+    ],
+    "aStartingConds" : [
+      "IsAirtight=1.0x1",
+      "IsReadyPumpAir=1.0x1.0",
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsHiddenInv=1.0x1",
+      "IsNonHighlightable=1.0x1",
+      "Is2242=1.0x1",
+      "IsContainer=1.0x1",
+      "IsOff=1.0x1",
+      "IsRCSReg=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x3384.00",
+      "StatDismantleProgressMax=1.0x130",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatMass=1.0x28.0",
+      "StatDamageMax=1.0x5",
+      "IsMechanical=1.0x1",
+      "IsCategoryControlSystems=1.0x1",
+      "StatVolume=1.0x0.787",
+      "StatGasMolN2=1.0x13373.0",
+      "StatGasPressureMax=1.0x41400.0",
+      "StatGasTemp=1.0x293.0",
+      "IsGasMolChanged=1.0x1",
+      "IsRTA=1.0x1.0",
+      "IsVesselN2=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "aStartingCondRules"  : [
+      "DcGasTemp=1",
+      "DcGasPressure=1",
+      "DcGasPressureCan=1",
+      "DcGasPpCO2=1",
+      "DcGasPpN2=1",
+      "DcGasPpNH3=1",
+      "DcGasPpCH4=1",
+      "DcGasPpH2SO4=1",
+      "DcGasPpO2=1"
+    ],
+    "strContainerCT"    : "TIsFitContainerSolidCumbersome",
+    "nContainerHeight"  : 1,
+    "nContainerWidth"  : 1,
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "Power,-8,16",
+      "GasInput01, 0,0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Electrical"
+    ],
+    "strPortraitImg"  : "ItmRCSDistro12",
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTRCSDistro12Damage,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "aTickers" : [ 
+      "Power"
+    ],
+    "jsonPI"            : "RCSDistro12",
+    "strAudioEmitter"   : null
+  },
+  {
+    "strName" : "ItmRCSDistro12Loose",
+    "strNameShort" : "Intake",
+    "strItemDef" : "ItmRCSDistro12Loose",
+    "strNameFriendly" : "RCS Intake Regulator: Kang \"2242\" (Loose)",
+    "strDesc" : "A mass market Reaction Control System (RCS) intake regulator by Kang. Produces thrust by taking cold compressed gas (usually N2) from an installed canister and passing it to onboard thrusters. This unit is unique for its internal gas storage.",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem",
+      "Install"
+    ],
+    "aStartingConds" : [
+      "IsAirtight=1.0x1",
+      "IsHiddenInv=1.0x1",
+      "Is2242=1.0x1",
+      "IsOff=1.0x1",
+      "IsContainer=1.0x1",
+      "IsRCSReg=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsCumbersome=1.0x1.0",
+      "StatBasePrice=1.0x3384.00",
+      "StatDismantleProgressMax=1.0x130",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatMass=1.0x28.0",
+      "StatDamageMax=1.0x5",
+      "IsMechanical=1.0x1",
+      "StatVolume=1.0x0.787",
+      "StatGasMolN2=1.0x13373.0",
+      "StatGasPressureMax=1.0x82800.0",
+      "IsReadyPumpAir=1.0x1.0",
+      "StatGasTemp=1.0x293.0",
+      "IsGasMolChanged=1.0x1",
+      "IsRTA=1.0x1.0",
+      "IsVesselN2=1.0x1",
+      "IsCategoryControlSystems=1.0x1"
+    ],
+    "aStartingCondRules"  : [
+      "DcGasTemp=1",
+      "DcGasPressure=1",
+      "DcGasPressureCan=1",
+      "DcGasPpCO2=1",
+      "DcGasPpN2=1",
+      "DcGasPpNH3=1",
+      "DcGasPpCH4=1",
+      "DcGasPpH2SO4=1",
+      "DcGasPpO2=1"
+    ],
+    "strContainerCT"    : "TIsFitContainerSolidCumbersome",
+    "nContainerHeight"  : 1,
+    "nContainerWidth"  : 1,
+    "mapPoints"      : [
+    ],
+    "mapGUIPropMaps"  : [
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTRCSDistro12LooseDamage,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "ItmRCSDistro02Loose"
+  },
+  {
+    "strName" : "ItmRCSDistro12",
+    "strNameShort" : "Intake",
+    "strNameFriendly" : "RCS Intake Regulator: Kang \"2242\"",
+    "strItemDef" : "ItmRCSDistro12",
+    "strDesc" : "A mass market Reaction Control System (RCS) intake regulator by Kang. Produces thrust by taking cold compressed gas (usually N2) from an installed canister and passing it to onboard thrusters. This unit is unique for its internal gas storage.",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+      "Inventory"
+    ],
+    "aStartingConds" : [
+      "IsAirtight=1.0x1",
+      "IsReadyPumpAir=1.0x1.0",
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "Is2242=1.0x1",
+      "IsContainer=1.0x1",
+      "IsNonHighlightable=1.0x1",
+      "IsRCSReg=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x3384.00",
+      "StatDismantleProgressMax=1.0x130",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatMass=1.0x28.0",
+      "IsPowered=1.0x1",
+      "StatDamageMax=1.0x5",
+      "IsMechanical=1.0x1",
+      "StatVolume=1.0x0.787",
+      "StatGasMolN2=1.0x13373.0",
+      "StatGasPressureMax=1.0x82800.0",
+      "StatGasTemp=1.0x293.0",
+      "IsGasMolChanged=1.0x1",
+      "IsRTA=1.0x1.0",
+      "IsVesselN2=1.0x1",
+      "IsCategoryControlSystems=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "aStartingCondRules"  : [
+      "DcGasTemp=1",
+      "DcGasPressure=1",
+      "DcGasPressureCan=1",
+      "DcGasPpCO2=1",
+      "DcGasPpN2=1",
+      "DcGasPpNH3=1",
+      "DcGasPpCH4=1",
+      "DcGasPpH2SO4=1",
+      "DcGasPpO2=1"
+    ],
+    "strContainerCT"    : "TIsFitContainerSolidCumbersome",
+    "nContainerHeight"  : 1,
+    "nContainerWidth"  : 1,
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "Power,-8,16",
+      "GasInput01, 0,0"
+      
+    ],
+    "mapGUIPropMaps"  : [
+      "Electrical"
+    ],
+    "aUpdateCommands" : [
+      "GasPump,RCSInternal,null",
+      "Destructable,StatDamage,ACTRCSDistro12Damage,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "strPortraitImg"  : "ItmRCSDistro12",
+    "aTickers" : [ 
+      "Power"
+    ],
+    "jsonPI"            : "RCSDistro12",
+    "strAudioEmitter"   : null
+  },
+  {
+    "strName" : "ItmRCSDistro12Dmg",
+    "strNameShort" : "Intake",
+    "strNameFriendly" : "RCS Intake Regulator: Kang \"2242\" (Damaged)",
+    "strItemDef" : "ItmRCSDistro12Dmg",
+    "strDesc" : "A mass market Reaction Control System (RCS) intake regulator by Kang. Produces thrust by taking cold compressed gas (usually N2) from an installed canister and passing it to onboard thrusters. This unit is unique for its internal gas storage.",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+    ],
+    "aStartingConds" : [
+      "IsAirtight=1.0x1",
+      "IsReadyPumpAir=1.0x1.0",
+      "IsDamaged=1.0x1",
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsNonHighlightable=1.0x1",
+      "IsContainer=1.0x1",
+      "Is2242=1.0x1",
+      "IsOff=1.0x1",
+      "IsRCSReg=1.0x1",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x676.00",
+      "StatDismantleProgressMax=1.0x30",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatRepairProgressMax=1.0x1500",
+      "StatMass=1.0x28.0",
+      "StatDamageMax=1.0x15",
+      "IsMechanical=1.0x1",
+      "StatVolume=1.0x0.787",
+      "StatGasMolN2=1.0x13373.0",
+      "StatGasPressureMax=1.0x82800.0",
+      "StatGasTemp=1.0x293.0",
+      "IsGasMolChanged=1.0x1",
+      "IsRTA=1.0x1.0",
+      "IsVesselN2=1.0x1",
+      "IsCategoryControlSystems=1.0x1"
+    ],
+    "aStartingCondRules"  : [
+      "DcGasTemp=1",
+      "DcGasPressure=1",
+      "DcGasPressureCan=1",
+      "DcGasPpCO2=1",
+      "DcGasPpN2=1",
+      "DcGasPpNH3=1",
+      "DcGasPpCH4=1",
+      "DcGasPpH2SO4=1",
+      "DcGasPpO2=1"
+    ],
+    "strContainerCT"    : "TIsFitContainerSolidCumbersome",
+    "nContainerHeight"  : 1,
+    "nContainerWidth"  : 1,
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+    ],
+    "mapGUIPropMaps"  : [
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTRCSDistro02Destroy,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "ItmRCSDistro12Dmg12",
+    "aTickers" : [ 
+    ],
+    "strAudioEmitter"   : null
+  },
+  {
+    "strName" : "ItmRCSDistro12DmgLoose",
+    "strNameShort" : "Intake",
+    "strItemDef" : "ItmRCSDistro12DmgLoose",
+    "strNameFriendly" : "RCS Intake Regulator: Kang \"2242\" (Loose, Damaged)",
+    "strDesc" : "A mass market Reaction Control System (RCS) intake regulator by Kang. Produces thrust by taking cold compressed gas (usually N2) from an installed canister and passing it to onboard thrusters. This unit is unique for its internal gas storage.",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsAirtight=1.0x1",
+      "IsReadyPumpAir=1.0x1.0",
+      "IsDamaged=1.0x1",
+      "IsHiddenInv=1.0x1",
+      "Is2242=1.0x1",
+      "IsOff=1.0x1",
+      "IsContainer=1.0x1",
+      "IsRCSReg=1.0x1",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsCumbersome=1.0x1.0",
+      "StatBasePrice=1.0x676.00",
+      "StatDismantleProgressMax=1.0x30",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatRepairProgressMax=1.0x1500",
+      "StatVolume=1.0x0.787",
+      "StatMass=1.0x28.0",
+      "StatDamageMax=1.0x15",
+      "IsMechanical=1.0x1",
+      "IsGasMolChanged=1.0x1",
+      "StatGasPressureMax=1.0x82800.0",
+      "StatGasTemp=1.0x293.0",
+      "StatGasMolN2=1.0x13373.0",
+      "IsRTA=1.0x1.0",
+      "IsVesselN2=1.0x1",
+      "IsCategoryControlSystems=1.0x1"
+    ],
+    "aStartingCondRules"  : [
+      "DcGasTemp=1",
+      "DcGasPressure=1",
+      "DcGasPressureCan=1",
+      "DcGasPpCO2=1",
+      "DcGasPpN2=1",
+      "DcGasPpNH3=1",
+      "DcGasPpCH4=1",
+      "DcGasPpH2SO4=1",
+      "DcGasPpO2=1"
+    ],
+    "strContainerCT"    : "TIsFitContainerSolidCumbersome",
+    "nContainerHeight"  : 1,
+    "nContainerWidth"  : 1,
+    "mapPoints"      : [
+    ],
+    "mapGUIPropMaps"  : [
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTRCSDistro12LooseDestroy,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "ItmRCSDistro02Dmg02Loose"
+  },
+  {
+    "strName" : "ItmRCSDistro08Off",
+    "strNameShort" : "Intake",
+    "strNameFriendly" : "RCS Intake Regulator: Van Buren \"Chancellor\" (Off)",
+    "strDesc" : "An in-house Reaction Control System(RCS) intake regulator by Van Buren. Designed for use in Van Buren vessels exclusively, this unit boasts slightly lower performance specs compared to the Hydra, but at a lower weight.",
+    "strItemDef" : "ItmRCSDistro08Off",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsNonHighlightable=1.0x1",
+      "IsVanBuren=1.0x1",
+      "IsOff=1.0x1",
+      "IsRCSReg=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x26626.00",
+      "StatDismantleProgressMax=1.0x250",
+      "StatInstallProgressMax=1.0x1200",
+      "StatUninstallProgressMax=1.0x1200",
+      "StatMass=1.0x28.0",
+      "StatDamageMax=1.0x8",
+      "IsMechanical=1.0x1",
+      "IsCategoryControlSystems=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "Power,0,8",
+      "GasInput01,0,-16",
+      "GasInput02,16,0",
+      "GasInput03,-16,0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Electrical"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTRCSDistro08Damage,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "strPortraitImg"  : "ItmRCSDistro08",
+    "aTickers" : [ 
+      "Power"
+    ],
+    "jsonPI"            : "RCSDistro08",
+    "strAudioEmitter"   : null
+  },
+  {
+    "strName" : "ItmRCSDistro08Loose",
+    "strNameShort" : "Intake",
+    "strItemDef" : "ItmRCSDistro08Loose",
+    "strNameFriendly" : "RCS Intake Regulator: Van Buren \"Chancellor\" (Loose)",
+    "strDesc" : "An in-house Reaction Control System(RCS) intake regulator by Van Buren. Designed for use in Van Buren vessels exclusively, this unit boasts slightly lower performance specs compared to the Hydra, but at a lower weight.",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsVanBuren=1.0x1",
+      "IsOff=1.0x1",
+      "IsRCSReg=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsCumbersome=1.0x1.0",
+      "StatBasePrice=1.0x26626.00",
+      "StatDismantleProgressMax=1.0x250",
+      "StatInstallProgressMax=1.0x1200",
+      "StatUninstallProgressMax=1.0x1200",
+      "StatMass=1.0x28.0",
+      "StatDamageMax=1.0x8",
+      "IsMechanical=1.0x1",
+      "IsCategoryControlSystems=1.0x1"
+    ],
+    "mapPoints"      : [
+      "GasInput01,0,-16",
+      "GasInput02,16,0",
+      "GasInput03,-16,0"
+    ],
+    "mapGUIPropMaps"  : [
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTRCSDistro08LooseDamage,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "ItmRCSDistro01Loose"
+  },
+  {
+    "strName" : "ItmRCSDistro08",
+    "strNameShort" : "Intake",
+    "strNameFriendly" : "RCS Intake Regulator: Van Buren \"Chancellor\"",
+    "strItemDef" : "ItmRCSDistro08",
+    "strDesc" : "The Hydra, An in-house Reaction Control System(RCS) intake regulator by Van Buren. Designed for use in Van Buren vessels exclusively, this unit boasts slightly lower performance specs compared to the Hydra, but at a lower weight.",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsVanBuren=1.0x1",
+      "IsNonHighlightable=1.0x1",
+      "IsRCSReg=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x26626.00",
+      "StatDismantleProgressMax=1.0x250",
+      "StatInstallProgressMax=1.0x1200",
+      "StatUninstallProgressMax=1.0x1200",
+      "StatMass=1.0x28.0",
+      "IsPowered=1.0x1",
+      "StatDamageMax=1.0x8",
+      "IsMechanical=1.0x1",
+      "IsCategoryControlSystems=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "Power,0,8",
+      "GasInput01,0,-16",
+      "GasInput02,16,0",
+      "GasInput03,-16,0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Electrical"
+    ],
+    "strPortraitImg"  : "ItmRCSDistro08",
+    "aTickers" : [ 
+      "Power"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTRCSDistro08Damage,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "jsonPI"            : "RCSDistro08",
+    "strAudioEmitter"   : null
+  },
+  {
+    "strName" : "ItmRCSDistro08Dmg",
+    "strNameShort" : "Intake",
+    "strNameFriendly" : "RCS Intake Regulator: Van Buren \"Chancellor\" (Damaged)",
+    "strItemDef" : "ItmRCSDistro08Dmg",
+    "strDesc" : "An in-house Reaction Control System(RCS) intake regulator by Van Buren. Designed for use in Van Buren vessels exclusively, this unit boasts slightly lower performance specs compared to the Hydra, but at a lower weight.",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+    ],
+    "aStartingConds" : [
+      "IsDamaged=1.0x1",
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsNonHighlightable=1.0x1",
+      "IsVanBuren=1.0x1",
+      "IsOff=1.0x1",
+      "IsRCSReg=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x5325.00",
+      "StatDismantleProgressMax=1.0x50",
+      "StatInstallProgressMax=1.0x1200",
+      "StatUninstallProgressMax=1.0x1200",
+      "StatRepairProgressMax=1.0x3600",
+      "StatMass=1.0x28.0",
+      "StatDamageMax=1.0x22",
+      "IsMechanical=1.0x1",
+      "IsCategoryControlSystems=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+    ],
+    "mapGUIPropMaps"  : [
+    ],
+    "strPortraitImg"  : "ItmRCSDistro08Dmg02",
+    "aTickers" : [ 
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTRCSDistro08Destroy,StatDamageMax,1.0"
+    ],
+    "strAudioEmitter"   : null
+  },
+  {
+    "strName" : "ItmRCSDistro08DmgLoose",
+    "strNameShort" : "Intake",
+    "strItemDef" : "ItmRCSDistro08DmgLoose",
+    "strNameFriendly" : "RCS Intake Regulator: Van Buren \"Chancellor\" (Loose, Damaged)",
+    "strDesc" : "An in-house Reaction Control System(RCS) intake regulator by Van Buren. Designed for use in Van Buren vessels exclusively, this unit boasts slightly lower performance specs compared to the Hydra, but at a lower weight.",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsDamaged=1.0x1",
+      "IsVanBuren=1.0x1",
+      "IsOff=1.0x1",
+      "IsRCSReg=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsCumbersome=1.0x1.0",
+      "StatBasePrice=1.0x5325.00",
+      "StatDismantleProgressMax=1.0x50",
+      "StatInstallProgressMax=1.0x1200",
+      "StatUninstallProgressMax=1.0x1200",
+      "StatRepairProgressMax=1.0x3600",
+      "StatMass=1.0x28.0",
+      "StatDamageMax=1.0x22",
+      "IsMechanical=1.0x1",
+      "IsCategoryControlSystems=1.0x1"
+    ],
+    "mapPoints"      : [
+    ],
+    "mapGUIPropMaps"  : [
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTRCSDistro08LooseDestroy,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "ItmRCSDistro01Dmg02Loose"
+  },
+
+  {
+    "strName" : "ItmRCSDistro10Off",
+    "strNameShort" : "Intake",
+    "strNameFriendly" : "RCS Intake Regulator: Rakow \"Compact\" (Off)",
+    "strDesc" : "A mass market Reaction Control System (RCS) intake regulator by Rakow. Designed to allow for ultra-compact shipbuilding, the Compact is as light as the tower-type intakes get.",
+    "strItemDef" : "ItmRCSDistro10Off",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsNonHighlightable=1.0x1",
+      "IsRakow=1.0x1",
+      "IsOff=1.0x1",
+      "IsRCSReg=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x15346.00",
+      "StatDismantleProgressMax=1.0x250",
+      "StatInstallProgressMax=1.0x1200",
+      "StatUninstallProgressMax=1.0x1200",
+      "StatMass=1.0x28.0",
+      "StatDamageMax=1.0x8",
+      "IsMechanical=1.0x1",
+      "IsCategoryControlSystems=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "Power,-8,-8",
+      "GasInput01,0,16"
+    ],
+    "mapGUIPropMaps"  : [
+      "Electrical"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTRCSDistro10Damage,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "strPortraitImg"  : "ItmRCSDistro10",
+    "aTickers" : [ 
+      "Power"
+    ],
+    "jsonPI"            : "RCSDistro10",
+    "strAudioEmitter"   : null
+  },
+  {
+    "strName" : "ItmRCSDistro10Loose",
+    "strNameShort" : "Intake",
+    "strItemDef" : "ItmRCSDistro10Loose",
+    "strNameFriendly" : "RCS Intake Regulator: Rakow \"Compact\" (Loose)",
+    "strDesc" : "A mass market Reaction Control System (RCS) intake regulator by Rakow. Designed to allow for ultra-compact shipbuilding, the Compact is as light as the tower-type intakes get.",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsRakow=1.0x1",
+      "IsOff=1.0x1",
+      "IsRCSReg=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsCumbersome=1.0x1.0",
+      "StatBasePrice=1.0x15346.00",
+      "StatDismantleProgressMax=1.0x250",
+      "StatInstallProgressMax=1.0x1200",
+      "StatUninstallProgressMax=1.0x1200",
+      "StatMass=1.0x28.0",
+      "StatDamageMax=1.0x8",
+      "IsMechanical=1.0x1",
+      "IsCategoryControlSystems=1.0x1"
+    ],
+    "mapPoints"      : [
+      "GasInput01,16,0"
+    ],
+    "mapGUIPropMaps"  : [
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTRCSDistro10LooseDamage,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "ItmRCSDistro01Loose"
+  },
+  {
+    "strName" : "ItmRCSDistro10",
+    "strNameShort" : "Intake",
+    "strNameFriendly" : "RCS Intake Regulator: Rakow \"Compact\"",
+    "strItemDef" : "ItmRCSDistro10",
+    "strDesc" : "The Hydra, A mass market Reaction Control System (RCS) intake regulator by Rakow. Designed to allow for ultra-compact shipbuilding, the Compact is as light as the tower-type intakes get.",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsRakow=1.0x1",
+      "IsNonHighlightable=1.0x1",
+      "IsRCSReg=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x15346.00",
+      "StatDismantleProgressMax=1.0x250",
+      "StatInstallProgressMax=1.0x1200",
+      "StatUninstallProgressMax=1.0x1200",
+      "StatMass=1.0x28.0",
+      "IsPowered=1.0x1",
+      "StatDamageMax=1.0x8",
+      "IsMechanical=1.0x1",
+      "IsCategoryControlSystems=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "Power,-8,-8",
+      "GasInput01,0,16"
+    ],
+    "mapGUIPropMaps"  : [
+      "Electrical"
+    ],
+    "strPortraitImg"  : "ItmRCSDistro10",
+    "aTickers" : [ 
+      "Power"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTRCSDistro10Damage,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "jsonPI"            : "RCSDistro10",
+    "strAudioEmitter"   : null
+  },
+  {
+    "strName" : "ItmRCSDistro10Dmg",
+    "strNameShort" : "Intake",
+    "strNameFriendly" : "RCS Intake Regulator: Rakow \"Compact\" (Damaged)",
+    "strItemDef" : "ItmRCSDistro10Dmg",
+    "strDesc" : "A mass market Reaction Control System (RCS) intake regulator by Rakow. Designed to allow for ultra-compact shipbuilding, the Compact is as light as the tower-type intakes get.",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+    ],
+    "aStartingConds" : [
+      "IsDamaged=1.0x1",
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsNonHighlightable=1.0x1",
+      "IsRakow=1.0x1",
+      "IsOff=1.0x1",
+      "IsRCSReg=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x3069.00",
+      "StatDismantleProgressMax=1.0x50",
+      "StatInstallProgressMax=1.0x1200",
+      "StatUninstallProgressMax=1.0x1200",
+      "StatRepairProgressMax=1.0x3600",
+      "StatMass=1.0x28.0",
+      "StatDamageMax=1.0x22",
+      "IsMechanical=1.0x1",
+      "IsCategoryControlSystems=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+    ],
+    "mapGUIPropMaps"  : [
+    ],
+    "strPortraitImg"  : "ItmRCSDistro10Dmg02",
+    "aTickers" : [ 
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTRCSDistro10Destroy,StatDamageMax,1.0"
+    ],
+    "strAudioEmitter"   : null
+  },
+  {
+    "strName" : "ItmRCSDistro10DmgLoose",
+    "strNameShort" : "Intake",
+    "strItemDef" : "ItmRCSDistro10DmgLoose",
+    "strNameFriendly" : "RCS Intake Regulator: Rakow \"Compact\" (Loose, Damaged)",
+    "strDesc" : "A mass market Reaction Control System (RCS) intake regulator by Rakow. Designed to allow for ultra-compact shipbuilding, the Compact is as light as the tower-type intakes get.",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsDamaged=1.0x1",
+      "IsRakow=1.0x1",
+      "IsOff=1.0x1",
+      "IsRCSReg=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsCumbersome=1.0x1.0",
+      "StatBasePrice=1.0x3069.00",
+      "StatDismantleProgressMax=1.0x50",
+      "StatInstallProgressMax=1.0x1200",
+      "StatUninstallProgressMax=1.0x1200",
+      "StatRepairProgressMax=1.0x3600",
+      "StatMass=1.0x28.0",
+      "StatDamageMax=1.0x22",
+      "IsMechanical=1.0x1",
+      "IsCategoryControlSystems=1.0x1"
+    ],
+    "mapPoints"      : [
+    ],
+    "mapGUIPropMaps"  : [
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTRCSDistro10LooseDestroy,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "ItmRCSDistro01Dmg02Loose"
+  },
+  
+  {
+    "strName" : "ItmRCSDistro09Off",
+    "strNameShort" : "Intake",
+    "strNameFriendly" : "RCS Intake Regulator: Weber \"Derrick\" (Off)",
+    "strDesc" : "A mass market Reaction Control System (RCS) intake regulator by Weber. Introduced as a first offering after the success of the laser torch, Weber was never quite able to reach the widespread acclaim of their contemporaries in the field.",
+    "strItemDef" : "ItmRCSDistro09Off",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsNonHighlightable=1.0x1",
+      "IsWeber=1.0x1",
+      "IsOff=1.0x1",
+      "IsRCSReg=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x20986.00",
+      "StatDismantleProgressMax=1.0x250",
+      "StatInstallProgressMax=1.0x1200",
+      "StatUninstallProgressMax=1.0x1200",
+      "StatMass=1.0x28.0",
+      "StatDamageMax=1.0x8",
+      "IsMechanical=1.0x1",
+      "IsCategoryControlSystems=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "Power,0,0",
+      "GasInput01,16,0",
+      "GasInput02,-16,0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Electrical"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTRCSDistro09Damage,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "strPortraitImg"  : "ItmRCSDistro09",
+    "aTickers" : [ 
+      "Power"
+    ],
+    "jsonPI"            : "RCSDistro09",
+    "strAudioEmitter"   : null
+  },
+  {
+    "strName" : "ItmRCSDistro09Loose",
+    "strNameShort" : "Intake",
+    "strItemDef" : "ItmRCSDistro09Loose",
+    "strNameFriendly" : "RCS Intake Regulator: Weber \"Derrick\" (Loose)",
+    "strDesc" : "A mass market Reaction Control System (RCS) intake regulator by Weber. Introduced as a first offering after the success of the laser torch, Weber was never quite able to reach the widespread acclaim of their contemporaries in the field.",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsWeber=1.0x1",
+      "IsOff=1.0x1",
+      "IsRCSReg=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsCumbersome=1.0x1.0",
+      "StatBasePrice=1.0x20986.00",
+      "StatDismantleProgressMax=1.0x250",
+      "StatInstallProgressMax=1.0x1200",
+      "StatUninstallProgressMax=1.0x1200",
+      "StatMass=1.0x28.0",
+      "StatDamageMax=1.0x8",
+      "IsMechanical=1.0x1",
+      "IsCategoryControlSystems=1.0x1"
+    ],
+    "mapPoints"      : [
+      "GasInput01,16,0",
+      "GasInput02,-16,0"
+    ],
+    "mapGUIPropMaps"  : [
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTRCSDistro09LooseDamage,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "ItmRCSDistro01Loose"
+  },
+  {
+    "strName" : "ItmRCSDistro09",
+    "strNameShort" : "Intake",
+    "strNameFriendly" : "RCS Intake Regulator: Weber \"Derrick\"",
+    "strItemDef" : "ItmRCSDistro09",
+    "strDesc" : "The Hydra, A mass market Reaction Control System (RCS) intake regulator by Weber. Introduced as a first offering after the success of the laser torch, Weber was never quite able to reach the widespread acclaim of their contemporaries in the field.",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsWeber=1.0x1",
+      "IsNonHighlightable=1.0x1",
+      "IsRCSReg=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x20986.00",
+      "StatDismantleProgressMax=1.0x250",
+      "StatInstallProgressMax=1.0x1200",
+      "StatUninstallProgressMax=1.0x1200",
+      "StatMass=1.0x28.0",
+      "IsPowered=1.0x1",
+      "StatDamageMax=1.0x8",
+      "IsMechanical=1.0x1",
+      "IsCategoryControlSystems=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "Power,0,0",
+      "GasInput01,16,0",
+      "GasInput02,-16,0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Electrical"
+    ],
+    "strPortraitImg"  : "ItmRCSDistro09",
+    "aTickers" : [ 
+      "Power"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTRCSDistro09Damage,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "jsonPI"            : "RCSDistro09",
+    "strAudioEmitter"   : null
+  },
+  {
+    "strName" : "ItmRCSDistro09Dmg",
+    "strNameShort" : "Intake",
+    "strNameFriendly" : "RCS Intake Regulator: Weber \"Derrick\" (Damaged)",
+    "strItemDef" : "ItmRCSDistro09Dmg",
+    "strDesc" : "A mass market Reaction Control System (RCS) intake regulator by Weber. Introduced as a first offering after the success of the laser torch, Weber was never quite able to reach the widespread acclaim of their contemporaries in the field.",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+    ],
+    "aStartingConds" : [
+      "IsDamaged=1.0x1",
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsNonHighlightable=1.0x1",
+      "IsWeber=1.0x1",
+      "IsOff=1.0x1",
+      "IsRCSReg=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x4197.00",
+      "StatDismantleProgressMax=1.0x50",
+      "StatInstallProgressMax=1.0x1200",
+      "StatUninstallProgressMax=1.0x1200",
+      "StatRepairProgressMax=1.0x3600",
+      "StatMass=1.0x28.0",
+      "StatDamageMax=1.0x22",
+      "IsMechanical=1.0x1",
+      "IsCategoryControlSystems=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+    ],
+    "mapGUIPropMaps"  : [
+    ],
+    "strPortraitImg"  : "ItmRCSDistro09Dmg02",
+    "aTickers" : [ 
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTRCSDistro09Destroy,StatDamageMax,1.0"
+    ],
+    "strAudioEmitter"   : null
+  },
+  {
+    "strName" : "ItmRCSDistro09DmgLoose",
+    "strNameShort" : "Intake",
+    "strItemDef" : "ItmRCSDistro09DmgLoose",
+    "strNameFriendly" : "RCS Intake Regulator: Weber \"Derrick\" (Loose, Damaged)",
+    "strDesc" : "A mass market Reaction Control System (RCS) intake regulator by Weber. Introduced as a first offering after the success of the laser torch, Weber was never quite able to reach the widespread acclaim of their contemporaries in the field.",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsDamaged=1.0x1",
+      "IsWeber=1.0x1",
+      "IsOff=1.0x1",
+      "IsRCSReg=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsCumbersome=1.0x1.0",
+      "StatBasePrice=1.0x4197.00",
+      "StatDismantleProgressMax=1.0x50",
+      "StatInstallProgressMax=1.0x1200",
+      "StatUninstallProgressMax=1.0x1200",
+      "StatRepairProgressMax=1.0x3600",
+      "StatMass=1.0x28.0",
+      "StatDamageMax=1.0x22",
+      "IsMechanical=1.0x1",
+      "IsCategoryControlSystems=1.0x1"
+    ],
+    "mapPoints"      : [
+    ],
+    "mapGUIPropMaps"  : [
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTRCSDistro09LooseDestroy,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "ItmRCSDistro01Dmg02Loose"
+  },
+  
+  {
+    "strName" : "ItmRCSDistro13Off",
+    "strNameShort" : "Intake",
+    "strNameFriendly" : "RCS Intake Regulator: Akyer \"InHouse\" (Off)",
+    "strDesc" : "A mass market Reaction Control System (RCS) intake regulator by A'kyer Aeronautics.  A full pillar-style intake system, this intake directly pipes propellent into the floor and to the RCS clusters, cutting down bulky machinery. The incredibly dense nature of this intake and the additional piping required results in further weight increases.",
+    "strItemDef" : "ItmRCSDistro13Off",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsNonHighlightable=1.0x1",
+      "IsAkyer=1.0x1",
+      "IsOff=1.0x1",
+      "IsRCSReg=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x8566.00",
+      "StatDismantleProgressMax=1.0x250",
+      "StatInstallProgressMax=1.0x1200",
+      "StatUninstallProgressMax=1.0x1200",
+      "StatMass=1.0x28.0",
+      "StatDamageMax=1.0x8",
+      "IsMechanical=1.0x1",
+      "IsCategoryControlSystems=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "Power,0,0",
+      "GasInput01,0,0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Electrical"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTRCSDistro13Damage,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "strPortraitImg"  : "ItmRCSDistro13",
+    "aTickers" : [ 
+      "Power"
+    ],
+    "jsonPI"            : "RCSDistro13",
+    "strAudioEmitter"   : null
+  },
+  {
+    "strName" : "ItmRCSDistro13Loose",
+    "strNameShort" : "Intake",
+    "strItemDef" : "ItmRCSDistro13Loose",
+    "strNameFriendly" : "RCS Intake Regulator: Akyer \"InHouse\" (Loose)",
+    "strDesc" : "A mass market Reaction Control System (RCS) intake regulator by A'kyer Aeronautics.  A full pillar-style intake system, this intake directly pipes propellent into the floor and to the RCS clusters, cutting down bulky machinery. The incredibly dense nature of this intake and the additional piping required results in further weight increases.",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsAkyer=1.0x1",
+      "IsOff=1.0x1",
+      "IsRCSReg=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsCumbersome=1.0x1.0",
+      "StatBasePrice=1.0x8566.00",
+      "StatDismantleProgressMax=1.0x250",
+      "StatInstallProgressMax=1.0x1200",
+      "StatUninstallProgressMax=1.0x1200",
+      "StatMass=1.0x28.0",
+      "StatDamageMax=1.0x8",
+      "IsMechanical=1.0x1",
+      "IsCategoryControlSystems=1.0x1"
+    ],
+    "mapPoints"      : [
+      "GasInput01,0,0"
+    ],
+    "mapGUIPropMaps"  : [
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTRCSDistro13LooseDamage,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "ItmRCSDistro01Loose"
+  },
+  {
+    "strName" : "ItmRCSDistro13",
+    "strNameShort" : "Intake",
+    "strNameFriendly" : "RCS Intake Regulator: Akyer \"InHouse\"",
+    "strItemDef" : "ItmRCSDistro13",
+    "strDesc" : "The Hydra, A mass market Reaction Control System (RCS) intake regulator by A'kyer Aeronautics.  A full pillar-style intake system, this intake directly pipes propellent into the floor and to the RCS clusters, cutting down bulky machinery. The incredibly dense nature of this intake and the additional piping required results in further weight increases.",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsAkyer=1.0x1",
+      "IsNonHighlightable=1.0x1",
+      "IsRCSReg=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x8566.00",
+      "StatDismantleProgressMax=1.0x250",
+      "StatInstallProgressMax=1.0x1200",
+      "StatUninstallProgressMax=1.0x1200",
+      "StatMass=1.0x28.0",
+      "IsPowered=1.0x1",
+      "StatDamageMax=1.0x8",
+      "IsMechanical=1.0x1",
+      "IsCategoryControlSystems=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "Power,0,0",
+      "GasInput01,0,0"
+    ],
+    "mapGUIPropMaps"  : [
+      "Electrical"
+    ],
+    "strPortraitImg"  : "ItmRCSDistro13",
+    "aTickers" : [ 
+      "Power"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTRCSDistro13Damage,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "jsonPI"            : "RCSDistro13",
+    "strAudioEmitter"   : null
+  },
+  {
+    "strName" : "ItmRCSDistro13Dmg",
+    "strNameShort" : "Intake",
+    "strNameFriendly" : "RCS Intake Regulator: Akyer \"InHouse\" (Damaged)",
+    "strItemDef" : "ItmRCSDistro13Dmg",
+    "strDesc" : "A mass market Reaction Control System (RCS) intake regulator by A'kyer Aeronautics.  A full pillar-style intake system, this intake directly pipes propellent into the floor and to the RCS clusters, cutting down bulky machinery. The incredibly dense nature of this intake and the additional piping required results in further weight increases.",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+    ],
+    "aStartingConds" : [
+      "IsDamaged=1.0x1",
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsNonHighlightable=1.0x1",
+      "IsAkyer=1.0x1",
+      "IsOff=1.0x1",
+      "IsRCSReg=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x1713.00",
+      "StatDismantleProgressMax=1.0x50",
+      "StatInstallProgressMax=1.0x1200",
+      "StatUninstallProgressMax=1.0x1200",
+      "StatRepairProgressMax=1.0x3600",
+      "StatMass=1.0x28.0",
+      "StatDamageMax=1.0x22",
+      "IsMechanical=1.0x1",
+      "IsCategoryControlSystems=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+    ],
+    "mapGUIPropMaps"  : [
+    ],
+    "strPortraitImg"  : "ItmRCSDistro13Dmg13",
+    "aTickers" : [ 
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTRCSDistro13Destroy,StatDamageMax,1.0"
+    ],
+    "strAudioEmitter"   : null
+  },
+  {
+    "strName" : "ItmRCSDistro13DmgLoose",
+    "strNameShort" : "Intake",
+    "strItemDef" : "ItmRCSDistro13DmgLoose",
+    "strNameFriendly" : "RCS Intake Regulator: Akyer \"InHouse\" (Loose, Damaged)",
+    "strDesc" : "A mass market Reaction Control System (RCS) intake regulator by A'kyer Aeronautics.  A full pillar-style intake system, this intake directly pipes propellent into the floor and to the RCS clusters, cutting down bulky machinery. The incredibly dense nature of this intake and the additional piping required results in further weight increases.",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsDamaged=1.0x1",
+      "IsAkyer=1.0x1",
+      "IsOff=1.0x1",
+      "IsRCSReg=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsCumbersome=1.0x1.0",
+      "StatBasePrice=1.0x1713.00",
+      "StatDismantleProgressMax=1.0x50",
+      "StatInstallProgressMax=1.0x1200",
+      "StatUninstallProgressMax=1.0x1200",
+      "StatRepairProgressMax=1.0x3600",
+      "StatMass=1.0x28.0",
+      "StatDamageMax=1.0x22",
+      "IsMechanical=1.0x1",
+      "IsCategoryControlSystems=1.0x1"
+    ],
+    "mapPoints"      : [
+    ],
+    "mapGUIPropMaps"  : [
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTRCSDistro13LooseDestroy,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "ItmRCSDistro01Dmg02Loose"
+  },
+  
+  {
+    "strName" : "ItmRCSDistro05Off",
+    "strNameShort" : "Intake",
+    "strNameFriendly" : "RCS Intake Regulator: Kang \"Inverse 2022\" (Off)",
+    "strItemDef" : "ItmRCSDistro05Off",
+    "strDesc" : "A mass market Reaction Control System (RCS) intake regulator by Kang. Produces thrust by taking cold compressed gas (usually N2) from an installed canister and passing it to onboard thrusters. This is their inversed model.",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsNonHighlightable=1.0x1",
+      "IsKang=1.0x1",
+      "IsInverse=1.0x1",
+      "IsOff=1.0x1",
+      "IsRCSReg=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x1692.00",
+      "StatDismantleProgressMax=1.0x130",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatMass=1.0x28.0",
+      "StatDamageMax=1.0x5",
+      "IsMechanical=1.0x1",
+      "IsCategoryControlSystems=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "Power,-8,-8",
+      "GasInput01,-8,16"
+    ],
+    "mapGUIPropMaps"  : [
+      "Electrical"
+    ],
+    "strPortraitImg"  : "ItmRCSDistro05",
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTRCSDistro05Damage,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "aTickers" : [ 
+      "Power"
+    ],
+    "jsonPI"            : "RCSDistro05",
+    "strAudioEmitter"   : null
+  },
+  {
+    "strName" : "ItmRCSDistro05Loose",
+    "strNameShort" : "Intake",
+    "strItemDef" : "ItmRCSDistro05Loose",
+    "strNameFriendly" : "RCS Intake Regulator: Kang \"Inverse 2022\" (Loose)",
+    "strDesc" : "A mass market Reaction Control System (RCS) intake regulator by Kang. Produces thrust by taking cold compressed gas (usually N2) from an installed canister and passing it to onboard thrusters. This is their inversed model.",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsKang=1.0x1",
+      "IsInverse=1.0x1",
+      "IsOff=1.0x1",
+      "IsRCSReg=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsCumbersome=1.0x1.0",
+      "StatBasePrice=1.0x1692.00",
+      "StatDismantleProgressMax=1.0x130",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatMass=1.0x28.0",
+      "StatDamageMax=1.0x5",
+      "IsMechanical=1.0x1",
+      "IsCategoryControlSystems=1.0x1"
+    ],
+    "mapPoints"      : [
+      "GasInput01,-8,-16"
+    ],
+    "mapGUIPropMaps"  : [
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTRCSDistro05LooseDamage,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "ItmRCSDistro02Loose"
+  },
+  {
+    "strName" : "ItmRCSDistro05",
+    "strNameShort" : "Intake",
+    "strNameFriendly" : "RCS Intake Regulator: Pathfinder \"Branch\"",
+    "strItemDef" : "ItmRCSDistro05",
+    "strDesc" : "A mass market Reaction Control System (RCS) intake regulator by Kang. Produces thrust by taking cold compressed gas (usually N2) from an installed canister and passing it to onboard thrusters. This is their inversed model.",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsKang=1.0x1",
+      "IsInverse=1.0x1",
+      "IsNonHighlightable=1.0x1",
+      "IsRCSReg=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x1692.00",
+      "StatDismantleProgressMax=1.0x130",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatMass=1.0x28.0",
+      "IsPowered=1.0x1",
+      "StatDamageMax=1.0x5",
+      "IsMechanical=1.0x1",
+      "IsCategoryControlSystems=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "Power,-8,-8",
+      "GasInput01,-8, 16"
+    ],
+    "mapGUIPropMaps"  : [
+      "Electrical"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTRCSDistro05Damage,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "strPortraitImg"  : "ItmRCSDistro05",
+    "aTickers" : [ 
+      "Power"
+    ],
+    "jsonPI"            : "RCSDistro05",
+    "strAudioEmitter"   : null
+  },
+  {
+    "strName" : "ItmRCSDistro05Dmg",
+    "strNameShort" : "Intake",
+    "strNameFriendly" : "RCS Intake Regulator: Kang \"Inverse 2022\" (Damaged)",
+    "strItemDef" : "ItmRCSDistro05Dmg",
+    "strDesc" : "A mass market Reaction Control System (RCS) intake regulator by Kang. Produces thrust by taking cold compressed gas (usually N2) from an installed canister and passing it to onboard thrusters. This is their inversed model.",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+    ],
+    "aStartingConds" : [
+      "IsDamaged=1.0x1",
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsNonHighlightable=1.0x1",
+      "IsKang=1.0x1",
+      "IsInverse=1.0x1",
+      "IsOff=1.0x1",
+      "IsRCSReg=1.0x1",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x355.00",
+      "StatDismantleProgressMax=1.0x30",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatRepairProgressMax=1.0x1500",
+      "StatMass=1.0x28.0",
+      "StatDamageMax=1.0x15",
+      "IsMechanical=1.0x1",
+      "IsCategoryControlSystems=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+    ],
+    "mapGUIPropMaps"  : [
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTRCSDistro02Destroy,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "ItmRCSDistro05Dmg05",
+    "aTickers" : [ 
+    ],
+    "strAudioEmitter"   : null
+  },
+  {
+    "strName" : "ItmRCSDistro05DmgLoose",
+    "strNameShort" : "Intake",
+    "strItemDef" : "ItmRCSDistro05DmgLoose",
+    "strNameFriendly" : "RCS Intake Regulator: Kang \"Inverse 2022\" (Loose, Damaged)",
+    "strDesc" : "A mass market Reaction Control System (RCS) intake regulator by Kang. Produces thrust by taking cold compressed gas (usually N2) from an installed canister and passing it to onboard thrusters. This is their inversed model.",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsDamaged=1.0x1",
+      "IsKang=1.0x1",
+      "IsInverse=1.0x1",
+      "IsOff=1.0x1",
+      "IsRCSReg=1.0x1",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsCumbersome=1.0x1.0",
+      "StatBasePrice=1.0x355.00",
+      "StatDismantleProgressMax=1.0x30",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatRepairProgressMax=1.0x1500",
+      "StatMass=1.0x28.0",
+      "StatDamageMax=1.0x15",
+      "IsMechanical=1.0x1",
+      "IsCategoryControlSystems=1.0x1"
+    ],
+    "mapPoints"      : [
+    ],
+    "mapGUIPropMaps"  : [
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTRCSDistro05LooseDestroy,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "ItmRCSDistro02Dmg02Loose"
+  },
+  
+  {
+    "strName" : "ItmRCSDistro07Off",
+    "strNameShort" : "Intake",
+    "strNameFriendly" : "RCS Intake Regulator: Sokol \"Varmint\" (Off)",
+    "strItemDef" : "ItmRCSDistro07Off",
+    "strDesc" : "A niche Reaction Control System(RCS) intake regulator by Sokol. Designed as a replacement for the mass-market model RCS intakes in use by the majority of Sokol vessels, the Varmint is a bulkier, albiet lighter weight, alternative to the coveted Miura Hydra.",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsNonHighlightable=1.0x1",
+      "IsSokol=1.0x1",
+      "IsVarmint=1.0x1",
+      "IsOff=1.0x1",
+      "IsRCSReg=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x3384.00",
+      "StatDismantleProgressMax=1.0x130",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatMass=1.0x28.0",
+      "StatDamageMax=1.0x5",
+      "IsMechanical=1.0x1",
+      "IsCategoryControlSystems=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "Power,-8,0",
+      "GasInput01,-8,-8",
+      "GasInput02,-8,8",
+      "GasInput03,8,-8",
+      "GasInput04,8,-8"
+    ],
+    "mapGUIPropMaps"  : [
+      "Electrical"
+    ],
+    "strPortraitImg"  : "ItmRCSDistro07",
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTRCSDistro07Damage,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "aTickers" : [ 
+      "Power"
+    ],
+    "jsonPI"            : "RCSDistro07",
+    "strAudioEmitter"   : null
+  },
+  {
+    "strName" : "ItmRCSDistro07Loose",
+    "strNameShort" : "Intake",
+    "strItemDef" : "ItmRCSDistro07Loose",
+    "strNameFriendly" : "RCS Intake Regulator: Sokol \"Varmint\" (Loose)",
+    "strDesc" : "A niche Reaction Control System(RCS) intake regulator by Sokol. Designed as a replacement for the mass-market model RCS intakes in use by the majority of Sokol vessels, the Varmint is a bulkier, albiet lighter weight, alternative to the coveted Miura Hydra.",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsSokol=1.0x1",
+      "IsVarmint=1.0x1",
+      "IsOff=1.0x1",
+      "IsRCSReg=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsCumbersome=1.0x1.0",
+      "StatBasePrice=1.0x3384.00",
+      "StatDismantleProgressMax=1.0x130",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatMass=1.0x28.0",
+      "StatDamageMax=1.0x5",
+      "IsMechanical=1.0x1",
+      "IsCategoryControlSystems=1.0x1"
+    ],
+    "mapPoints"      : [
+      "GasInput01,0,-16"
+    ],
+    "mapGUIPropMaps"  : [
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTRCSDistro07LooseDamage,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "ItmRCSDistro02Loose"
+  },
+  {
+    "strName" : "ItmRCSDistro07",
+    "strNameShort" : "Intake",
+    "strNameFriendly" : "RCS Intake Regulator: Sokol \"Varmint\"",
+    "strItemDef" : "ItmRCSDistro07",
+    "strDesc" : "A niche Reaction Control System(RCS) intake regulator by Sokol. Designed as a replacement for the mass-market model RCS intakes in use by the majority of Sokol vessels, the Varmint is a bulkier, albiet lighter weight, alternative to the coveted Miura Hydra.",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsSokol=1.0x1",
+      "IsVarmint=1.0x1",
+      "IsNonHighlightable=1.0x1",
+      "IsRCSReg=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x3384.00",
+      "StatDismantleProgressMax=1.0x130",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatMass=1.0x28.0",
+      "IsPowered=1.0x1",
+      "StatDamageMax=1.0x5",
+      "IsMechanical=1.0x1",
+      "IsCategoryControlSystems=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "Power,-8,0",
+      "GasInput01,-8,-8",
+      "GasInput02,-8,8",
+      "GasInput03,8,-8",
+      "GasInput04,8,-8"
+    ],
+    "mapGUIPropMaps"  : [
+      "Electrical"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTRCSDistro07Damage,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "strPortraitImg"  : "ItmRCSDistro07",
+    "aTickers" : [ 
+      "Power"
+    ],
+    "jsonPI"            : "RCSDistro07",
+    "strAudioEmitter"   : null
+  },
+  {
+    "strName" : "ItmRCSDistro07Dmg",
+    "strNameShort" : "Intake",
+    "strNameFriendly" : "RCS Intake Regulator: Sokol \"Varmint\" (Damaged)",
+    "strItemDef" : "ItmRCSDistro07Dmg",
+    "strDesc" : "A niche Reaction Control System(RCS) intake regulator by Sokol. Designed as a replacement for the mass-market model RCS intakes in use by the majority of Sokol vessels, the Varmint is a bulkier, albiet lighter weight, alternative to the coveted Miura Hydra.",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+    ],
+    "aStartingConds" : [
+      "IsDamaged=1.0x1",
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsNonHighlightable=1.0x1",
+      "IsSokol=1.0x1",
+      "IsVarmint=1.0x1",
+      "IsOff=1.0x1",
+      "IsRCSReg=1.0x1",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x676.00",
+      "StatDismantleProgressMax=1.0x30",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatRepairProgressMax=1.0x1500",
+      "StatMass=1.0x28.0",
+      "StatDamageMax=1.0x15",
+      "IsMechanical=1.0x1",
+      "IsCategoryControlSystems=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+    ],
+    "mapGUIPropMaps"  : [
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTRCSDistro02Destroy,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "ItmRCSDistro07Dmg07",
+    "aTickers" : [ 
+    ],
+    "strAudioEmitter"   : null
+  },
+  {
+    "strName" : "ItmRCSDistro07DmgLoose",
+    "strNameShort" : "Intake",
+    "strItemDef" : "ItmRCSDistro07DmgLoose",
+    "strNameFriendly" : "RCS Intake Regulator: Sokol \"Varmint\" (Loose, Damaged)",
+    "strDesc" : "A niche Reaction Control System(RCS) intake regulator by Sokol. Designed as a replacement for the mass-market model RCS intakes in use by the majority of Sokol vessels, the Varmint is a bulkier, albiet lighter weight, alternative to the coveted Miura Hydra.",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsDamaged=1.0x1",
+      "IsSokol=1.0x1",
+      "IsVarmint=1.0x1",
+      "IsOff=1.0x1",
+      "IsRCSReg=1.0x1",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsCumbersome=1.0x1.0",
+      "StatBasePrice=1.0x676.00",
+      "StatDismantleProgressMax=1.0x30",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatRepairProgressMax=1.0x1500",
+      "StatMass=1.0x28.0",
+      "StatDamageMax=1.0x15",
+      "IsMechanical=1.0x1",
+      "IsCategoryControlSystems=1.0x1"
+    ],
+    "mapPoints"      : [
+    ],
+    "mapGUIPropMaps"  : [
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTRCSDistro07LooseDestroy,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "ItmRCSDistro02Dmg02Loose"
+  },
+
+  {
+    "strName" : "ItmRCSDistro06Off",
+    "strNameShort" : "Intake",
+    "strNameFriendly" : "RCS Intake Regulator: Pathfinder \"Branch\" (Off)",
+    "strItemDef" : "ItmRCSDistro06Off",
+    "strDesc" : "A niche Reaction Control System(RCS) intake regulator by Pathfinder. Primarily designed for in-house vessels, this part doesn't see wide usage in mass market spacecraft.",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsNonHighlightable=1.0x1",
+      "IsPathfinder=1.0x1",
+      "IsBranch=1.0x1",
+      "IsOff=1.0x1",
+      "IsRCSReg=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x2256.00",
+      "StatDismantleProgressMax=1.0x130",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatMass=1.0x28.0",
+      "StatDamageMax=1.0x5",
+      "IsMechanical=1.0x1",
+      "IsCategoryControlSystems=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "Power,-8,0",
+      "GasInput01,-8,-16",
+      "GasInput02,-8,16"
+    ],
+    "mapGUIPropMaps"  : [
+      "Electrical"
+    ],
+    "strPortraitImg"  : "ItmRCSDistro06",
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTRCSDistro06Damage,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "aTickers" : [ 
+      "Power"
+    ],
+    "jsonPI"            : "RCSDistro06",
+    "strAudioEmitter"   : null
+  },
+  {
+    "strName" : "ItmRCSDistro06Loose",
+    "strNameShort" : "Intake",
+    "strItemDef" : "ItmRCSDistro06Loose",
+    "strNameFriendly" : "RCS Intake Regulator: Pathfinder \"Branch\" (Loose)",
+    "strDesc" : "A niche Reaction Control System(RCS) intake regulator by Pathfinder. Primarily designed for in-house vessels, this part doesn't see wide usage in mass market spacecraft.",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsPathfinder=1.0x1",
+      "IsBranch=1.0x1",
+      "IsOff=1.0x1",
+      "IsRCSReg=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsCumbersome=1.0x1.0",
+      "StatBasePrice=1.0x2256.00",
+      "StatDismantleProgressMax=1.0x130",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatMass=1.0x28.0",
+      "StatDamageMax=1.0x5",
+      "IsMechanical=1.0x1",
+      "IsCategoryControlSystems=1.0x1"
+    ],
+    "mapPoints"      : [
+      "GasInput01,0,-16"
+    ],
+    "mapGUIPropMaps"  : [
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTRCSDistro06LooseDamage,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "ItmRCSDistro02Loose"
+  },
+  {
+    "strName" : "ItmRCSDistro06",
+    "strNameShort" : "Intake",
+    "strNameFriendly" : "RCS Intake Regulator: Pathfinder \"Branch\"",
+    "strItemDef" : "ItmRCSDistro06",
+    "strDesc" : "A niche Reaction Control System(RCS) intake regulator by Pathfinder. Primarily designed for in-house vessels, this part doesn't see wide usage in mass market spacecraft.",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsPathfinder=1.0x1",
+      "IsBranch=1.0x1",
+      "IsNonHighlightable=1.0x1",
+      "IsRCSReg=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x2256.00",
+      "StatDismantleProgressMax=1.0x130",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatMass=1.0x28.0",
+      "IsPowered=1.0x1",
+      "StatDamageMax=1.0x5",
+      "IsMechanical=1.0x1",
+      "IsCategoryControlSystems=1.0x1",
+      "IsSignalable=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+      "Power,-8,0",
+      "GasInput01,-8,-16",
+      "GasInput02,-8, 16"
+    ],
+    "mapGUIPropMaps"  : [
+      "Electrical"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTRCSDistro06Damage,StatDamageMax,1.0",
+      "Electrical,Electrical"
+    ],
+    "strPortraitImg"  : "ItmRCSDistro06",
+    "aTickers" : [ 
+      "Power"
+    ],
+    "jsonPI"            : "RCSDistro06",
+    "strAudioEmitter"   : null
+  },
+  {
+    "strName" : "ItmRCSDistro06Dmg",
+    "strNameShort" : "Intake",
+    "strNameFriendly" : "RCS Intake Regulator: Pathfinder \"Branch\" (Damaged)",
+    "strItemDef" : "ItmRCSDistro06Dmg",
+    "strDesc" : "A niche Reaction Control System(RCS) intake regulator by Pathfinder. Primarily designed for in-house vessels, this part doesn't see wide usage in mass market spacecraft.",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+    ],
+    "aStartingConds" : [
+      "IsDamaged=1.0x1",
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsNonHighlightable=1.0x1",
+      "IsPathfinder=1.0x1",
+      "IsBranch=1.0x1",
+      "IsOff=1.0x1",
+      "IsRCSReg=1.0x1",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x451.00",
+      "StatDismantleProgressMax=1.0x30",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatRepairProgressMax=1.0x1500",
+      "StatMass=1.0x28.0",
+      "StatDamageMax=1.0x15",
+      "IsMechanical=1.0x1",
+      "IsCategoryControlSystems=1.0x1"
+    ],
+    "mapCondTolerance"       : [
+    ],
+    "mapPoints"      : [
+    ],
+    "mapGUIPropMaps"  : [
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTRCSDistro02Destroy,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "ItmRCSDistro06Dmg06",
+    "aTickers" : [ 
+    ],
+    "strAudioEmitter"   : null
+  },
+  {
+    "strName" : "ItmRCSDistro06DmgLoose",
+    "strNameShort" : "Intake",
+    "strItemDef" : "ItmRCSDistro06DmgLoose",
+    "strNameFriendly" : "RCS Intake Regulator: Pathfinder \"Branch\" (Loose, Damaged)",
+    "strDesc" : "A niche Reaction Control System(RCS) intake regulator by Pathfinder. Primarily designed for in-house vessels, this part doesn't see wide usage in mass market spacecraft.",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsDamaged=1.0x1",
+      "IsPathfinder=1.0x1",
+      "IsBranch=1.0x1",
+      "IsOff=1.0x1",
+      "IsRCSReg=1.0x1",
+      "IsShipSpecialItem=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsCumbersome=1.0x1.0",
+      "StatBasePrice=1.0x451.00",
+      "StatDismantleProgressMax=1.0x30",
+      "StatInstallProgressMax=1.0x500",
+      "StatUninstallProgressMax=1.0x500",
+      "StatRepairProgressMax=1.0x1500",
+      "StatMass=1.0x28.0",
+      "StatDamageMax=1.0x15",
+      "IsMechanical=1.0x1",
+      "IsCategoryControlSystems=1.0x1"
+    ],
+    "mapPoints"      : [
+    ],
+    "mapGUIPropMaps"  : [
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTRCSDistro06LooseDestroy,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "ItmRCSDistro02Dmg02Loose"
   }
+
 ]
