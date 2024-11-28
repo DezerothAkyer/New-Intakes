@@ -85,7 +85,8 @@
     "strType"    : "Item",
     "aInteractions" : [
       "DropItem",
-      "PickupItem"
+      "PickupItem",
+      "Install"
     ],
     "aStartingConds" : [
       "IsAirtight=1.0x1",
