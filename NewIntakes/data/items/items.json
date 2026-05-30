@@ -29,9 +29,9 @@
   },
   {
     "strName" : "ItmRCSDistro04Loose",
-    "strImg"  : "ItmRCSDistro02Loose",
-    "strImgNorm"  : "ItmRCSDistro02Loosen",
-    "strImgDamaged" : "ItmRCSDistro02Dmg02Loose",
+    "strImg"  : "ItmRCSDistro03Loose",
+    "strImgNorm"  : "ItmRCSDistro03Loosen",
+    "strImgDamaged" : "ItmRCSDistro03Dmg02Loose",
     "strDmgColor" : "DamageTintNone",
     "fZScale"  : 0.5,
     "nCols"  : 2,
@@ -101,8 +101,8 @@
   },
   {
     "strName" : "ItmRCSDistro04DmgLoose",
-    "strImg"  : "ItmRCSDistro02Dmg02Loose",
-    "strImgNorm"  : "ItmRCSDistro02Dmg02Loosen",
+    "strImg"  : "ItmRCSDistro03Dmg02Loose",
+    "strImgNorm"  : "ItmRCSDistro03Dmg02Loosen",
     "strImgDamaged" : "",
     "strDmgColor" : "DamageTintRust",
     "fZScale"  : 0.5,
@@ -154,9 +154,9 @@
   },
   {
     "strName" : "ItmRCSDistro03Loose",
-    "strImg"  : "ItmRCSDistro02Loose",
-    "strImgNorm"  : "ItmRCSDistro02Loosen",
-    "strImgDamaged" : "ItmRCSDistro02Dmg02Loose",
+    "strImg"  : "ItmRCSDistro03Loose",
+    "strImgNorm"  : "ItmRCSDistro03Loosen",
+    "strImgDamaged" : "ItmRCSDistro03Dmg02Loose",
     "strDmgColor" : "DamageTintNone",
     "fZScale"  : 0.5,
     "nCols"  : 2,
@@ -232,8 +232,8 @@
   },
   {
     "strName" : "ItmRCSDistro03DmgLoose",
-    "strImg"  : "ItmRCSDistro02Dmg02Loose",
-    "strImgNorm"  : "ItmRCSDistro02Dmg02Loosen",
+    "strImg"  : "ItmRCSDistro03Dmg02Loose",
+    "strImgNorm"  : "ItmRCSDistro03Dmg02Loosen",
     "strImgDamaged" : "",
     "strDmgColor" : "DamageTintRust",
     "fZScale"  : 0.5,
@@ -280,7 +280,7 @@
       "Blank", "TILFloor", "TILFloor", "TILFloor", "TILFloor", "TILFloor", "Blank"
     ]
   },
-  
+
   {
     "strName" : "ItmRCSDistro07",
     "strImg"  : "ItmRCSDistro07",
@@ -314,9 +314,9 @@
   },
   {
     "strName" : "ItmRCSDistro07Loose",
-    "strImg"  : "ItmRCSDistro02Loose",
-    "strImgNorm"  : "ItmRCSDistro02Loosen",
-    "strImgDamaged" : "ItmRCSDistro02Dmg02Loose",
+    "strImg"  : "ItmRCSDistro07Loose",
+    "strImgNorm"  : "ItmRCSDistro07Loosen",
+    "strImgDamaged" : "ItmRCSDistro07Dmg02Loose",
     "strDmgColor" : "DamageTintNone",
     "fZScale"  : 0.5,
     "nCols"  : 2,
@@ -392,8 +392,8 @@
   },
   {
     "strName" : "ItmRCSDistro07DmgLoose",
-    "strImg"  : "ItmRCSDistro02Dmg02Loose",
-    "strImgNorm"  : "ItmRCSDistro02Dmg02Loosen",
+    "strImg"  : "ItmRCSDistro07Dmg02Loose",
+    "strImgNorm"  : "ItmRCSDistro07Dmg02Loosen",
     "strImgDamaged" : "",
     "strDmgColor" : "DamageTintRust",
     "fZScale"  : 0.5,
@@ -412,7 +412,7 @@
       "Blank", "Blank", "Blank", "Blank"
     ]
   },
-  
+
   {
     "strName" : "ItmRCSDistro05",
     "strImg"  : "ItmRCSDistro05",
@@ -535,7 +535,6 @@
       "Blank", "Blank", "Blank", "Blank"
     ]
   },
-  
   {
     "strName" : "ItmRCSDistro13",
     "strImg"  : "ItmRCSDistro13",
@@ -543,7 +542,7 @@
     "strImgDamaged" : "ItmRCSDistro13Dmg13",
     "strDmgColor" : "DamageTintNone",
     "bLerp" : false,
-    "fZScale"  : 0.8,
+    "fZScale"  : 0.01,
     "nDmgMode": 3,
     "nCols"  : 1,
     "aLights"        : [
@@ -571,7 +570,7 @@
     "strDmgColor" : "DamageTintNone",
     "bLerp" : false,
     "nDmgMode": 3,
-    "fZScale"  : 0.8,
+    "fZScale"  : 0.01,
     "nCols"  : 1,
     "aSocketAdds"    : [
       "TILFloor"
@@ -589,13 +588,13 @@
   },
   {
     "strName" : "ItmRCSDistro13Loose",
-    "strImg"  : "ItmRCSDistro01Loose",
-    "strImgNorm"  : "ItmRCSDistro01Loosen",
-    "strImgDamaged" : "ItmRCSDistro01Dmg02Loose",
+    "strImg"  : "ItmRCSDistro13Loose",
+    "strImgNorm"  : "ItmRCSDistro13Loosen",
+    "strImgDamaged" : "ItmRCSDistro13Dmg13Loose",
     "strDmgColor" : "DamageTintNone",
     "bLerp" : false,
     "nDmgMode": 3,
-    "fZScale"  : 0.5,
+    "fZScale"  : 0.02,
     "nCols"  : 2,
     "aSocketAdds"    : [
       "TILItemAdds", "TILItemAdds",
@@ -622,7 +621,7 @@
     "strDmgColor" : "DamageTintRust",
     "bLerp" : false,
     "nDmgMode": 3,
-    "fZScale"  : 0.8,
+    "fZScale"  : 0.01,
     "nCols"  : 1,
     "aSocketAdds"    : [
       "TILFloor"
@@ -640,13 +639,13 @@
   },
   {
     "strName" : "ItmRCSDistro13DmgLoose",
-    "strImg"  : "ItmRCSDistro01Dmg02Loose",
-    "strImgNorm"  : "ItmRCSDistro01Dmg02Loosen",
+    "strImg"  : "ItmRCSDistro13Dmg13Loose",
+    "strImgNorm"  : "ItmRCSDistro13Dmg13Loosen",
     "strImgDamaged" : "",
     "strDmgColor" : "DamageTintRust",
     "bLerp" : false,
     "nDmgMode": 3,
-    "fZScale"  : 0.5,
+    "fZScale"  : 0.02,
     "nCols"  : 2,
     "aSocketAdds"    : [
       "TILItemAdds", "TILItemAdds",
@@ -665,7 +664,7 @@
       "Blank", "Blank", "Blank", "Blank"
     ]
   },
-  
+
   {
     "strName" : "ItmRCSDistro09",
     "strImg"  : "ItmRCSDistro09",
@@ -725,9 +724,9 @@
   },
   {
     "strName" : "ItmRCSDistro09Loose",
-    "strImg"  : "ItmRCSDistro01Loose",
-    "strImgNorm"  : "ItmRCSDistro01Loosen",
-    "strImgDamaged" : "ItmRCSDistro01Dmg02Loose",
+    "strImg"  : "ItmRCSDistro09Loose",
+    "strImgNorm"  : "ItmRCSDistro09Loosen",
+    "strImgDamaged" : "ItmRCSDistro09Dmg02Loose",
     "strDmgColor" : "DamageTintNone",
     "bLerp" : false,
     "nDmgMode": 3,
@@ -779,8 +778,8 @@
   },
   {
     "strName" : "ItmRCSDistro09DmgLoose",
-    "strImg"  : "ItmRCSDistro01Dmg02Loose",
-    "strImgNorm"  : "ItmRCSDistro01Dmg02Loosen",
+    "strImg"  : "ItmRCSDistro09Dmg02Loose",
+    "strImgNorm"  : "ItmRCSDistro09Dmg02Loosen",
     "strImgDamaged" : "",
     "strDmgColor" : "DamageTintRust",
     "bLerp" : false,
@@ -804,7 +803,7 @@
       "Blank", "Blank", "Blank", "Blank"
     ]
   },
-  
+
   {
     "strName" : "ItmRCSDistro10",
     "strImg"  : "ItmRCSDistro10",
@@ -864,9 +863,9 @@
   },
   {
     "strName" : "ItmRCSDistro10Loose",
-    "strImg"  : "ItmRCSDistro01Loose",
-    "strImgNorm"  : "ItmRCSDistro01Loosen",
-    "strImgDamaged" : "ItmRCSDistro01Dmg02Loose",
+    "strImg"  : "ItmRCSDistro10Loose",
+    "strImgNorm"  : "ItmRCSDistro10Loosen",
+    "strImgDamaged" : "ItmRCSDistro10Dmg02Loose",
     "strDmgColor" : "DamageTintNone",
     "bLerp" : false,
     "nDmgMode": 3,
@@ -918,8 +917,8 @@
   },
   {
     "strName" : "ItmRCSDistro10DmgLoose",
-    "strImg"  : "ItmRCSDistro01Dmg02Loose",
-    "strImgNorm"  : "ItmRCSDistro01Dmg02Loosen",
+    "strImg"  : "ItmRCSDistro10Dmg02Loose",
+    "strImgNorm"  : "ItmRCSDistro10Dmg02Loosen",
     "strImgDamaged" : "",
     "strDmgColor" : "DamageTintRust",
     "bLerp" : false,
@@ -943,7 +942,7 @@
       "Blank", "Blank", "Blank", "Blank"
     ]
   },
-  
+
   {
     "strName" : "ItmRCSDistro08",
     "strImg"  : "ItmRCSDistro08",
@@ -1003,9 +1002,9 @@
   },
   {
     "strName" : "ItmRCSDistro08Loose",
-    "strImg"  : "ItmRCSDistro01Loose",
-    "strImgNorm"  : "ItmRCSDistro01Loosen",
-    "strImgDamaged" : "ItmRCSDistro01Dmg02Loose",
+    "strImg"  : "ItmRCSDistro08Loose",
+    "strImgNorm"  : "ItmRCSDistro08Loosen",
+    "strImgDamaged" : "ItmRCSDistro08Dmg08Loose",
     "strDmgColor" : "DamageTintNone",
     "bLerp" : false,
     "nDmgMode": 3,
@@ -1057,8 +1056,8 @@
   },
   {
     "strName" : "ItmRCSDistro08DmgLoose",
-    "strImg"  : "ItmRCSDistro01Dmg02Loose",
-    "strImgNorm"  : "ItmRCSDistro01Dmg02Loosen",
+    "strImg"  : "ItmRCSDistro08Dmg08Loose",
+    "strImgNorm"  : "ItmRCSDistro08Dmg08Loosen",
     "strImgDamaged" : "",
     "strDmgColor" : "DamageTintRust",
     "bLerp" : false,
@@ -1082,7 +1081,7 @@
       "Blank", "Blank", "Blank", "Blank"
     ]
   },
-  
+
   {
     "strName" : "ItmRCSDistro06",
     "strImg"  : "ItmRCSDistro06",
@@ -1116,9 +1115,9 @@
   },
   {
     "strName" : "ItmRCSDistro06Loose",
-    "strImg"  : "ItmRCSDistro02Loose",
-    "strImgNorm"  : "ItmRCSDistro02Loosen",
-    "strImgDamaged" : "ItmRCSDistro02Dmg02Loose",
+    "strImg"  : "ItmRCSDistro06Loose",
+    "strImgNorm"  : "ItmRCSDistro06Loosen",
+    "strImgDamaged" : "ItmRCSDistro06Dmg06Loose",
     "strDmgColor" : "DamageTintNone",
     "fZScale"  : 0.5,
     "nCols"  : 2,
@@ -1194,8 +1193,8 @@
   },
   {
     "strName" : "ItmRCSDistro06DmgLoose",
-    "strImg"  : "ItmRCSDistro02Dmg02Loose",
-    "strImgNorm"  : "ItmRCSDistro02Dmg02Loosen",
+    "strImg"  : "ItmRCSDistro02Dmg06Loose",
+    "strImgNorm"  : "ItmRCSDistro02Dmg06Loosen",
     "strImgDamaged" : "",
     "strDmgColor" : "DamageTintRust",
     "fZScale"  : 0.5,
@@ -1214,7 +1213,7 @@
       "Blank", "Blank", "Blank", "Blank"
     ]
   },
-  
+
   {
     "strName" : "ItmRCSDistro11",
     "strImg"  : "ItmRCSDistro11",
@@ -1358,6 +1357,7 @@
       "Blank", "Blank", "Blank", "Blank"
     ]
   },
+
   {
     "strName" : "ItmRCSDistro12",
     "strImg"  : "ItmRCSDistro12",
