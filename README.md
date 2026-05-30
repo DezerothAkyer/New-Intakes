@@ -17,3 +17,10 @@ Updates:
     - The final two intakes are added: The 2242, an internal intake based on the Kang 2202. The Asura, an internal intake based on the Miura Hydra. Both intakes have an inventory space where you can insert N2 canisters to fill the internal reservoir, which is directly used as RCS. In a stark reversal, the 2242 has more internal storage than the Asura(for now), resulting in the 2242 being the superior model; it can hold two canisters of N2! And once I figure out how to more precisely set the triggers, perhaps a third for topping it up.
  - V .15.2
     - A critical error preventing the intakes from being installed has been fixed; all intake jsons have been unified which drops the footprint of the mod overall; recolors have been applied to the majority of intakes to provide visual distinction; monetary values have been assigned based off of the base design and how many slots the intake has, with internal intakes being the most expensive due to their inherent ridiculousness.
+
+ - V .2
+    - Fixed a bug causing crashes that popped up sometime around the .15 update.
+    - Fixed the sizing on intakes to fit the standard 16x16 scaling the game likes. On that note, adjusted the lights to match. Still having two intakes which jump a bit when placed, but much better than it was before.
+    - Adjusted power by +/- 1.2 on almost all intakes added, except for the InHouse which jumped up to 10
+    - Recolored all the intakes to better fit their brand.
+    - Made the jsons themselves more compact.
