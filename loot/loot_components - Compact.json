@@ -1,0 +1,22 @@
+[
+  {
+    "strName" : "ItmRCSDistro10Damage",
+    "aCOs"    : [
+      "ItmRCSDistro10Dmg=1.0x1"
+    ],
+    "aLoots"  : [
+      "ItmHydraComponents=1.0x1"
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmRCSDistro10LooseDamage",
+    "aCOs"    : [
+      "ItmRCSDistro10DmgLoose=1.0x1"
+    ],
+    "aLoots"  : [
+      "ItmHydraComponents=1.0x1"
+    ],
+    "strType" : "item"
+  }
+]

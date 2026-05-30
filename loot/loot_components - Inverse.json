@@ -1,0 +1,22 @@
+[
+  {
+    "strName" : "ItmRCSDistro05Damage",
+    "aCOs"    : [
+      "ItmRCSDistro05Dmg=1.0x1"
+    ],
+    "aLoots"  : [
+      "ItmAkyerComponents=1.0x1"
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmRCSDistro05LooseDamage",
+    "aCOs"    : [
+      "ItmRCSDistro05DmgLoose=1.0x1"
+    ],
+    "aLoots"  : [
+      "ItmAkyerComponents=1.0x1"
+    ],
+    "strType" : "item"
+  }
+]

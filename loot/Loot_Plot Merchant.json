@@ -1,0 +1,45 @@
+[
+
+  { "strName" : "CONDPLOT_Spawn_Merchant_StartUs", "aCOs" : [ "Plot_Spawn_Merchants_Started=1.0x1" ], "aLoots" : [], "strType" : "condition" }, //Plot's actual cue to start. Referenced in Interaction, references Plot.
+  { "strName" : "CONDPLOT_Spawn_Merchant_EndUs", "aCOs" : [ ], "aLoots" : [], "strType" : "condition" }, //Plot's...Well, I guess it'd be the reference to end. Right now it doesn't need to do much. Same deal; referenced in Interaction, references Plot.
+
+  { "strName" : "CONDTraderDiscountBuyKioskIntakeShop", "aCOs" : [ "DiscountBuy=1.0x.2-.4" ], "aLoots" : [], "strType" : "condition" }, //Just a particular discount on whatever this merchant sells. Referenced anywhere store stuff's referenced. So....Mostly Interaction, IIRC?
+  { "strName" : "CONDTraderDiscountSellKioskIntakeShop", "aCOs" : [ "DiscountSell=1.0x4-4.6" ], "aLoots" : [], "strType" : "condition" }, //Same as above. These two'll be adjacent to each other.
+
+  { "strName" : "TraderCTsBuyKioskIntakeShop", "aCOs" : [ "TIsBarterKioskIntakeShop=1.0x1" ], "aLoots" : [], "strType" : "trigger" }, //Tells you what it buys
+  { "strName" : "TraderCTsSellKioskIntakeShop", "aCOs" : [ "TIsBarterKioskIntakeShop=1.0x1" ], "aLoots" : [], "strType" : "trigger" }, //Tells you what it sells.
+
+  {
+    "strName" : "ItmKioskIntakeShopInv", //Lists out the actual inventory of the shop, and how much inventory they have.
+    "aCOs"    : [
+    ],
+    "aLoots"  : [
+
+      "ItmRCSDistro01DmgLoose=1.0x0-2",
+
+      "ItmRCSDistro02DmgLoose=1.0x1-10",
+      
+      "ItmRCSDistro03DmgLoose=1.0x1-10",
+
+      "ItmRCSDistro05DmgLoose=1.0x1-10",
+
+      "ItmRCSDistro06DmgLoose=1.0x1-10",
+
+      "ItmRCSDistro07DmgLoose=1.0x1-10",
+
+      "ItmRCSDistro08DmgLoose=1.0x1-10",
+
+      "ItmRCSDistro09DmgLoose=1.0x1-10",
+
+      "ItmRCSDistro10DmgLoose=1.0x1-10",
+
+      "ItmRCSDistro11DmgLoose=1.0x1-10",
+
+      "ItmRCSDistro12DmgLoose=1.0x1-10",
+
+      "ItmRCSDistro13DmgLoose=1.0x1-10",
+
+      "ItmRCSDistro04DmgLoose=1.0x1-10"
+    ],
+    "strType" : "item"}
+]

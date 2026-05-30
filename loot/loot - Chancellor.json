@@ -1,0 +1,6 @@
+[
+  { "strName" : "ACTRCSDistro08Damage", "aCOs" : [ "MSRCSDistro08Damage=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTRCSDistro08Destroy", "aCOs" : [ "MSRCSDistro08Destroy=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTRCSDistro08LooseDamage", "aCOs" : [ "MSRCSDistro08LooseDamage=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTRCSDistro08LooseDestroy", "aCOs" : [ "MSRCSDistro08LooseDestroy=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" }
+]

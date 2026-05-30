@@ -1,0 +1,26 @@
+[
+  {
+    "strName" : "Simple Conditions",
+    "aValues" : [
+      		// [strName], [strNameFriendly], [strDesc], [nDisplaySelf], [nDisplayOther], [strColor], [bInvert]
+
+    // Description for my Intake Merchant
+      "IsIntakeMerchant","Intake Merchant","[us] [is] the Intake Merchant","0","0","Neutral","false",
+
+		// Descriptions for my intakes
+      "Is2242","Internal Kang Design","[us] [is] an RCS internal intake of Kang design.","2","2","Neutral", "false",
+      "IsAsura","Internal Miura Design","[us] [is] an RCS internal intake of Miura design.","2","2","Neutral", "false",
+      "Temp5","Unique RCS Intake","[us] [is] an RCS intake of unique design.","2","2","Neutral", "false",
+      "IsVanBuren","Vanburen","[us] [is] a Van Buren brand.","2","2","Neutral", "false",
+      "IsRakow","Rakow","[us] [is] a Rakow brand item.","2","2","Neutral", "false",
+      "IsWeber","Weber","[us] [is] a Weber brand item.","2","2","Neutral", "false",
+      "IsAkyer","Akyer","[us] [is] an Akyer brand item.","2","2","Neutral", "false",
+      "IsInverse","Inverse","[us] [is] an inversed Kang RCS.","2","2","Neutral", "false",
+      "IsVarmint","RCS Varmint Design","[us] [is] a Varmint varient RCS.","2","2","Neutral", "false",
+      "IsInLine","RCS Inline Design","[us] [is] an Inline varient RCS.","2","2","Neutral", "false",
+      "IsVarmint","RCS Varmint Design","[us] [is] a Varmint varient RCS.","2","2","Neutral", "false",
+      "IsBranch","RCS Branch Design","[us] [is] a T varient RCS.","2","2","Neutral", "false"
+      
+    ]
+  }
+]
