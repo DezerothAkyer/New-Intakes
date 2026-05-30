@@ -1,0 +1,154 @@
+[
+  {
+    "strName" : "RCSDistro04",
+    "aInputPts"      : [
+      "Power"
+    ],
+    "fAmount": 5.6e-5,
+    "strIntPowerOn": "MSRCSDistro04OnAllow",
+    "strIntPowerOff": "MSRCSDistro04OffAllow",
+    "strShutDownCT": "TIsConnctedSignalledOff",
+    "strUsePowerCT": "TIsReadyUsePower",
+    "strRechargeCT": null,
+    "bAllowExtPower" :  true
+  },
+  {
+    "strName" : "RCSDistro03",
+    "aInputPts"      : [
+      "Power"
+    ],
+    "fAmount": 5.2e-5,
+    "strIntPowerOn": "MSRCSDistro03OnAllow",
+    "strIntPowerOff": "MSRCSDistro03OffAllow",
+    "strShutDownCT": "TIsConnctedSignalledOff",
+    "strUsePowerCT": "TIsReadyUsePower",
+    "strRechargeCT": null,
+    "bAllowExtPower" :  true
+  },
+
+  {
+    "strName" : "RCSDistro07",
+    "aInputPts"      : [
+      "Power"
+    ],
+    "fAmount": 6.4e-5,
+    "strIntPowerOn": "MSRCSDistro07OnAllow",
+    "strIntPowerOff": "MSRCSDistro07OffAllow",
+    "strShutDownCT": "TIsConnctedSignalledOff",
+    "strUsePowerCT": "TIsReadyUsePower",
+    "strRechargeCT": null,
+    "bAllowExtPower" :  true
+  },
+
+  {
+    "strName" : "RCSDistro05",
+    "aInputPts"      : [
+      "Power"
+    ],
+    "fAmount": 5.2e-5,
+    "strIntPowerOn": "MSRCSDistro05OnAllow",
+    "strIntPowerOff": "MSRCSDistro05OffAllow",
+    "strShutDownCT": "TIsConnctedSignalledOff",
+    "strUsePowerCT": "TIsReadyUsePower",
+    "strRechargeCT": null,
+    "bAllowExtPower" :  true
+  },
+
+  {
+    "strName" : "RCSDistro13",
+    "aInputPts"      : [
+      "Power"
+    ],
+    "fAmount": 10e-5,
+    "strIntPowerOn": "MSRCSDistro13OnAllow",
+    "strIntPowerOff": "MSRCSDistro13OffAllow",
+    "strShutDownCT": "TIsConnctedSignalledOff",
+    "strUsePowerCT": "TIsReadyUsePower",
+    "strRechargeCT": null,
+    "bAllowExtPower" :  true
+  },
+
+  {
+    "strName" : "RCSDistro09",
+    "aInputPts"      : [
+      "Power"
+    ],
+    "fAmount": 6.8e-5,
+    "strIntPowerOn": "MSRCSDistro09OnAllow",
+    "strIntPowerOff": "MSRCSDistro09OffAllow",
+    "strShutDownCT": "TIsConnctedSignalledOff",
+    "strUsePowerCT": "TIsReadyUsePower",
+    "strRechargeCT": null,
+    "bAllowExtPower" :  true
+  },
+
+  {
+    "strName" : "RCSDistro10",
+    "aInputPts"      : [
+      "Power"
+    ],
+    "fAmount": 6.4e-5,
+    "strIntPowerOn": "MSRCSDistro10OnAllow",
+    "strIntPowerOff": "MSRCSDistro10OffAllow",
+    "strShutDownCT": "TIsConnctedSignalledOff",
+    "strUsePowerCT": "TIsReadyUsePower",
+    "strRechargeCT": null,
+    "bAllowExtPower" :  true
+  },
+
+  {
+    "strName" : "RCSDistro08",
+    "aInputPts"      : [
+      "Power"
+    ],
+    "fAmount": 7.2e-5,
+    "strIntPowerOn": "MSRCSDistro08OnAllow",
+    "strIntPowerOff": "MSRCSDistro08OffAllow",
+    "strShutDownCT": "TIsConnctedSignalledOff",
+    "strUsePowerCT": "TIsReadyUsePower",
+    "strRechargeCT": null,
+    "bAllowExtPower" :  true
+  },
+
+  {
+    "strName" : "RCSDistro06",
+    "aInputPts"      : [
+      "Power"
+    ],
+    "fAmount": 5.6e-5,
+    "strIntPowerOn": "MSRCSDistro06OnAllow",
+    "strIntPowerOff": "MSRCSDistro06OffAllow",
+    "strShutDownCT": "TIsConnctedSignalledOff",
+    "strUsePowerCT": "TIsReadyUsePower",
+    "strRechargeCT": null,
+    "bAllowExtPower" :  true
+  },
+
+  {
+    "strName" : "RCSDistro11",
+    "aInputPts"      : [
+      "Power"
+    ],
+    "fAmount": 3.8e-5,
+    "strIntPowerOn": "MSRCSDistro11OnAllow",
+    "strIntPowerOff": "MSRCSDistro11OffAllow",
+    "strShutDownCT": "TIsConnctedSignalledOff",
+    "strUsePowerCT": "TIsReadyUsePower",
+    "strRechargeCT": null,
+    "bAllowExtPower" :  true
+  },
+
+  {
+    "strName" : "RCSDistro12",
+    "aInputPts"      : [
+      "Power"
+    ],
+    "fAmount": 2.6e-5,
+    "strIntPowerOn": "MSRCSDistro12OnAllow",
+    "strIntPowerOff": "MSRCSDistro12OffAllow",
+    "strShutDownCT": "TIsConnctedSignalledOff",
+    "strUsePowerCT": "TIsReadyUsePower",
+    "strRechargeCT": null,
+    "bAllowExtPower" :  true
+  }
+]

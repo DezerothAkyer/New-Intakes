@@ -1,0 +1,97 @@
+[
+  { "strName" : "ACTRCSDistro04Damage", "aCOs" : [ "MSRCSDistro04Damage=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTRCSDistro04Destroy", "aCOs" : [ "MSRCSDistro04Destroy=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTRCSDistro04LooseDamage", "aCOs" : [ "MSRCSDistro04LooseDamage=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTRCSDistro04LooseDestroy", "aCOs" : [ "MSRCSDistro04LooseDestroy=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+
+  { "strName" : "ACTRCSDistro03Damage", "aCOs" : [ "MSRCSDistro03Damage=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTRCSDistro03Destroy", "aCOs" : [ "MSRCSDistro03Destroy=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTRCSDistro03LooseDamage", "aCOs" : [ "MSRCSDistro03LooseDamage=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTRCSDistro03LooseDestroy", "aCOs" : [ "MSRCSDistro03LooseDestroy=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+
+  { "strName" : "ACTRCSDistro07Damage", "aCOs" : [ "MSRCSDistro07Damage=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTRCSDistro07Destroy", "aCOs" : [ "MSRCSDistro07Destroy=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTRCSDistro07LooseDamage", "aCOs" : [ "MSRCSDistro07LooseDamage=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTRCSDistro07LooseDestroy", "aCOs" : [ "MSRCSDistro07LooseDestroy=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+
+  { "strName" : "ACTRCSDistro05Damage", "aCOs" : [ "MSRCSDistro05Damage=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTRCSDistro05Destroy", "aCOs" : [ "MSRCSDistro05Destroy=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTRCSDistro05LooseDamage", "aCOs" : [ "MSRCSDistro05LooseDamage=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTRCSDistro05LooseDestroy", "aCOs" : [ "MSRCSDistro05LooseDestroy=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+
+  { "strName" : "ACTRCSDistro13Damage", "aCOs" : [ "MSRCSDistro13Damage=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTRCSDistro13Destroy", "aCOs" : [ "MSRCSDistro13Destroy=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTRCSDistro13LooseDamage", "aCOs" : [ "MSRCSDistro13LooseDamage=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTRCSDistro13LooseDestroy", "aCOs" : [ "MSRCSDistro13LooseDestroy=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+
+  { "strName" : "ACTRCSDistro09Damage", "aCOs" : [ "MSRCSDistro09Damage=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTRCSDistro09Destroy", "aCOs" : [ "MSRCSDistro09Destroy=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTRCSDistro09LooseDamage", "aCOs" : [ "MSRCSDistro09LooseDamage=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTRCSDistro09LooseDestroy", "aCOs" : [ "MSRCSDistro09LooseDestroy=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+
+  { "strName" : "ACTRCSDistro10Damage", "aCOs" : [ "MSRCSDistro10Damage=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTRCSDistro10Destroy", "aCOs" : [ "MSRCSDistro10Destroy=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTRCSDistro10LooseDamage", "aCOs" : [ "MSRCSDistro10LooseDamage=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTRCSDistro10LooseDestroy", "aCOs" : [ "MSRCSDistro10LooseDestroy=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+
+  { "strName" : "ACTRCSDistro08Damage", "aCOs" : [ "MSRCSDistro08Damage=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTRCSDistro08Destroy", "aCOs" : [ "MSRCSDistro08Destroy=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTRCSDistro08LooseDamage", "aCOs" : [ "MSRCSDistro08LooseDamage=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTRCSDistro08LooseDestroy", "aCOs" : [ "MSRCSDistro08LooseDestroy=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+
+  { "strName" : "ACTRCSDistro06Damage", "aCOs" : [ "MSRCSDistro06Damage=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTRCSDistro06Destroy", "aCOs" : [ "MSRCSDistro06Destroy=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTRCSDistro06LooseDamage", "aCOs" : [ "MSRCSDistro06LooseDamage=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTRCSDistro06LooseDestroy", "aCOs" : [ "MSRCSDistro06LooseDestroy=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+
+  { "strName" : "ACTRCSDistro11Damage", "aCOs" : [ "MSRCSDistro11Damage=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTRCSDistro11Destroy", "aCOs" : [ "MSRCSDistro11Destroy=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTRCSDistro11LooseDamage", "aCOs" : [ "MSRCSDistro11LooseDamage=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTRCSDistro11LooseDestroy", "aCOs" : [ "MSRCSDistro11LooseDestroy=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+
+  { "strName" : "ACTRCSDistro12Damage", "aCOs" : [ "MSRCSDistro12Damage=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTRCSDistro12Destroy", "aCOs" : [ "MSRCSDistro12Destroy=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTRCSDistro12LooseDamage", "aCOs" : [ "MSRCSDistro12LooseDamage=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+  { "strName" : "ACTRCSDistro12LooseDestroy", "aCOs" : [ "MSRCSDistro12LooseDestroy=1.0x1" ], "aLoots"  : [ ], "strType" : "interaction" },
+
+  { "strName" : "CONDTraderDiscountBuyKioskIntakeShop", "aCOs" : [ "DiscountBuy=1.0x.2-.4" ], "aLoots" : [], "strType" : "condition" },
+  { "strName" : "CONDTraderDiscountSellKioskIntakeShop", "aCOs" : [ "DiscountSell=1.0x4-4.6" ], "aLoots" : [], "strType" : "condition" },
+
+  { "strName" : "TraderCTsBuyKioskIntakeShop", "aCOs" : [ "TIsBarterKioskIntakeShop=1.0x1" ], "aLoots" : [], "strType" : "trigger" },
+  { "strName" : "TraderCTsSellKioskIntakeShop", "aCOs" : [ "TIsBarterKioskIntakeShop=1.0x1" ], "aLoots" : [], "strType" : "trigger" },
+
+  {
+    "strName" : "ItmKioskIntakeShopInv",
+    "aCOs"    : [
+    ],
+    "aLoots"  : [
+
+      "ItmRCSDistro01DmgLoose=1.0x0-2",
+
+      "ItmRCSDistro02DmgLoose=1.0x1-10",
+      
+      "ItmRCSDistro03DmgLoose=1.0x1-10",
+
+      "ItmRCSDistro05DmgLoose=1.0x1-10",
+
+      "ItmRCSDistro06DmgLoose=1.0x1-10",
+
+      "ItmRCSDistro07DmgLoose=1.0x1-10",
+
+      "ItmRCSDistro08DmgLoose=1.0x1-10",
+
+      "ItmRCSDistro09DmgLoose=1.0x1-10",
+
+      "ItmRCSDistro10DmgLoose=1.0x1-10",
+
+      "ItmRCSDistro11DmgLoose=1.0x1-10",
+
+      "ItmRCSDistro12DmgLoose=1.0x1-10",
+
+      "ItmRCSDistro13DmgLoose=1.0x1-10",
+
+      "ItmRCSDistro04DmgLoose=1.0x1-10"
+    ],
+    "strType" : "item"
+  }
+]

@@ -1,0 +1,16 @@
+[
+
+  {
+    "strName": "RCSInternal",
+    "strPtA": "",
+    "strPtB": "GasInput01",
+    "strCTA": "TIsRTAN2Uninstalled",
+    "strCTB": "TIsAirtightNoHuman",
+    "fVol": 0.00193,
+    "fSignalCheckRate": 1.0,
+    "strSignalCTB": "TIsNotOff",
+    "strSignalCTMain": "TAlways",
+    "bAllowExternA": false,
+    "bAllowExternB": true
+  }
+    ]

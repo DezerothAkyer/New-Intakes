@@ -1,0 +1,15 @@
+[
+  {
+    "strName" : "RCSDistroTemp1",
+    "aInputPts"      : [
+      "Power"
+    ],
+    "fAmount": 7.6e-5,
+    "strIntPowerOn": "MSRCSDistroTemp1OnAllow",
+    "strIntPowerOff": "MSRCSDistroTemp1OffAllow",
+    "strShutDownCT": "TIsConnctedSignalledOff",
+    "strUsePowerCT": "TIsReadyUsePower",
+    "strRechargeCT": null,
+    "bAllowExtPower" :  true
+  }
+]
