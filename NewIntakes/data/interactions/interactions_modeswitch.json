@@ -166,5 +166,938 @@
         "aLootItms"       : [
         ],
         "objLootModeSwitch"    : "ItmRCSDistro03"
-      }
+      },
+      
+  {
+    "strName" : "MSRCSDistro07Damage",
+    "strTitle" : "",
+    "strDesc" : "[us] is damaged.",
+    "fDuration"         : 0.0,
+    "strThemType"       : "Other",
+    "bIgnoreFeelings" : true,
+    "nLogging"         : 1,
+    "objLootModeSwitch"    : "ItmRCSDistro07Damage"
+  },
+  {
+    "strName" : "MSRCSDistro07Destroy",
+    "strTitle" : "",
+    "strDesc" : "[us] is destroyed.",
+    "fDuration"         : 0.0,
+    "strThemType"       : "Other",
+    "bIgnoreFeelings" : true,
+    "nLogging"         : 1,
+    "objLootModeSwitch"    : "ItmKangComponentsShell"
+  },
+  {
+    "strName" : "MSRCSDistro07LooseDamage",
+    "strTitle" : "",
+    "strDesc" : "[us] is damaged.",
+    "fDuration"         : 0.0,
+    "strThemType"       : "Other",
+    "bIgnoreFeelings" : true,
+    "nLogging"         : 1,
+    "objLootModeSwitch"    : "ItmRCSDistro07LooseDamage"
+  },
+  {
+    "strName" : "MSRCSDistro07LooseDestroy", 
+    "strTitle" : "",
+    "strDesc" : "[us] is destroyed.",
+    "fDuration"         : 0.0,
+    "strThemType"       : "Other",
+    "bIgnoreFeelings" : true,
+    "nLogging"         : 1,
+    "objLootModeSwitch"    : "ItmKangComponentsShell"
+  },
+  {
+    "strName" : "MSRCSDistro07OffAllow",
+    "strTitle" : "",
+    "strDesc" : "[us] switches off.",
+    "strTargetPoint" : null,
+    "fTargetPointRange" : 0,
+    "strAnim"           : null,
+    "strBubble"         : null,
+    "aInverse"          : [
+    ],
+    "fDuration"         : 0.0,
+    "strThemType"       : "Other",
+    "bIgnoreFeelings" : true,
+    "strRaiseUI"        : null,
+    "LootCTsUs"       : null,
+    "LootCTsThem"     : null,
+    "CTTestUs"           : "TIsNotOff",
+    "CTTestThem"         : null,
+    "aLootItms"       : [
+    ],
+    "objLootModeSwitch"    : "ItmRCSDistro07Off"
+  },
+  {
+    "strName" : "MSRCSDistro07OnAllow",
+    "strTitle" : "",
+    "strDesc" : "[us] powers-up.",
+    "strTargetPoint" : null,
+    "fTargetPointRange" : 0,
+    "strAnim"           : null,
+    "strBubble"         : null,
+    "aInverse"          : [
+    ],
+    "fDuration"         : 0.0,
+    "strThemType"       : "Other",
+    "bIgnoreFeelings" : true,
+    "strRaiseUI"        : null,
+    "LootCTsUs"       : null,
+    "LootCTsThem"     : null,
+    "CTTestUs"           : "TIsOff",
+    "CTTestThem"         : null,
+    "aLootItms"       : [
+    ],
+    "objLootModeSwitch"    : "ItmRCSDistro07"
+  },
+  
+{
+"strName" : "MSRCSDistro05Damage",
+"strTitle" : "",
+"strDesc" : "[us] is damaged.",
+"fDuration"         : 0.0,
+"strThemType"       : "Other",
+"bIgnoreFeelings" : true,
+"nLogging"         : 1,
+"objLootModeSwitch"    : "ItmRCSDistro05Damage"
+},
+{
+"strName" : "MSRCSDistro05Destroy",
+"strTitle" : "",
+"strDesc" : "[us] is destroyed.",
+"fDuration"         : 0.0,
+"strThemType"       : "Other",
+"bIgnoreFeelings" : true,
+"nLogging"         : 1,
+"objLootModeSwitch"    : "ItmKangComponentsShell"
+},
+{
+"strName" : "MSRCSDistro05LooseDamage",
+"strTitle" : "",
+"strDesc" : "[us] is damaged.",
+"fDuration"         : 0.0,
+"strThemType"       : "Other",
+"bIgnoreFeelings" : true,
+"nLogging"         : 1,
+"objLootModeSwitch"    : "ItmRCSDistro05LooseDamage"
+},
+{
+"strName" : "MSRCSDistro05LooseDestroy", 
+"strTitle" : "",
+"strDesc" : "[us] is destroyed.",
+"fDuration"         : 0.0,
+"strThemType"       : "Other",
+"bIgnoreFeelings" : true,
+"nLogging"         : 1,
+"objLootModeSwitch"    : "ItmKangComponentsShell"
+},
+{
+"strName" : "MSRCSDistro05OffAllow",
+"strTitle" : "",
+"strDesc" : "[us] switches off.",
+"strTargetPoint" : null,
+"fTargetPointRange" : 0,
+"strAnim"           : null,
+"strBubble"         : null,
+"aInverse"          : [
+],
+"fDuration"         : 0.0,
+"strThemType"       : "Other",
+"bIgnoreFeelings" : true,
+"strRaiseUI"        : null,
+"LootCTsUs"       : null,
+"LootCTsThem"     : null,
+"CTTestUs"           : "TIsNotOff",
+"CTTestThem"         : null,
+"aLootItms"       : [
+],
+"objLootModeSwitch"    : "ItmRCSDistro05Off"
+},
+{
+"strName" : "MSRCSDistro05OnAllow",
+"strTitle" : "",
+"strDesc" : "[us] powers-up.",
+"strTargetPoint" : null,
+"fTargetPointRange" : 0,
+"strAnim"           : null,
+"strBubble"         : null,
+"aInverse"          : [
+],
+"fDuration"         : 0.0,
+"strThemType"       : "Other",
+"bIgnoreFeelings" : true,
+"strRaiseUI"        : null,
+"LootCTsUs"       : null,
+"LootCTsThem"     : null,
+"CTTestUs"           : "TIsOff",
+"CTTestThem"         : null,
+"aLootItms"       : [
+],
+"objLootModeSwitch"    : "ItmRCSDistro05"
+},
+
+{
+"strName" : "MSRCSDistro13Damage",
+"strTitle" : "",
+"strDesc" : "[us] is damaged.",
+"fDuration"         : 0.0,
+"strThemType"       : "Other",
+"bIgnoreFeelings" : true,
+"nLogging"         : 1,
+"objLootModeSwitch"    : "ItmRCSDistro13Damage"
+},
+{
+"strName" : "MSRCSDistro13Destroy",
+"strTitle" : "",
+"strDesc" : "[us] is destroyed.",
+"fDuration"         : 0.0,
+"strThemType"       : "Other",
+"bIgnoreFeelings" : true,
+"nLogging"         : 1,
+"objLootModeSwitch"    : "ItmHydraComponentsShell"
+},
+{
+"strName" : "MSRCSDistro13LooseDamage",
+"strTitle" : "",
+"strDesc" : "[us] is damaged.",
+"fDuration"         : 0.0,
+"strThemType"       : "Other",
+"bIgnoreFeelings" : true,
+"nLogging"         : 1,
+"objLootModeSwitch"    : "ItmRCSDistro13LooseDamage"
+},
+{
+"strName" : "MSRCSDistro13LooseDestroy", 
+"strTitle" : "",
+"strDesc" : "[us] is destroyed.",
+"fDuration"         : 0.0,
+"strThemType"       : "Other",
+"bIgnoreFeelings" : true,
+"nLogging"         : 1,
+"objLootModeSwitch"    : "ItmHydraComponentsShell"
+},
+{
+"strName" : "MSRCSDistro13OffAllow",
+"strTitle" : "",
+"strDesc" : "[us] switches off.",
+"strTargetPoint" : null,
+"fTargetPointRange" : 0,
+"strAnim"           : null,
+"strBubble"         : null,
+"aInverse"          : [
+],
+"fDuration"         : 0.0,
+"strThemType"       : "Other",
+"bIgnoreFeelings" : true,
+"strRaiseUI"        : null,
+"LootCTsUs"       : null,
+"LootCTsThem"     : null,
+"CTTestUs"           : "TIsNotOff",
+"CTTestThem"         : null,
+"aLootItms"       : [
+],
+"objLootModeSwitch"    : "ItmRCSDistro13Off"
+},
+{
+"strName" : "MSRCSDistro13OnAllow",
+"strTitle" : "",
+"strDesc" : "[us] powers-up.",
+"strTargetPoint" : null,
+"fTargetPointRange" : 0,
+"strAnim"           : null,
+"strBubble"         : null,
+"aInverse"          : [
+],
+"fDuration"         : 0.0,
+"strThemType"       : "Other",
+"bIgnoreFeelings" : true,
+"strRaiseUI"        : null,
+"LootCTsUs"       : null,
+"LootCTsThem"     : null,
+"CTTestUs"           : "TIsOff",
+"CTTestThem"         : null,
+"aLootItms"       : [
+],
+"objLootModeSwitch"    : "ItmRCSDistro13"
+},
+
+{
+"strName" : "MSRCSDistro09Damage",
+"strTitle" : "",
+"strDesc" : "[us] is damaged.",
+"fDuration"         : 0.0,
+"strThemType"       : "Other",
+"bIgnoreFeelings" : true,
+"nLogging"         : 1,
+"objLootModeSwitch"    : "ItmRCSDistro09Damage"
+},
+{
+"strName" : "MSRCSDistro09Destroy",
+"strTitle" : "",
+"strDesc" : "[us] is destroyed.",
+"fDuration"         : 0.0,
+"strThemType"       : "Other",
+"bIgnoreFeelings" : true,
+"nLogging"         : 1,
+"objLootModeSwitch"    : "ItmHydraComponentsShell"
+},
+{
+"strName" : "MSRCSDistro09LooseDamage",
+"strTitle" : "",
+"strDesc" : "[us] is damaged.",
+"fDuration"         : 0.0,
+"strThemType"       : "Other",
+"bIgnoreFeelings" : true,
+"nLogging"         : 1,
+"objLootModeSwitch"    : "ItmRCSDistro09LooseDamage"
+},
+{
+"strName" : "MSRCSDistro09LooseDestroy", 
+"strTitle" : "",
+"strDesc" : "[us] is destroyed.",
+"fDuration"         : 0.0,
+"strThemType"       : "Other",
+"bIgnoreFeelings" : true,
+"nLogging"         : 1,
+"objLootModeSwitch"    : "ItmHydraComponentsShell"
+},
+{
+"strName" : "MSRCSDistro09OffAllow",
+"strTitle" : "",
+"strDesc" : "[us] switches off.",
+"strTargetPoint" : null,
+"fTargetPointRange" : 0,
+"strAnim"           : null,
+"strBubble"         : null,
+"aInverse"          : [
+],
+"fDuration"         : 0.0,
+"strThemType"       : "Other",
+"bIgnoreFeelings" : true,
+"strRaiseUI"        : null,
+"LootCTsUs"       : null,
+"LootCTsThem"     : null,
+"CTTestUs"           : "TIsNotOff",
+"CTTestThem"         : null,
+"aLootItms"       : [
+],
+"objLootModeSwitch"    : "ItmRCSDistro09Off"
+},
+{
+"strName" : "MSRCSDistro09OnAllow",
+"strTitle" : "",
+"strDesc" : "[us] powers-up.",
+"strTargetPoint" : null,
+"fTargetPointRange" : 0,
+"strAnim"           : null,
+"strBubble"         : null,
+"aInverse"          : [
+],
+"fDuration"         : 0.0,
+"strThemType"       : "Other",
+"bIgnoreFeelings" : true,
+"strRaiseUI"        : null,
+"LootCTsUs"       : null,
+"LootCTsThem"     : null,
+"CTTestUs"           : "TIsOff",
+"CTTestThem"         : null,
+"aLootItms"       : [
+],
+"objLootModeSwitch"    : "ItmRCSDistro09"
+},
+
+{
+"strName" : "MSRCSDistro10Damage",
+"strTitle" : "",
+"strDesc" : "[us] is damaged.",
+"fDuration"         : 0.0,
+"strThemType"       : "Other",
+"bIgnoreFeelings" : true,
+"nLogging"         : 1,
+"objLootModeSwitch"    : "ItmRCSDistro10Damage"
+},
+{
+"strName" : "MSRCSDistro10Destroy",
+"strTitle" : "",
+"strDesc" : "[us] is destroyed.",
+"fDuration"         : 0.0,
+"strThemType"       : "Other",
+"bIgnoreFeelings" : true,
+"nLogging"         : 1,
+"objLootModeSwitch"    : "ItmHydraComponentsShell"
+},
+{
+"strName" : "MSRCSDistro10LooseDamage",
+"strTitle" : "",
+"strDesc" : "[us] is damaged.",
+"fDuration"         : 0.0,
+"strThemType"       : "Other",
+"bIgnoreFeelings" : true,
+"nLogging"         : 1,
+"objLootModeSwitch"    : "ItmRCSDistro10LooseDamage"
+},
+{
+"strName" : "MSRCSDistro10LooseDestroy", 
+"strTitle" : "",
+"strDesc" : "[us] is destroyed.",
+"fDuration"         : 0.0,
+"strThemType"       : "Other",
+"bIgnoreFeelings" : true,
+"nLogging"         : 1,
+"objLootModeSwitch"    : "ItmHydraComponentsShell"
+},
+{
+"strName" : "MSRCSDistro10OffAllow",
+"strTitle" : "",
+"strDesc" : "[us] switches off.",
+"strTargetPoint" : null,
+"fTargetPointRange" : 0,
+"strAnim"           : null,
+"strBubble"         : null,
+"aInverse"          : [
+],
+"fDuration"         : 0.0,
+"strThemType"       : "Other",
+"bIgnoreFeelings" : true,
+"strRaiseUI"        : null,
+"LootCTsUs"       : null,
+"LootCTsThem"     : null,
+"CTTestUs"           : "TIsNotOff",
+"CTTestThem"         : null,
+"aLootItms"       : [
+],
+"objLootModeSwitch"    : "ItmRCSDistro10Off"
+},
+{
+"strName" : "MSRCSDistro10OnAllow",
+"strTitle" : "",
+"strDesc" : "[us] powers-up.",
+"strTargetPoint" : null,
+"fTargetPointRange" : 0,
+"strAnim"           : null,
+"strBubble"         : null,
+"aInverse"          : [
+],
+"fDuration"         : 0.0,
+"strThemType"       : "Other",
+"bIgnoreFeelings" : true,
+"strRaiseUI"        : null,
+"LootCTsUs"       : null,
+"LootCTsThem"     : null,
+"CTTestUs"           : "TIsOff",
+"CTTestThem"         : null,
+"aLootItms"       : [
+],
+"objLootModeSwitch"    : "ItmRCSDistro10"
+},
+
+{
+"strName" : "MSRCSDistro08Damage",
+"strTitle" : "",
+"strDesc" : "[us] is damaged.",
+"fDuration"         : 0.0,
+"strThemType"       : "Other",
+"bIgnoreFeelings" : true,
+"nLogging"         : 1,
+"objLootModeSwitch"    : "ItmRCSDistro08Damage"
+},
+{
+"strName" : "MSRCSDistro08Destroy",
+"strTitle" : "",
+"strDesc" : "[us] is destroyed.",
+"fDuration"         : 0.0,
+"strThemType"       : "Other",
+"bIgnoreFeelings" : true,
+"nLogging"         : 1,
+"objLootModeSwitch"    : "ItmHydraComponentsShell"
+},
+{
+"strName" : "MSRCSDistro08LooseDamage",
+"strTitle" : "",
+"strDesc" : "[us] is damaged.",
+"fDuration"         : 0.0,
+"strThemType"       : "Other",
+"bIgnoreFeelings" : true,
+"nLogging"         : 1,
+"objLootModeSwitch"    : "ItmRCSDistro08LooseDamage"
+},
+{
+"strName" : "MSRCSDistro08LooseDestroy", 
+"strTitle" : "",
+"strDesc" : "[us] is destroyed.",
+"fDuration"         : 0.0,
+"strThemType"       : "Other",
+"bIgnoreFeelings" : true,
+"nLogging"         : 1,
+"objLootModeSwitch"    : "ItmHydraComponentsShell"
+},
+{
+"strName" : "MSRCSDistro08OffAllow",
+"strTitle" : "",
+"strDesc" : "[us] switches off.",
+"strTargetPoint" : null,
+"fTargetPointRange" : 0,
+"strAnim"           : null,
+"strBubble"         : null,
+"aInverse"          : [
+],
+"fDuration"         : 0.0,
+"strThemType"       : "Other",
+"bIgnoreFeelings" : true,
+"strRaiseUI"        : null,
+"LootCTsUs"       : null,
+"LootCTsThem"     : null,
+"CTTestUs"           : "TIsNotOff",
+"CTTestThem"         : null,
+"aLootItms"       : [
+],
+"objLootModeSwitch"    : "ItmRCSDistro08Off"
+},
+{
+"strName" : "MSRCSDistro08OnAllow",
+"strTitle" : "",
+"strDesc" : "[us] powers-up.",
+"strTargetPoint" : null,
+"fTargetPointRange" : 0,
+"strAnim"           : null,
+"strBubble"         : null,
+"aInverse"          : [
+],
+"fDuration"         : 0.0,
+"strThemType"       : "Other",
+"bIgnoreFeelings" : true,
+"strRaiseUI"        : null,
+"LootCTsUs"       : null,
+"LootCTsThem"     : null,
+"CTTestUs"           : "TIsOff",
+"CTTestThem"         : null,
+"aLootItms"       : [
+],
+"objLootModeSwitch"    : "ItmRCSDistro08"
+},
+
+{
+"strName" : "MSRCSDistro06Damage",
+"strTitle" : "",
+"strDesc" : "[us] is damaged.",
+"fDuration"         : 0.0,
+"strThemType"       : "Other",
+"bIgnoreFeelings" : true,
+"nLogging"         : 1,
+"objLootModeSwitch"    : "ItmRCSDistro06Damage"
+},
+{
+"strName" : "MSRCSDistro06Destroy",
+"strTitle" : "",
+"strDesc" : "[us] is destroyed.",
+"fDuration"         : 0.0,
+"strThemType"       : "Other",
+"bIgnoreFeelings" : true,
+"nLogging"         : 1,
+"objLootModeSwitch"    : "ItmKangComponentsShell"
+},
+{
+"strName" : "MSRCSDistro06LooseDamage",
+"strTitle" : "",
+"strDesc" : "[us] is damaged.",
+"fDuration"         : 0.0,
+"strThemType"       : "Other",
+"bIgnoreFeelings" : true,
+"nLogging"         : 1,
+"objLootModeSwitch"    : "ItmRCSDistro06LooseDamage"
+},
+{
+"strName" : "MSRCSDistro06LooseDestroy", 
+"strTitle" : "",
+"strDesc" : "[us] is destroyed.",
+"fDuration"         : 0.0,
+"strThemType"       : "Other",
+"bIgnoreFeelings" : true,
+"nLogging"         : 1,
+"objLootModeSwitch"    : "ItmKangComponentsShell"
+},
+{
+"strName" : "MSRCSDistro06OffAllow",
+"strTitle" : "",
+"strDesc" : "[us] switches off.",
+"strTargetPoint" : null,
+"fTargetPointRange" : 0,
+"strAnim"           : null,
+"strBubble"         : null,
+"aInverse"          : [
+],
+"fDuration"         : 0.0,
+"strThemType"       : "Other",
+"bIgnoreFeelings" : true,
+"strRaiseUI"        : null,
+"LootCTsUs"       : null,
+"LootCTsThem"     : null,
+"CTTestUs"           : "TIsNotOff",
+"CTTestThem"         : null,
+"aLootItms"       : [
+],
+"objLootModeSwitch"    : "ItmRCSDistro06Off"
+},
+{
+"strName" : "MSRCSDistro06OnAllow",
+"strTitle" : "",
+"strDesc" : "[us] powers-up.",
+"strTargetPoint" : null,
+"fTargetPointRange" : 0,
+"strAnim"           : null,
+"strBubble"         : null,
+"aInverse"          : [
+],
+"fDuration"         : 0.0,
+"strThemType"       : "Other",
+"bIgnoreFeelings" : true,
+"strRaiseUI"        : null,
+"LootCTsUs"       : null,
+"LootCTsThem"     : null,
+"CTTestUs"           : "TIsOff",
+"CTTestThem"         : null,
+"aLootItms"       : [
+],
+"objLootModeSwitch"    : "ItmRCSDistro06"
+},
+{
+"strName" : "MSRCSDistro11Damage",
+"strTitle" : "",
+"strDesc" : "[us] is damaged.",
+"fDuration"         : 0.0,
+"strThemType"       : "Other",
+"bIgnoreFeelings" : true,
+"nLogging"         : 1,
+"objLootModeSwitch"    : "ItmRCSDistro11Damage"
+},
+{
+"strName" : "MSRCSDistro11Destroy",
+"strTitle" : "",
+"strDesc" : "[us] is destroyed.",
+"fDuration"         : 0.0,
+"strThemType"       : "Other",
+"bIgnoreFeelings" : true,
+"nLogging"         : 1,
+"objLootModeSwitch"    : "ItmHydraComponentsShell"
+},
+{
+"strName" : "MSRCSDistro11LooseDamage",
+"strTitle" : "",
+"strDesc" : "[us] is damaged.",
+"fDuration"         : 0.0,
+"strThemType"       : "Other",
+"bIgnoreFeelings" : true,
+"nLogging"         : 1,
+"objLootModeSwitch"    : "ItmRCSDistro11LooseDamage"
+},
+{
+"strName" : "MSRCSDistro11LooseDestroy", 
+"strTitle" : "",
+"strDesc" : "[us] is destroyed.",
+"fDuration"         : 0.0,
+"strThemType"       : "Other",
+"bIgnoreFeelings" : true,
+"nLogging"         : 1,
+"objLootModeSwitch"    : "ItmHydraComponentsShell"
+},
+{
+"strName" : "MSRCSDistro11OffAllow",
+"strTitle" : "",
+"strDesc" : "[us] switches off.",
+"strTargetPoint" : null,
+"fTargetPointRange" : 0,
+"strAnim"           : null,
+"strBubble"         : null,
+"aInverse"          : [
+],
+"fDuration"         : 0.0,
+"strThemType"       : "Other",
+"bIgnoreFeelings" : true,
+"strRaiseUI"        : null,
+"LootCTsUs"       : null,
+"LootCTsThem"     : null,
+"CTTestUs"           : "TIsNotOff",
+"CTTestThem"         : null,
+"aLootItms"       : [
+],
+"objLootModeSwitch"    : "ItmRCSDistro11Off"
+},
+{
+"strName" : "MSRCSDistro11OnAllow",
+"strTitle" : "",
+"strDesc" : "[us] powers-up.",
+"strTargetPoint" : null,
+"fTargetPointRange" : 0,
+"strAnim"           : null,
+"strBubble"         : null,
+"aInverse"          : [
+],
+"fDuration"         : 0.0,
+"strThemType"       : "Other",
+"bIgnoreFeelings" : true,
+"strRaiseUI"        : null,
+"LootCTsUs"       : null,
+"LootCTsThem"     : null,
+"CTTestUs"           : "TIsOff",
+"CTTestThem"         : null,
+"aLootItms"       : [
+],
+"objLootModeSwitch"    : "ItmRCSDistro11"
+},
+{
+"strName" : "MSRCSDistro12Damage",
+"strTitle" : "",
+"strDesc" : "[us] is damaged.",
+"fDuration"         : 0.0,
+"strThemType"       : "Other",
+"bIgnoreFeelings" : true,
+"nLogging"         : 1,
+"objLootModeSwitch"    : "ItmRCSDistro12Damage"
+},
+{
+"strName" : "MSRCSDistro12Destroy",
+"strTitle" : "",
+"strDesc" : "[us] is destroyed.",
+"fDuration"         : 0.0,
+"strThemType"       : "Other",
+"bIgnoreFeelings" : true,
+"nLogging"         : 1,
+"objLootModeSwitch"    : "Itm2242ComponentsShell"
+},
+{
+"strName" : "MSRCSDistro12LooseDamage",
+"strTitle" : "",
+"strDesc" : "[us] is damaged.",
+"fDuration"         : 0.0,
+"strThemType"       : "Other",
+"bIgnoreFeelings" : true,
+"nLogging"         : 1,
+"objLootModeSwitch"    : "ItmRCSDistro12LooseDamage"
+},
+{
+"strName" : "MSRCSDistro12LooseDestroy", 
+"strTitle" : "",
+"strDesc" : "[us] is destroyed.",
+"fDuration"         : 0.0,
+"strThemType"       : "Other",
+"bIgnoreFeelings" : true,
+"nLogging"         : 1,
+"objLootModeSwitch"    : "Itm2242ComponentsShell"
+},
+{
+"strName" : "MSRCSDistro12OffAllow",
+"strTitle" : "",
+"strDesc" : "[us] switches off.",
+"strTargetPoint" : null,
+"fTargetPointRange" : 0,
+"strAnim"           : null,
+"strBubble"         : null,
+"aInverse"          : [
+],
+"fDuration"         : 0.0,
+"strThemType"       : "Other",
+"bIgnoreFeelings" : true,
+"strRaiseUI"        : null,
+"LootCTsUs"       : null,
+"LootCTsThem"     : null,
+"CTTestUs"           : "TIsNotOff",
+"CTTestThem"         : null,
+"aLootItms"       : [
+],
+"objLootModeSwitch"    : "ItmRCSDistro12Off"
+},
+{
+"strName" : "MSRCSDistro12OnAllow",
+"strTitle" : "",
+"strDesc" : "[us] powers-up.",
+"strTargetPoint" : null,
+"fTargetPointRange" : 0,
+"strAnim"           : null,
+"strBubble"         : null,
+"aInverse"          : [
+],
+"fDuration"         : 0.0,
+"strThemType"       : "Other",
+"bIgnoreFeelings" : true,
+"strRaiseUI"        : null,
+"LootCTsUs"       : null,
+"LootCTsThem"     : null,
+"CTTestUs"           : "TIsOff",
+"CTTestThem"         : null,
+"aLootItms"       : [
+],
+"objLootModeSwitch"    : "ItmRCSDistro12"
+},
+
+{
+"strName" : "MSRCSDistro11Damage",
+"strTitle" : "",
+"strDesc" : "[us] is damaged.",
+"fDuration"         : 0.0,
+"strThemType"       : "Other",
+"bIgnoreFeelings" : true,
+"nLogging"         : 1,
+"objLootModeSwitch"    : "ItmRCSDistro11Damage"
+},
+{
+"strName" : "MSRCSDistro11Destroy",
+"strTitle" : "",
+"strDesc" : "[us] is destroyed.",
+"fDuration"         : 0.0,
+"strThemType"       : "Other",
+"bIgnoreFeelings" : true,
+"nLogging"         : 1,
+"objLootModeSwitch"    : "ItmHydraComponentsShell"
+},
+{
+"strName" : "MSRCSDistro11LooseDamage",
+"strTitle" : "",
+"strDesc" : "[us] is damaged.",
+"fDuration"         : 0.0,
+"strThemType"       : "Other",
+"bIgnoreFeelings" : true,
+"nLogging"         : 1,
+"objLootModeSwitch"    : "ItmRCSDistro11LooseDamage"
+},
+{
+"strName" : "MSRCSDistro11LooseDestroy", 
+"strTitle" : "",
+"strDesc" : "[us] is destroyed.",
+"fDuration"         : 0.0,
+"strThemType"       : "Other",
+"bIgnoreFeelings" : true,
+"nLogging"         : 1,
+"objLootModeSwitch"    : "ItmHydraComponentsShell"
+},
+{
+"strName" : "MSRCSDistro11OffAllow",
+"strTitle" : "",
+"strDesc" : "[us] switches off.",
+"strTargetPoint" : null,
+"fTargetPointRange" : 0,
+"strAnim"           : null,
+"strBubble"         : null,
+"aInverse"          : [
+],
+"fDuration"         : 0.0,
+"strThemType"       : "Other",
+"bIgnoreFeelings" : true,
+"strRaiseUI"        : null,
+"LootCTsUs"       : null,
+"LootCTsThem"     : null,
+"CTTestUs"           : "TIsNotOff",
+"CTTestThem"         : null,
+"aLootItms"       : [
+],
+"objLootModeSwitch"    : "ItmRCSDistro11Off"
+},
+{
+"strName" : "MSRCSDistro11OnAllow",
+"strTitle" : "",
+"strDesc" : "[us] powers-up.",
+"strTargetPoint" : null,
+"fTargetPointRange" : 0,
+"strAnim"           : null,
+"strBubble"         : null,
+"aInverse"          : [
+],
+"fDuration"         : 0.0,
+"strThemType"       : "Other",
+"bIgnoreFeelings" : true,
+"strRaiseUI"        : null,
+"LootCTsUs"       : null,
+"LootCTsThem"     : null,
+"CTTestUs"           : "TIsOff",
+"CTTestThem"         : null,
+"aLootItms"       : [
+],
+"objLootModeSwitch"    : "ItmRCSDistro11"
+},
+{
+"strName" : "MSRCSDistro12Damage",
+"strTitle" : "",
+"strDesc" : "[us] is damaged.",
+"fDuration"         : 0.0,
+"strThemType"       : "Other",
+"bIgnoreFeelings" : true,
+"nLogging"         : 1,
+"objLootModeSwitch"    : "ItmRCSDistro12Damage"
+},
+{
+"strName" : "MSRCSDistro12Destroy",
+"strTitle" : "",
+"strDesc" : "[us] is destroyed.",
+"fDuration"         : 0.0,
+"strThemType"       : "Other",
+"bIgnoreFeelings" : true,
+"nLogging"         : 1,
+"objLootModeSwitch"    : "Itm2242ComponentsShell"
+},
+{
+"strName" : "MSRCSDistro12LooseDamage",
+"strTitle" : "",
+"strDesc" : "[us] is damaged.",
+"fDuration"         : 0.0,
+"strThemType"       : "Other",
+"bIgnoreFeelings" : true,
+"nLogging"         : 1,
+"objLootModeSwitch"    : "ItmRCSDistro12LooseDamage"
+},
+{
+"strName" : "MSRCSDistro12LooseDestroy", 
+"strTitle" : "",
+"strDesc" : "[us] is destroyed.",
+"fDuration"         : 0.0,
+"strThemType"       : "Other",
+"bIgnoreFeelings" : true,
+"nLogging"         : 1,
+"objLootModeSwitch"    : "Itm2242ComponentsShell"
+},
+{
+"strName" : "MSRCSDistro12OffAllow",
+"strTitle" : "",
+"strDesc" : "[us] switches off.",
+"strTargetPoint" : null,
+"fTargetPointRange" : 0,
+"strAnim"           : null,
+"strBubble"         : null,
+"aInverse"          : [
+],
+"fDuration"         : 0.0,
+"strThemType"       : "Other",
+"bIgnoreFeelings" : true,
+"strRaiseUI"        : null,
+"LootCTsUs"       : null,
+"LootCTsThem"     : null,
+"CTTestUs"           : "TIsNotOff",
+"CTTestThem"         : null,
+"aLootItms"       : [
+],
+"objLootModeSwitch"    : "ItmRCSDistro12Off"
+},
+{
+"strName" : "MSRCSDistro12OnAllow",
+"strTitle" : "",
+"strDesc" : "[us] powers-up.",
+"strTargetPoint" : null,
+"fTargetPointRange" : 0,
+"strAnim"           : null,
+"strBubble"         : null,
+"aInverse"          : [
+],
+"fDuration"         : 0.0,
+"strThemType"       : "Other",
+"bIgnoreFeelings" : true,
+"strRaiseUI"        : null,
+"LootCTsUs"       : null,
+"LootCTsThem"     : null,
+"CTTestUs"           : "TIsOff",
+"CTTestThem"         : null,
+"aLootItms"       : [
+],
+"objLootModeSwitch"    : "ItmRCSDistro12"
+}
+
 ]

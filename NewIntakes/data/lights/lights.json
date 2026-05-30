@@ -28,5 +28,88 @@
     "strColor": "BlueNeon",
     "strName" : "KioskSupplies04",
     "strImg": "ItmLitKiosk04"
+  },
+  
+  {
+    "strName" : "RCSDistro12",
+    "strColor": "AlarmGreen",
+    "strImg": "ItmLitGreen",
+    "ptPos": {
+      "x": 11,
+      "y": -1
+    }
+  },
+  {
+    "strName" : "RCSDistro11",
+    "strColor": "AlarmGreen",
+    "strImg": "ItmLitGreen",
+    "ptPos": {
+      "x": 11,
+      "y": -3
+    }
+  },
+  {
+    "strName" : "RCSDistro06",
+    "strColor": "AlarmGreen",
+    "strImg": "ItmLitGreen",
+    "ptPos": {
+      "x": 11,
+      "y": -2
+    }
+  },
+  {
+    "strName" : "RCSDistro08",
+    "strColor": "AlarmGreen",
+    "strImg": "ItmLitGreen",
+    "ptPos": {
+      "x": 8,
+      "y": 2
+    }
+  },
+  {
+    "strName" : "RCSDistro10",
+    "strColor": "AlarmGreen",
+    "strImg": "ItmLitGreen",
+    "ptPos": {
+      "x": 5,
+      "y": -2
+    }
+  },
+  {
+    "strName" : "RCSDistro09",
+    "strColor": "AlarmGreen",
+    "strImg": "ItmLitGreen",
+    "ptPos": {
+      "x": 8,
+      "y": -1
+    }
+  },
+  {
+    "strName" : "RCSDistro13",
+    "strColor": "AlarmGreen",
+    "strImg": "ItmLitGreen",
+    "ptPos": {
+      "x": -2,
+      "y": -3
+    }
+  },
+  {
+    "strName" : "RCSDistro05",
+    "strColor": "AlarmGreen",
+    "strImg": "ItmLitGreen",
+    "ptPos": {
+      "x": 11,
+      "y": -10
+    }
+  },  
+  {
+    "strName" : "RCSDistro07",
+    "strColor": "AlarmGreen",
+    "strImg": "ItmLitGreen",
+    "ptPos": {
+      "x": 10,
+      "y": -2
+    }
   }
+
 ]

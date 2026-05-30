@@ -90,6 +90,298 @@
       "aLoots"  : [ ],
       "strType" : "item"
     
-    }
+    },
 
+    {
+      "strName" : "ItmRCSDistro07Loose",
+      "aCOs"    : [
+        "ItmRCSDistro07Loose=1.0x1"
+      ],
+      "aLoots"  : [
+      ],
+      "strType" : "item"
+    },
+    {
+      "strName" : "ItmRCSDistro07Off",
+      "aCOs"    : [
+        "ItmRCSDistro07Off=1.0x1"
+      ],
+      "aLoots"  : [
+      ],
+      "strType" : "item"
+    },
+    {
+      "strName" : "ItmRCSDistro07",
+      "aCOs"    : [
+        "ItmRCSDistro07=1.0x1"
+      ],
+      "aLoots"  : [
+      ],
+      "strType" : "item"
+    },
+  
+    { "strName" : "ItmRCSDistro07DmgLoose",
+    "aCOs"    : [
+       "ItmRCSDistro07DmgLoose=1.0x1"
+      ], 
+      "aLoots"  : [ ],
+      "strType" : "item"
+    
+    },  
+
+    {
+      "strName" : "ItmRCSDistro06Loose",
+      "aCOs"    : [
+        "ItmRCSDistro06Loose=1.0x1"
+      ],
+      "aLoots"  : [
+      ],
+      "strType" : "item"
+    },
+    {
+      "strName" : "ItmRCSDistro06Off",
+      "aCOs"    : [
+        "ItmRCSDistro06Off=1.0x1"
+      ],
+      "aLoots"  : [
+      ],
+      "strType" : "item"
+    },
+    {
+      "strName" : "ItmRCSDistro06",
+      "aCOs"    : [
+        "ItmRCSDistro06=1.0x1"
+      ],
+      "aLoots"  : [
+      ],
+      "strType" : "item"
+    },
+  
+    { "strName" : "ItmRCSDistro06DmgLoose",
+    "aCOs"    : [
+       "ItmRCSDistro06DmgLoose=1.0x1"
+      ], 
+      "aLoots"  : [ ],
+      "strType" : "item"
+    
+    },
+
+    {
+      "strName" : "ItmRCSDistro11Loose",
+      "aCOs"    : [
+        "ItmRCSDistro11Loose=1.0x1"
+      ],
+      "aLoots"  : [
+      ],
+      "strType" : "item"
+    },
+    {
+      "strName" : "ItmRCSDistro11Off",
+      "aCOs"    : [
+        "ItmRCSDistro11Off=1.0x1"
+      ],
+      "aLoots"  : [
+      ],
+      "strType" : "item"
+    },
+    {
+      "strName" : "ItmRCSDistro11",
+      "aCOs"    : [
+        "ItmRCSDistro11=1.0x1"
+      ],
+      "aLoots"  : [
+      ],
+      "strType" : "item"
+    },
+    { "strName" : "ItmRCSDistro11DmgLoose", "aCOs" : [ "ItmRCSDistro11DmgLoose=1.0x1" ], "aLoots"  : [ ], "bSuppress" : true, "bNested" : true, "strType" : "item" },
+    
+  {
+    "strName" : "ItmRCSDistro12Loose",
+    "aCOs"    : [
+      "ItmRCSDistro12Loose=1.0x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmRCSDistro12Off",
+    "aCOs"    : [
+      "ItmRCSDistro12Off=1.0x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmRCSDistro12",
+    "aCOs"    : [
+      "ItmRCSDistro12=1.0x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "item"
+  },
+
+  { "strName" : "ItmRCSDistro12DmgLoose",
+  "aCOs"    : [
+     "ItmRCSDistro12DmgLoose=1.0x1"
+    ], 
+    "aLoots"  : [ ],
+    "strType" : "item"
+  
+  },
+
+  {
+    "strName" : "ItmRCSDistro05Loose",
+    "aCOs"    : [
+      "ItmRCSDistro05Loose=1.0x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmRCSDistro05Off",
+    "aCOs"    : [
+      "ItmRCSDistro05Off=1.0x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmRCSDistro05",
+    "aCOs"    : [
+      "ItmRCSDistro05=1.0x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "item"
+  },
+
+  { "strName" : "ItmRCSDistro05DmgLoose",
+  "aCOs"    : [
+     "ItmRCSDistro05DmgLoose=1.0x1"
+    ], 
+    "aLoots"  : [ ],
+    "strType" : "item"
+  
+  },
+
+  {
+    "strName" : "ItmRCSDistro13Loose",
+    "aCOs"    : [
+      "ItmRCSDistro13Loose=1.0x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmRCSDistro13Off",
+    "aCOs"    : [
+      "ItmRCSDistro13Off=1.0x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmRCSDistro13",
+    "aCOs"    : [
+      "ItmRCSDistro13=1.0x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "item"
+  },
+  { "strName" : "ItmRCSDistro13DmgLoose", "aCOs" : [ "ItmRCSDistro13DmgLoose=1.0x1" ], "aLoots"  : [ ], "bSuppress" : true, "bNested" : true, "strType" : "item" },
+
+  {
+    "strName" : "ItmRCSDistro09Loose",
+    "aCOs"    : [
+      "ItmRCSDistro09Loose=1.0x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmRCSDistro09Off",
+    "aCOs"    : [
+      "ItmRCSDistro09Off=1.0x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmRCSDistro09",
+    "aCOs"    : [
+      "ItmRCSDistro09=1.0x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "item"
+  },
+  { "strName" : "ItmRCSDistro09DmgLoose", "aCOs" : [ "ItmRCSDistro09DmgLoose=1.0x1" ], "aLoots"  : [ ], "bSuppress" : true, "bNested" : true, "strType" : "item" },
+
+  {
+    "strName" : "ItmRCSDistro10Loose",
+    "aCOs"    : [
+      "ItmRCSDistro10Loose=1.0x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmRCSDistro10Off",
+    "aCOs"    : [
+      "ItmRCSDistro10Off=1.0x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmRCSDistro10",
+    "aCOs"    : [
+      "ItmRCSDistro10=1.0x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "item"
+  },
+  { "strName" : "ItmRCSDistro10DmgLoose", "aCOs" : [ "ItmRCSDistro10DmgLoose=1.0x1" ], "aLoots"  : [ ], "bSuppress" : true, "bNested" : true, "strType" : "item" },
+
+  {
+    "strName" : "ItmRCSDistro08Loose",
+    "aCOs"    : [
+      "ItmRCSDistro08Loose=1.0x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmRCSDistro08Off",
+    "aCOs"    : [
+      "ItmRCSDistro08Off=1.0x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmRCSDistro08",
+    "aCOs"    : [
+      "ItmRCSDistro08=1.0x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "item"
+  },
+  { "strName" : "ItmRCSDistro08DmgLoose", "aCOs" : [ "ItmRCSDistro08DmgLoose=1.0x1" ], "aLoots"  : [ ], "bSuppress" : true, "bNested" : true, "strType" : "item" }
 ]

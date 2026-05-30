@@ -8,7 +8,7 @@
     "strCTB": "TIsAirtightNoHuman",
     "fVol": 0.00193,
     "fSignalCheckRate": 1.0,
-    "strSignalCTB": "TIsNotOff",
+    "strSignalCTB": "TIsRTALowPressure",
     "strSignalCTMain": "TAlways",
     "bAllowExternA": false,
     "bAllowExternB": true
